@@ -95,14 +95,7 @@ const Footer = () => {
 
         <div className="pt-8 mt-8 md:flex md:items-center md:justify-between">
           <div>
-            <a
-              className="text-current"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://vercel.com?utm_source=turborepo.org&utm_medium=referral&utm_campaign=footer-logoLink"
-            >
-              <Logo />
-            </a>
+            <Logo />
             <p className="mt-4 text-xs text-gray-500 ">
               &copy; {new Date().getFullYear()} Vercel, Inc. All rights
               reserved.
