@@ -8,13 +8,13 @@ import { Nav } from "./Nav";
 const Header = () => {
   return (
     <header>
-      <div className="container mx-auto">
-        <div className="flex">
+      <div className="container">
+        <div className="flex items-center">
           <Logo />
           {/* nav */}
           <Nav />
           {/* mobile nav */}
-          <div className="xl:hidden">
+          <div className="sm:hidden ">
             <MobileNav />
           </div>
         </div>

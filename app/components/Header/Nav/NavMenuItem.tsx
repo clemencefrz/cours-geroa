@@ -8,24 +8,38 @@ import {
 import ListItem from "./ListItem";
 import Link from "next/link";
 
-type TypeListItem = {
+type TypeListItemContent = {
   href: string;
   title: string;
   description: string;
 };
 
-type Props = {
+type NavMenuItemPropsWithContent = {
   textTrigger: string;
-  navContentItems?: TypeListItem[];
+  navContentItems: TypeListItemContent[];
 };
 
-const NavMenuItem = ({ textTrigger, navContentItems }: Props) => {
-  if (!navContentItems?.length) {
+type NavMenuItemSimple = {
+  textTrigger: string;
+  href: string;
+};
+
+export type NavMenuItemProps = NavMenuItemSimple | NavMenuItemPropsWithContent;
+
+// Type guard to check if props is NavMenuItemSimple
+const isNavMenuItemSimple = (
+  props: NavMenuItemProps
+): props is NavMenuItemSimple => {
+  return "href" in props;
+};
+
+const NavMenuItem = (props: NavMenuItemProps) => {
+  if (isNavMenuItemSimple(props)) {
     return (
       <NavigationMenuItem>
-        <Link href="/docs" legacyBehavior passHref>
+        <Link href={props.href} legacyBehavior passHref>
           <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-            {textTrigger}
+            {props.textTrigger}
           </NavigationMenuLink>
         </Link>
       </NavigationMenuItem>
@@ -33,11 +47,11 @@ const NavMenuItem = ({ textTrigger, navContentItems }: Props) => {
   }
   return (
     <NavigationMenuItem>
-      <NavigationMenuTrigger>{textTrigger}</NavigationMenuTrigger>
+      <NavigationMenuTrigger>{props.textTrigger}</NavigationMenuTrigger>
       <NavigationMenuContent>
         <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-          {navContentItems.map(({ description, ...props }, key) => (
-            <ListItem key={key} {...props}>
+          {props.navContentItems.map(({ description, ...itemProps }, key) => (
+            <ListItem key={key} {...itemProps}>
               {description}
             </ListItem>
           ))}
@@ -46,4 +60,5 @@ const NavMenuItem = ({ textTrigger, navContentItems }: Props) => {
     </NavigationMenuItem>
   );
 };
+
 export default NavMenuItem;
