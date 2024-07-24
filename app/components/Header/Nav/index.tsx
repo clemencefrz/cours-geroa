@@ -9,19 +9,43 @@ import NavMenuItem, { NavMenuItemProps } from "./NavMenuItem";
 const composants: NavMenuItemProps[] = [
   { textTrigger: "Accueil", href: "" },
   {
-    textTrigger: "Getting started",
+    textTrigger: "Nos cours",
     navContentItems: [
       {
         href: "/docs",
-        title: "Introduction",
-        description:
-          "Re-usable components built using Radix UI and Tailwind CSS.",
+        title: "Les cours collectifs",
+        description: "blabllalba",
+      },
+      {
+        href: "/docs",
+        title: "Les cours particuliers",
+        description: "blabllalba",
+      },
+      {
+        href: "/docs",
+        title: "Les cours stages",
+        description: "blabllalba",
       },
     ],
   },
   {
-    textTrigger: "Getting started",
+    textTrigger: "Qui sommes-nous ?",
     href: "",
+  },
+  {
+    textTrigger: "Apprendre",
+    navContentItems: [
+      {
+        href: "/docs",
+        title: "Nos exercices",
+        description: "blabllalba",
+      },
+      {
+        href: "/docs",
+        title: "Blog",
+        description: "blabllalba",
+      },
+    ],
   },
 ];
 
