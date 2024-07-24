@@ -1,19 +1,12 @@
 "use client";
 
-import { usePathname } from "next/navigation";
 import Logo from "../Logo";
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
 
 const Header = () => {
-  const pathname = usePathname();
-
   return (
-    <header
-      className={`${"py-6"} sticky top-0 z-30 transition-all ${
-        pathname === "/" && "bg-[#fef9f5]"
-      }`}
-    >
+    <header>
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <Logo />
