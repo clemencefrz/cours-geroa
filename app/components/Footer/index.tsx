@@ -32,7 +32,7 @@ const navigation = {
 
 const Footer = () => {
   return (
-    <footer className="p-9" aria-labelledby="footer-heading">
+    <footer className="p-9 w-full" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>

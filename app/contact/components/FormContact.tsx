@@ -43,9 +43,16 @@ const ARRAY_VOIE = ["Générale", "Technologique", ""] as const;
 
 const formSchema = z.object({
   class: z.enum(ARRAY_CLASSES),
+  email: z
+    .string()
+    .min(5, { message: "L'e-mail doit être renseigné." })
+    .email("L'e-mail n'est pas valide."),
   voie: z.enum(ARRAY_VOIE),
-  username: z.string().min(2, {
-    message: "Username must be at least 2 characters.",
+  firstname: z.string().min(2, {
+    message: "Le prénom doit contenir au moins 2 caractères.",
+  }),
+  lastname: z.string().min(2, {
+    message: "Le nom doit contenir au moins 2 caractères.",
   }),
 });
 
@@ -53,8 +60,10 @@ const FormContact = () => {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
-      username: "",
+      firstname: "",
+      lastname: "",
       voie: "",
+      email: "",
     },
   });
 
@@ -95,10 +104,7 @@ const FormContact = () => {
             render={({ field }) => (
               <FormItem>
                 <FormLabel>Classe*</FormLabel>
-                <Select
-                  onValueChange={field.onChange}
-                  defaultValue={field.value}
-                >
+                <Select onValueChange={field.onChange} value={field.value}>
                   <FormControl>
                     <SelectTrigger aria-label="Selectionne ta classe">
                       <SelectValue placeholder="Selectionne ta classe" />
@@ -163,23 +169,50 @@ const FormContact = () => {
               )}
             />
           )}
-          {/* Other */}
+          {/* Prénom et Nom */}
+          <div className="w-full flex flex-row justify-between gap-4">
+            <FormField
+              control={form.control}
+              name="firstname"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Prénom*</FormLabel>
+                  <FormControl>
+                    <Input placeholder="Prénom" {...field} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+            <FormField
+              control={form.control}
+              name="lastname"
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Nom*</FormLabel>
+                  <FormControl>
+                    <Input placeholder="Nom" {...field} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+          </div>
+          {/* e-mail */}
           <FormField
             control={form.control}
-            name="username"
+            name="email"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Username</FormLabel>
+                <FormLabel>e-mail*</FormLabel>
                 <FormControl>
-                  <Input placeholder="shadcn" {...field} />
+                  <Input type="email" placeholder="e-mail" {...field} />
                 </FormControl>
-                <FormDescription>
-                  This is your public display name.
-                </FormDescription>
                 <FormMessage />
               </FormItem>
             )}
           />
+          <span>*Champ requis</span>
           <Button type="submit">Demandez un rendez-vous</Button>
         </form>
       </Form>
