@@ -3,7 +3,6 @@
 import { Button } from "@/components/ui/button";
 import Logo from "../Logo";
 
-import MobileNav from "./MobileNav";
 import { Nav } from "./Nav";
 import Link from "next/link";
 
@@ -22,11 +21,6 @@ const Header = () => {
             <Link href="/contact">Contactez-nous</Link>
           </Button>
           <Button variant="outline">Se connecter</Button>
-        </div>
-
-        {/* mobile nav */}
-        <div className="sm:hidden ">
-          <MobileNav />
         </div>
       </div>
     </header>
