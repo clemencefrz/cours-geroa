@@ -5,6 +5,7 @@ import Logo from "../Logo";
 
 import MobileNav from "./MobileNav";
 import { Nav } from "./Nav";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -17,7 +18,9 @@ const Header = () => {
         </div>
         {/* Boutons d'actions */}
         <div className="flex gap-2">
-          <Button>Contactez-nous</Button>
+          <Button asChild>
+            <Link href="/contact">Contactez-nous</Link>
+          </Button>
           <Button variant="outline">Se connecter</Button>
         </div>
 
