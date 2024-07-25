@@ -1,7 +1,6 @@
 "use client";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useForm } from "react-hook-form";
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -24,6 +23,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { useForm } from "react-hook-form";
+import { useMemo } from "react";
 
 const ARRAY_CLASSES = ["Première", "Terminale", "Supérieure"] as const;
 
@@ -33,8 +34,16 @@ const ARRAY_PROFILE_TYPE = [
   "Je suis étudiant",
 ] as const;
 
+const ARRAY_VOIE = ["Générale", "Technologique", ""] as const;
+// type Voie = (typeof ARRAY_VOIE)[number];
+
+// const isVoie = (variable: any): variable is Voie => {
+//   return (ARRAY_VOIE as readonly string[]).includes(variable);
+// };
+
 const formSchema = z.object({
   class: z.enum(ARRAY_CLASSES),
+  voie: z.enum(ARRAY_VOIE),
   username: z.string().min(2, {
     message: "Username must be at least 2 characters.",
   }),
@@ -45,8 +54,16 @@ const FormContact = () => {
     resolver: zodResolver(formSchema),
     defaultValues: {
       username: "",
+      voie: "",
     },
   });
+
+  const currentClasse = form.watch("class");
+
+  const estUnLycéen = useMemo(
+    () => currentClasse === "Terminale" || currentClasse === "Première",
+    [currentClasse]
+  );
 
   // 2. Define a submit handler.
   function onSubmit(values: z.infer<typeof formSchema>) {
@@ -103,6 +120,49 @@ const FormContact = () => {
               </FormItem>
             )}
           />
+          {/* Radio Button Générale ou Technologique */}
+          {estUnLycéen && (
+            <FormField
+              control={form.control}
+              name="voie"
+              render={({ field }) => (
+                <FormItem className="space-y-3">
+                  <FormLabel>Voie*</FormLabel>
+                  <FormControl>
+                    <RadioGroup
+                      onValueChange={field.onChange}
+                      defaultValue={field.value}
+                      className="flex flex-col space-y-1"
+                    >
+                      <FormItem className="flex items-center space-x-3 space-y-0">
+                        <FormControl>
+                          <RadioGroupItem
+                            value="Générale"
+                            aria-label="Générale"
+                          />
+                        </FormControl>
+                        <FormLabel className="font-normal">
+                          {"Générale"}
+                        </FormLabel>
+                      </FormItem>
+                      <FormItem className="flex items-center space-x-3 space-y-0">
+                        <FormControl>
+                          <RadioGroupItem
+                            value="Technologique"
+                            aria-label="Technologique"
+                          />
+                        </FormControl>
+                        <FormLabel className="font-normal">
+                          {"Technologique"}
+                        </FormLabel>
+                      </FormItem>
+                    </RadioGroup>
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+          )}
           {/* Other */}
           <FormField
             control={form.control}
