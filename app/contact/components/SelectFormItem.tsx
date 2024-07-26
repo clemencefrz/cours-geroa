@@ -17,7 +17,7 @@ import {
 
 type Props<T> = {
   form: UseFormReturn<FormInputs, any, undefined>;
-  name: ControllerRenderProps<FormInputs>["name"];
+  name: ControllerRenderProps<Omit<FormInputs, "matieres">>["name"];
   placeholder: string;
   label: string;
   options_value: readonly T[];

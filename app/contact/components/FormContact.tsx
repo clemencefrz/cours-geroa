@@ -17,6 +17,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { useForm } from "react-hook-form";
 import { useMemo } from "react";
 import SelectFormItem from "./SelectFormItem";
+import MatieresFormField from "./MatieresFormField";
 
 const ARRAY_CLASSES = ["Première", "Terminale", "Supérieure"] as const;
 
@@ -63,6 +64,9 @@ const formSchema = z.object({
       message: "La ville doit contenir au moins 2 caractères.",
     })
     .optional(),
+  matieres: z.array(z.string()).refine((value) => value.some((item) => item), {
+    message: "Vous devez choisir au moins une matière",
+  }),
 });
 export type FormInputs = z.infer<typeof formSchema>;
 
@@ -74,14 +78,21 @@ const FormContact = () => {
       lastname: "",
       voie: "",
       email: "",
+      matieres: [],
     },
   });
 
   const currentClasse = form.watch("class");
+  const currentVoie = form.watch("voie");
 
   const estUnLyceen = useMemo(
     () => currentClasse === "Terminale" || currentClasse === "Première",
     [currentClasse]
+  );
+
+  const estUnLycéenVoieGénérale = useMemo(
+    () => estUnLyceen && currentVoie === "Générale",
+    [estUnLyceen, currentVoie]
   );
 
   // 2. Define a submit handler.
@@ -115,7 +126,7 @@ const FormContact = () => {
             options_value={ARRAY_CLASSES}
             placeholder="Selectionne ta classe"
           />
-          {/* Radio Button Voie */}
+          {/* Voie Générale ou Technologique */}
           {estUnLyceen && (
             <FormField
               control={form.control}
@@ -158,14 +169,20 @@ const FormContact = () => {
               )}
             />
           )}
-          {/* Select Classe */}
-          <SelectFormItem<TYPE_SPECIALITES>
-            form={form}
-            label="Spécialité*"
-            name="specialite"
-            options_value={ARRAY_SPECIALITES}
-            placeholder="Selectionne ta spécialité"
-          />
+          {/* Spécalité générale */}
+          {estUnLycéenVoieGénérale && (
+            <SelectFormItem<TYPE_SPECIALITES>
+              form={form}
+              label="Spécialité*"
+              name="specialite"
+              options_value={ARRAY_SPECIALITES}
+              placeholder="Selectionne ta spécialité"
+            />
+          )}
+
+          {/* Matières */}
+          <MatieresFormField form={form} />
+
           {/* Prénom et Nom */}
           <div className="w-full flex flex-row justify-between gap-4">
             <FormField
