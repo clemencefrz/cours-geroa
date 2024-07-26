@@ -22,6 +22,19 @@ const ARRAY_CLASSES = ["Première", "Terminale", "Supérieure"] as const;
 
 type TYPE_CLASSES = (typeof ARRAY_CLASSES)[number];
 
+const ARRAY_VILLES = ["Anglet", "Bayonne", "Biarritz", "Autre ville"] as const;
+
+type TYPE_VILLES = (typeof ARRAY_VILLES)[number];
+
+const ARRAY_SPECIALITES = [
+  "Mathématiques",
+  "Physique-Chimie",
+  "Numérique et sciences informatiques",
+  "Sciences de l'ingénieur",
+] as const;
+
+type TYPE_SPECIALITES = (typeof ARRAY_SPECIALITES)[number];
+
 const ARRAY_PROFILE_TYPE = [
   "Je suis parent",
   "Je suis lycéen",
@@ -29,11 +42,6 @@ const ARRAY_PROFILE_TYPE = [
 ] as const;
 
 const ARRAY_VOIE = ["Générale", "Technologique", ""] as const;
-// type Voie = (typeof ARRAY_VOIE)[number];
-
-// const isVoie = (variable: any): variable is Voie => {
-//   return (ARRAY_VOIE as readonly string[]).includes(variable);
-// };
 
 const formSchema = z.object({
   class: z.enum(ARRAY_CLASSES),
@@ -48,6 +56,13 @@ const formSchema = z.object({
   lastname: z.string().min(2, {
     message: "Le nom doit contenir au moins 2 caractères.",
   }),
+  specialite: z.enum(ARRAY_SPECIALITES).optional(),
+  ville: z
+    .string()
+    .min(2, {
+      message: "La ville doit contenir au moins 2 caractères.",
+    })
+    .optional(),
 });
 export type FormInputs = z.infer<typeof formSchema>;
 
@@ -100,7 +115,7 @@ const FormContact = () => {
             options_value={ARRAY_CLASSES}
             placeholder="Selectionne ta classe"
           />
-          {/* Radio Button Générale ou Technologique */}
+          {/* Radio Button Voie */}
           {estUnLyceen && (
             <FormField
               control={form.control}
@@ -143,6 +158,14 @@ const FormContact = () => {
               )}
             />
           )}
+          {/* Select Classe */}
+          <SelectFormItem<TYPE_SPECIALITES>
+            form={form}
+            label="Spécialité*"
+            name="specialite"
+            options_value={ARRAY_SPECIALITES}
+            placeholder="Selectionne ta spécialité"
+          />
           {/* Prénom et Nom */}
           <div className="w-full flex flex-row justify-between gap-4">
             <FormField
@@ -186,6 +209,15 @@ const FormContact = () => {
               </FormItem>
             )}
           />
+          {/* Ville */}
+          <SelectFormItem<TYPE_VILLES>
+            form={form}
+            label="Ville"
+            name="ville"
+            options_value={ARRAY_VILLES}
+            placeholder="Selectionne ta ville"
+          />
+
           <span>*Champ requis</span>
           <Button type="submit">Demandez un rendez-vous</Button>
         </form>
