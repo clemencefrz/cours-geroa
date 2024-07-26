@@ -1,5 +1,6 @@
 import {
   FormControl,
+  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -44,6 +45,10 @@ const MatieresFormField = ({ form }: Props) => {
       name={"matieres"}
       render={() => (
         <FormItem>
+          <FormLabel>Matières*</FormLabel>
+          <FormDescription>
+            Sur quelle(s) matière(s) souhaites-tu progresser ?
+          </FormDescription>
           {items.map((item) => (
             <FormField
               key={item.id}
