@@ -102,7 +102,7 @@ const FormContact = () => {
     console.log(values);
   }
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col gap-2">
       <RadioGroup
         defaultValue={ARRAY_PROFILE_TYPE[0]}
         className="flex flex-row items-center gap-4"
@@ -117,7 +117,10 @@ const FormContact = () => {
         </div>
       </RadioGroup>
       <Form {...form}>
-        <form onSubmit={form.handleSubmit(onSubmit)}>
+        <form
+          onSubmit={form.handleSubmit(onSubmit)}
+          className="flex flex-col gap-2"
+        >
           {/* Select Classe */}
           <SelectFormItem<TYPE_CLASSES>
             form={form}
