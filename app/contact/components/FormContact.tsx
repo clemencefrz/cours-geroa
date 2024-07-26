@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -14,19 +13,14 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import Link from "next/link";
 
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 import { useForm } from "react-hook-form";
 import { useMemo } from "react";
+import SelectFormItem from "./SelectFormItem";
 
 const ARRAY_CLASSES = ["Première", "Terminale", "Supérieure"] as const;
+
+type TYPE_CLASSES = (typeof ARRAY_CLASSES)[number];
 
 const ARRAY_PROFILE_TYPE = [
   "Je suis parent",
@@ -55,9 +49,10 @@ const formSchema = z.object({
     message: "Le nom doit contenir au moins 2 caractères.",
   }),
 });
+export type FormInputs = z.infer<typeof formSchema>;
 
 const FormContact = () => {
-  const form = useForm<z.infer<typeof formSchema>>({
+  const form = useForm<FormInputs>({
     resolver: zodResolver(formSchema),
     defaultValues: {
       firstname: "",
@@ -69,7 +64,7 @@ const FormContact = () => {
 
   const currentClasse = form.watch("class");
 
-  const estUnLycéen = useMemo(
+  const estUnLyceen = useMemo(
     () => currentClasse === "Terminale" || currentClasse === "Première",
     [currentClasse]
   );
@@ -98,36 +93,15 @@ const FormContact = () => {
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)}>
           {/* Select Classe */}
-          <FormField
-            control={form.control}
+          <SelectFormItem<TYPE_CLASSES>
+            form={form}
+            label="Classe*"
             name="class"
-            render={({ field }) => (
-              <FormItem>
-                <FormLabel>Classe*</FormLabel>
-                <Select onValueChange={field.onChange} value={field.value}>
-                  <FormControl>
-                    <SelectTrigger aria-label="Selectionne ta classe">
-                      <SelectValue placeholder="Selectionne ta classe" />
-                    </SelectTrigger>
-                  </FormControl>
-                  <SelectContent>
-                    {ARRAY_CLASSES.map((classe, key) => (
-                      <SelectItem value={classe} key={key}>
-                        {classe}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-                <FormDescription>
-                  You can manage email addresses in your{" "}
-                  <Link href="/examples/forms">email settings</Link>.
-                </FormDescription>
-                <FormMessage />
-              </FormItem>
-            )}
+            options_value={ARRAY_CLASSES}
+            placeholder="Selectionne ta classe"
           />
           {/* Radio Button Générale ou Technologique */}
-          {estUnLycéen && (
+          {estUnLyceen && (
             <FormField
               control={form.control}
               name="voie"
