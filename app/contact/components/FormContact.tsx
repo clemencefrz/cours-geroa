@@ -18,6 +18,9 @@ import { useForm } from "react-hook-form";
 import { useMemo } from "react";
 import SelectFormItem from "./SelectFormItem";
 import MatieresFormField from "./MatieresFormField";
+import { EmailContactRequestBody } from "@/app/api/send/route";
+import { SEND_ROUTE } from "@/app/api/send/api_routes";
+import { toast } from "sonner";
 
 const ARRAY_CLASSES = ["Première", "Terminale", "Supérieure"] as const;
 
@@ -95,12 +98,28 @@ const FormContact = () => {
     [estUnLyceen, currentVoie]
   );
 
-  // 2. Define a submit handler.
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    // Do something with the form values.
-    // ✅ This will be type-safe and validated.
-    console.log(values);
-  }
+  const onSubmit = async (values: z.infer<typeof formSchema>) => {
+    try {
+      const body: EmailContactRequestBody = {
+        subject: `Formulaire de contact par ${values.firstname} ${values.lastname}`,
+        ...values,
+      };
+      const response = await fetch(SEND_ROUTE, {
+        method: "POST",
+        body: JSON.stringify(body),
+      });
+
+      if (!response.ok) {
+        toast.error("Il y a eu un problème avec la soumission du formulaire.");
+        throw new Error("Failed to send email");
+      }
+      toast.success(
+        "Votre demande de rendez-vous a bien été envoyée à cours-geroa@gmail.com"
+      );
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  };
   return (
     <div className="flex flex-col gap-2">
       <RadioGroup

@@ -1,0 +1,1 @@
+export const MAIL_COURS_GEROA = "cours.geroa@gmail.com";
