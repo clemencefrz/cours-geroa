@@ -19,7 +19,7 @@ import { useMemo } from "react";
 import SelectFormItem from "./SelectFormItem";
 import MatieresFormField from "./MatieresFormField";
 import { EmailContactRequestBody } from "@/app/api/send/route";
-import { SEND_ROUTE } from "@/app/api/send/api_routes";
+import { SEND_ROUTE } from "@/app/api/api_routes";
 import { toast } from "sonner";
 
 const ARRAY_CLASSES = ["Première", "Terminale", "Supérieure"] as const;

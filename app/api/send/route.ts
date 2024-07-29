@@ -3,9 +3,9 @@ import { FormInputs } from "@/app/contact/components/FormContact";
 import { MAIL_COURS_GEROA } from "@/lib/resend/constant";
 import { Resend } from "resend";
 
-const API_KEY_RESEND = "re_hR6f89g9_AXg1KAQyAH1HMYmDSkYir2UK";
+const RESEND_API_KEY = "re_hR6f89g9_AXg1KAQyAH1HMYmDSkYir2UK";
 
-const resend = new Resend(API_KEY_RESEND);
+const resend = new Resend(RESEND_API_KEY);
 
 // Define the EmailContactRequestBody interface
 export interface EmailContactRequestBody extends FormInputs {
@@ -45,7 +45,7 @@ export async function POST(request: Request) {
 
     const { subject } = body;
     const { data, error } = await resend.emails.send({
-      from: "onboarding@resend.dev",
+      from: `${body.lastname} <contact@resend.dev>`,
       to: [MAIL_COURS_GEROA],
       subject,
       react: EmailTemplate(body),
