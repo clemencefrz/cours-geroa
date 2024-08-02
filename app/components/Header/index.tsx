@@ -17,12 +17,9 @@ const Header = () => {
         </div>
         {/* Boutons d'actions */}
         <div className="flex gap-2">
-          <div className="px-4 py-2 rounded-md border bg-brand-one border-brand-three  text-brand-three text-sm hover:shadow-[4px_4px_0px_0px_rgba(0,0,0)] transition duration-200">
+          <div className="px-4 py-2 rounded-md border bg-brand-one border-brand-three text-brand-three text-sm hover:shadow-[4px_4px_0px_0px_rgba(0,0,0)] transition duration-200 cursor-pointer">
             <Link href="/contact">Contactez-nous</Link>
           </div>
-          <button className="px-4 py-2 rounded-md border border-black bg-white text-black text-sm hover:shadow-[4px_4px_0px_0px_rgba(0,0,0)] transition duration-200">
-            Sketch
-          </button>
           <Button variant="outline">Se connecter</Button>
         </div>
       </div>
