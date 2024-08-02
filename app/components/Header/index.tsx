@@ -17,20 +17,16 @@ const Header = () => {
         </div>
         {/* Boutons d'actions */}
         <div className="flex gap-2">
-          <Button
-            className="px-8 py-2 border border-black bg-transparent text-black  dark:border-white relative group transition duration-200"
-            asChild
-          >
-            <>
-              <div className="absolute -bottom-2 -right-2 bg-brand-one h-full w-full -z-10 group-hover:bottom-0 group-hover:right-0 transition-all duration-200" />
-              <Link className="relative" href="/contact">
-                Contactez-nous
-              </Link>
-            </>
+          <Button asChild>
+            <Link
+              className="px-4 py-2 rounded-md border bg-brand-one border-brand-three bg-white text-brand-three text-sm hover:shadow-[4px_4px_0px_0px_rgba(0,0,0)] transition duration-200"
+              href="/contact"
+            >
+              Contactez-nous
+            </Link>
           </Button>
-          <button className="px-8 py-2 border border-black bg-transparent text-black  dark:border-white relative group transition duration-200">
-            <div className="absolute -bottom-2 -right-2 bg-brand-one h-full w-full -z-10 group-hover:bottom-0 group-hover:right-0 transition-all duration-200" />
-            <span className="relative"> Contactez-nous</span>
+          <button className="px-4 py-2 rounded-md border border-black bg-white text-black text-sm hover:shadow-[4px_4px_0px_0px_rgba(0,0,0)] transition duration-200">
+            Sketch
           </button>
           <Button variant="outline">Se connecter</Button>
         </div>
