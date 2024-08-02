@@ -30,7 +30,7 @@ const composants: NavMenuItemProps[] = [
   },
   {
     textTrigger: "Qui sommes-nous ?",
-    href: "",
+    href: "/about",
   },
   {
     textTrigger: "Apprendre",
