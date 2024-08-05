@@ -18,9 +18,12 @@ import { useForm } from "react-hook-form";
 import { useMemo } from "react";
 import SelectFormItem from "./SelectFormItem";
 import MatieresFormField from "./MatieresFormField";
-import { EmailContactRequestBody } from "@/app/api/send/route";
-import { SEND_ROUTE } from "@/app/api/api_routes";
+
 import { toast } from "sonner";
+import {
+  EmailContactRequestBody,
+  SEND_CONTACT_ROUTE,
+} from "@/app/api/send/contact/route";
 
 const ARRAY_CLASSES = [
   "Seconde",
@@ -109,7 +112,7 @@ const FormContact = () => {
         subject: `Formulaire de contact par ${values.firstname} ${values.lastname}`,
         ...values,
       };
-      const response = await fetch(SEND_ROUTE, {
+      const response = await fetch(SEND_CONTACT_ROUTE, {
         method: "POST",
         body: JSON.stringify(body),
       });

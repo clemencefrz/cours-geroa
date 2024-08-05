@@ -11,6 +11,11 @@ import {
   FormItem,
   FormMessage,
 } from "@/components/ui/form";
+import { toast } from "sonner";
+import {
+  EmailNewsletterRequestBody,
+  SEND_NEWSLETTER_ROUTE,
+} from "@/app/api/send/newsletter/route";
 
 const FormSchema = z.object({
   email: z
@@ -27,10 +32,28 @@ const Login = () => {
     },
   });
 
-  function onSubmit(data: z.infer<typeof FormSchema>) {
-    console.log({ data });
-  }
+  const onSubmit = async (values: z.infer<typeof FormSchema>) => {
+    try {
+      const body: EmailNewsletterRequestBody = {
+        subject: `Inscription Newsletter`,
+        ...values,
+      };
+      const response = await fetch(SEND_NEWSLETTER_ROUTE, {
+        method: "POST",
+        body: JSON.stringify(body),
+      });
 
+      if (!response.ok) {
+        toast.error("Il y a eu un problème avec la soumission du formulaire.");
+        throw new Error("Failed to send email");
+      }
+      toast.success(
+        "Votre demande de rendez-vous a bien été envoyée à cours-geroa@gmail.com"
+      );
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  };
   return (
     <div className="flex flex-col gap-4 items-center">
       <h1 className="font-bold text-5xl">Connection (bientôt)</h1>
