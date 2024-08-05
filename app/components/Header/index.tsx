@@ -20,7 +20,9 @@ const Header = () => {
           <Button asChild>
             <Link href="/contact">Contactez-nous</Link>
           </Button>
-          <Button variant="outline">Se connecter</Button>
+          <Button asChild variant="outline">
+            <Link href="/login">Se connecter</Link>
+          </Button>
         </div>
       </div>
     </header>

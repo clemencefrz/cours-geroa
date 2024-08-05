@@ -16,7 +16,7 @@ const About = () => {
         {/* Image de nous deux */}
         <div className="h-[300px] min-w-[500px] bg-black gap-2 -rotate-6" />
         <div className="flex flex-col gap-1">
-          <h2 className="text-3xl self-end">{`Hey ! Bienvenue aux cours Geroa.`}</h2>
+          <h2 className="text-3xl self-end text-justify">{`Hey ! Bienvenue aux cours Geroa.`}</h2>
           <span>
             Nous sommes Clémence et Damien, deux ingénieurs Angloys (et fiers!).
             Notre mission ? Aider les lycéens et les étudiants à réussir dans
