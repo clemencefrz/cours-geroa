@@ -2,7 +2,8 @@ import { EmailTemplate } from "@/app/contact/components/email-template";
 import { FormInputs } from "@/app/contact/components/FormContact";
 import { MAIL_COURS_GEROA } from "@/lib/resend/constant";
 import { Resend } from "resend";
-export const SEND_CONTACT_ROUTE = "api/send/contact";
+
+export const SEND_CONTACT_ROUTE = "send/contact";
 
 const RESEND_API_KEY = "re_hR6f89g9_AXg1KAQyAH1HMYmDSkYir2UK";
 
