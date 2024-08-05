@@ -22,7 +22,12 @@ import { EmailContactRequestBody } from "@/app/api/send/route";
 import { SEND_ROUTE } from "@/app/api/api_routes";
 import { toast } from "sonner";
 
-const ARRAY_CLASSES = ["Première", "Terminale", "Supérieure"] as const;
+const ARRAY_CLASSES = [
+  "Seconde",
+  "Première",
+  "Terminale",
+  "Supérieure",
+] as const;
 
 type TYPE_CLASSES = (typeof ARRAY_CLASSES)[number];
 
@@ -88,14 +93,14 @@ const FormContact = () => {
   const currentClasse = form.watch("class");
   const currentVoie = form.watch("voie");
 
-  const estUnLyceen = useMemo(
+  const estUnLyceenEnPremiereOuTerminale = useMemo(
     () => currentClasse === "Terminale" || currentClasse === "Première",
     [currentClasse]
   );
 
   const estUnLycéenVoieGénérale = useMemo(
-    () => estUnLyceen && currentVoie === "Générale",
-    [estUnLyceen, currentVoie]
+    () => estUnLyceenEnPremiereOuTerminale && currentVoie === "Générale",
+    [estUnLyceenEnPremiereOuTerminale, currentVoie]
   );
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
@@ -149,7 +154,7 @@ const FormContact = () => {
             placeholder="Selectionne ta classe"
           />
           {/* Voie Générale ou Technologique */}
-          {estUnLyceen && (
+          {estUnLyceenEnPremiereOuTerminale && (
             <FormField
               control={form.control}
               name="voie"
@@ -162,7 +167,7 @@ const FormContact = () => {
                       defaultValue={field.value}
                       className="flex flex-col space-y-1"
                     >
-                      <FormItem className="flex items-center space-x-3 space-y-0">
+                      <FormItem className="flex items-center space-x-3 space-y-0 ">
                         <FormControl>
                           <RadioGroupItem
                             value="Générale"

@@ -45,7 +45,11 @@ const SelectFormItem = <T,>({
             </FormControl>
             <SelectContent>
               {options_value.map((value, key) => (
-                <SelectItem value={value as string} key={key}>
+                <SelectItem
+                  className="cursor-pointer"
+                  value={value as string}
+                  key={key}
+                >
                   {/* //assertions pour la value*/}
                   {value as string}
                 </SelectItem>
