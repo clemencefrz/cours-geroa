@@ -33,7 +33,7 @@ const About = () => {
       <div className="flex flex-col items-center justify-start gap-4">
         <h2 className="text-3xl self-start">{`À propos de nous...`}</h2>
 
-        <div className="grid grid-flow-col gap-16">
+        <div className="grid grid-cols-2 gap-16">
           <CardTutor
             firstName="Clémence"
             job="Ingénieure informatique"
