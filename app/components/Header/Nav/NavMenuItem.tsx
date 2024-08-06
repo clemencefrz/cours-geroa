@@ -49,7 +49,7 @@ const NavMenuItem = (props: NavMenuItemProps) => {
     <NavigationMenuItem>
       <NavigationMenuTrigger>{props.textTrigger}</NavigationMenuTrigger>
       <NavigationMenuContent>
-        <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+        <ul className="flex flex-col gap-3 p-6 md:w-[500px]">
           {props.navContentItems.map(({ description, ...itemProps }, key) => (
             <ListItem key={key} {...itemProps}>
               {description}

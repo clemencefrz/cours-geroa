@@ -12,7 +12,7 @@ const composants: NavMenuItemProps[] = [
     textTrigger: "Nos cours",
     navContentItems: [
       {
-        href: "/docs",
+        href: "/nos-cours",
         title: "Les cours collectifs",
         description: "blabllalba",
       },
@@ -23,7 +23,7 @@ const composants: NavMenuItemProps[] = [
       },
       {
         href: "/docs",
-        title: "Les cours stages",
+        title: "Les stages",
         description: "blabllalba",
       },
     ],
