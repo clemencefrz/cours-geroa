@@ -4,9 +4,9 @@ const Contact = () => {
   return (
     <div className="container flex flex-col items-center gap-4">
       {/* Titre */}
-      <h1 className="text-5xl font-bold">Contactez-nous</h1>
+      <h1>Contactez-nous</h1>
       {/* Sous-Titre */}
-      <h2 className="text-3xl">Vous voulez un rendez-vous ?</h2>
+      <h2>Vous voulez un rendez-vous ?</h2>
       {/* Formulaire */}
       <FormContact />
       {/* Contact par téléphone */}

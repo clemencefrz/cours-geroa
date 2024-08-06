@@ -56,11 +56,11 @@ const Login = () => {
   };
   return (
     <div className="flex flex-col gap-4 items-center">
-      <h1 className="font-bold text-5xl">Connection (bientôt)</h1>
+      <h1>Se connecter (bientôt)</h1>
 
       {/* Bientôt, inscription Newsletter */}
       <div className="bg-black text-white w-full text-center p-4 rounded-lg gap-4 flex flex-col">
-        <h2 className="text-2xl font-semibold">
+        <h2 className="font-semibold">
           {`Une nouvelle application pour apprendre encore plus, bientôt
           disponible !`}
         </h2>

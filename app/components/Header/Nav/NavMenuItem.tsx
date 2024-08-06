@@ -7,15 +7,17 @@ import {
 } from "@/components/ui/navigation-menu";
 import ListItem from "./ListItem";
 import Link from "next/link";
+import { ButtonProps } from "@/components/ui/button";
 
 type TypeListItemContent = {
   href: string;
   title: string;
-  description: string;
+  description?: string;
 };
 
 type NavMenuItemPropsWithContent = {
   textTrigger: string;
+  onTriggerClick?: ButtonProps["onClick"];
   navContentItems: TypeListItemContent[];
 };
 
@@ -27,14 +29,14 @@ type NavMenuItemSimple = {
 export type NavMenuItemProps = NavMenuItemSimple | NavMenuItemPropsWithContent;
 
 // Type guard to check if props is NavMenuItemSimple
-const isNavMenuItemSimple = (
+const isNavMenuItemPropsWithContent = (
   props: NavMenuItemProps
-): props is NavMenuItemSimple => {
-  return "href" in props;
+): props is NavMenuItemPropsWithContent => {
+  return "navContentItems" in props;
 };
 
 const NavMenuItem = (props: NavMenuItemProps) => {
-  if (isNavMenuItemSimple(props)) {
+  if (!isNavMenuItemPropsWithContent(props)) {
     return (
       <NavigationMenuItem>
         <Link href={props.href} legacyBehavior passHref>
@@ -47,9 +49,11 @@ const NavMenuItem = (props: NavMenuItemProps) => {
   }
   return (
     <NavigationMenuItem>
-      <NavigationMenuTrigger>{props.textTrigger}</NavigationMenuTrigger>
+      <NavigationMenuTrigger onClick={props.onTriggerClick}>
+        {props.textTrigger}
+      </NavigationMenuTrigger>
       <NavigationMenuContent>
-        <ul className="flex flex-col gap-3 p-6 md:w-[500px]">
+        <ul className="flex flex-col gap-3 p-3 md:w-[500px]">
           {props.navContentItems.map(({ description, ...itemProps }, key) => (
             <ListItem key={key} {...itemProps}>
               {description}

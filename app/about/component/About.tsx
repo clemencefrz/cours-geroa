@@ -5,7 +5,7 @@ const About = () => {
     // Container
     <div className="w-full flex flex-col items-center justify-center px-24 gap-24">
       {/* Geroa signgification */}
-      <h1 className="flex flex-col font-bold items-center justify-center w-full text-4xl text-start p-24">
+      <h1 className="flex flex-col items-center justify-center w-full  text-start p-24">
         {`En basque, Geroa fait référence à l'avenir,`}
         <br />
         {`Bâtissez le votre dès aujourd'hui.`}
@@ -16,7 +16,7 @@ const About = () => {
         {/* Image de nous deux */}
         <div className="h-[300px] min-w-[500px] bg-black gap-2 -rotate-6" />
         <div className="flex flex-col gap-1">
-          <h2 className="text-3xl self-end text-justify">{`Hey ! Bienvenue aux cours Geroa.`}</h2>
+          <h2 className="self-end text-justify">{`Hey ! Bienvenue aux cours Geroa.`}</h2>
           <span>
             Nous sommes Clémence et Damien, deux ingénieurs Angloys (et fiers!).
             Notre mission ? Aider les lycéens et les étudiants à réussir dans
@@ -31,7 +31,7 @@ const About = () => {
 
       {/* Qualifications, expériences et spécialisation */}
       <div className="flex flex-col items-center justify-start gap-4">
-        <h2 className="text-3xl self-start">{`À propos de nous...`}</h2>
+        <h2 className="self-start">{`À propos de nous...`}</h2>
 
         <div className="grid grid-cols-2 gap-16">
           <CardTutor
