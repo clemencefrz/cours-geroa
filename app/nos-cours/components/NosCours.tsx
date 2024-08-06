@@ -6,6 +6,11 @@ const NosCours = () => {
   return (
     <div className="flex flex-col items-center w-full gap-12">
       <h1 className="p-8">Nos cours</h1>
+      <p>
+        description : Chez Geroa, nos cours collectifs sont faits pour tous les
+        lycéens et étudiants, peu importe leur niveau. Sont enseignés :
+        mathématiques, physique-chimie, informatique.
+      </p>
       <div
         id={"cours-collectifs"}
         className=" bg-slate-100 w-full gap-4 flex flex-col p-8"
@@ -14,11 +19,13 @@ const NosCours = () => {
         <div className="flex flex-col gap-8">
           <div className="flex flex-row gap-8">
             <p className="text-justify">
-              {`Chez Geroa, nos cours collectifs sont faits pour tous les lycéens et étudiants, peu importe leur niveau. Chaque semaine, les élèves travaillent en petit groupe, progressent à leur rythme, tout ça dans une bonne ambiance !`}
+              {`Les cours collectifs Geroa s'adressent aux lycéens et aux étudiants. Chaque semaine, les élèves travaillent en petit groupe (3-4), progressent à leur rythme, tout ça dans une bonne ambiance !`}
             </p>
             <div className="bg-slate-200 w-full p-4 gap-2 flex flex-col">
+              Mettre ce block à droite des autres trucs
               <p className="flex flex-row">
-                <MapPin className="mr-2" /> À Anglet, proche de Villa Pia
+                <MapPin className="mr-2" /> À Anglet, proche de Canto, Villa
+                Pia...
               </p>
               <p className="flex flex-row">
                 <Clock className="mr-2" /> Le mercredi soir ou le samedi matin
@@ -41,14 +48,16 @@ const NosCours = () => {
                 <h3 className="font-semibold text-xl">
                   Les sessions de soutien scolaire
                 </h3>
-                <p>{`Pour rester alignés avec le programme du lycée, les élèves sélectionnent chaque semaine un cours correspondant au chapitre qu’ils étudient en ce moment.`}</p>
+                <p>{`Pour rester alignés avec leur programme, les élèves et étudiants sélectionnent chaque semaine un cours correspondant au chapitre qu’ils étudient sur le moment.
+                
+                Plus détailler comment ça se passe le cours : chacun vient avec son chapitre à réviser et ses questions, en amont ils peeuvent demander des exos à l'avance, s'ils ont pas d'idées on leur propose, ça peut être individuel`}</p>
               </div>
               <div>
                 <h3 className="font-semibold text-xl">
-                  {`Les cours "sur-mesures"`}
+                  {`Les cours de renforcement`}
                 </h3>
                 <p>
-                  {`Ces cours sont réservés aux lycéens. Pendant les cours de renforcement, les élèves choississent à l'avance un chapitre précis du programme et on le révise en profondeur tous ensemble.`}
+                  {`Ces cours sont réservés aux lycéens. Pendant les cours de renforcement, le groupe d'élève choissit à l'avance un chapitre précis du programme et on le révise en profondeur tous ensemble.`}
                 </p>
               </div>
             </div>

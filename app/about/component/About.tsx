@@ -52,6 +52,19 @@ const About = () => {
           />
         </div>
       </div>
+
+      {/* Notre vision */}
+      <div className="flex flex-row items-start justify-center gap-4">
+        {/* Image de nous deux */}
+        <div className="flex flex-col gap-1">
+          <h2 className="self-end text-justify">{`Notre vision`}</h2>
+          <span>
+            plus tard,on veut faire plus que des cours ,etc.....
+            <br></br>
+            {` sdqsdqsdqsds`}
+          </span>
+        </div>
+      </div>
     </div>
   );
 };
