@@ -20,10 +20,9 @@ import SelectFormItem from "./SelectFormItem";
 import MatieresFormField from "./MatieresFormField";
 
 import { toast } from "sonner";
-import {
-  EmailContactRequestBody,
-  SEND_CONTACT_ROUTE,
-} from "@/app/api/send/contact/route";
+import { EmailContactRequestBody } from "@/app/api/send/contact/route";
+
+const SEND_CONTACT_ROUTE = "send/contact";
 
 const ARRAY_CLASSES = [
   "Seconde",

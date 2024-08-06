@@ -4,7 +4,6 @@ import { Resend } from "resend";
 const RESEND_API_KEY = "re_hR6f89g9_AXg1KAQyAH1HMYmDSkYir2UK";
 
 const resend = new Resend(RESEND_API_KEY);
-export const SEND_NEWSLETTER_ROUTE = "api/send/newsletter";
 
 // Define the EmailNewsletterRequestBody interface
 export interface EmailNewsletterRequestBody {
