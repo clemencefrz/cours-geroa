@@ -12,11 +12,10 @@ export function Nav() {
   const router = useRouter();
   const composants: NavMenuItemProps[] = useMemo(
     () => [
-      { textTrigger: "Accueil", href: "" },
+      { textTrigger: "Accueil", href: "/" },
       {
         textTrigger: "Nos cours",
         onTriggerClick: () => {
-          console.log("coucou");
           router.push("/nos-cours");
         },
         navContentItems: [
@@ -44,12 +43,13 @@ export function Nav() {
           {
             href: "/docs",
             title: "Nos exercices",
-            description: "blabllalba",
+            description: "Des sujets d'examens et de TD",
           },
           {
             href: "/docs",
             title: "Blog",
-            description: "blabllalba",
+            description:
+              "Des articles pour aider les étudiants à progresser et à s'épanouir",
           },
         ],
       },
