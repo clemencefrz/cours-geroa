@@ -1,15 +1,12 @@
 import CardTutor from "./CardTutor";
+import Title from "./Title";
 
 const About = () => {
   return (
     // Container
     <div className="w-full flex flex-col items-center justify-center px-24 gap-24">
       {/* Geroa signgification */}
-      <h1 className="flex flex-col items-center justify-center w-full  text-start p-24">
-        {`En basque, Geroa fait référence à l'avenir,`}
-        <br />
-        {`Bâtissez le votre dès aujourd'hui.`}
-      </h1>
+      <Title />
 
       {/* Clémence et Damien, Notre missions, nos valeurs*/}
       <div className="flex flex-row items-start justify-center gap-4">
