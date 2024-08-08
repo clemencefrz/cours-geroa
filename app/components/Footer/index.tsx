@@ -30,6 +30,13 @@ const navigation = {
   ],
 };
 
+// Informations de contact :
+// Adresse, téléphone, email.
+// Liens rapides :
+// Accès rapide aux différentes sections, FAQ, Politique de confidentialité.
+// Réseaux sociaux :
+// Liens vers les profils Facebook, LinkedIn, Instagram, etc.
+
 const Footer = () => {
   return (
     <footer className="p-9 w-full" aria-labelledby="footer-heading">
