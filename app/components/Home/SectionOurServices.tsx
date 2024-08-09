@@ -1,10 +1,11 @@
+import { classNameSection } from ".";
 import { CardsNosCours } from "./CardsNosCours";
 
 const SectionOurServices = () => {
   return (
-    <div>
-      <h2>{`Besoin de progresser en...`}</h2>
-      <div className="flex flex-row gap-2">
+    <div className={classNameSection}>
+      <h2>{`Tu veux progresser en...`}</h2>
+      <div className="flex flex-col gap-2">
         <div>Math</div>
         <div>Physique-Chimie</div>
         <div>Info</div>

@@ -1,5 +1,7 @@
+import { classNameSection } from ".";
+
 const SectionForWho = () => {
-  return <div>Pourr qui</div>;
+  return <div className={classNameSection}>Pourr qui</div>;
 };
 
 export default SectionForWho;
