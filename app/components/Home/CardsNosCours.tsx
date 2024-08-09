@@ -9,7 +9,7 @@ export function CardsNosCours() {
     return [
       ...services.map((item) => ({
         ...item,
-        link: window.location.href + item.pathname,
+        link: item.pathname,
       })),
     ];
   }, []);

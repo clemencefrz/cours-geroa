@@ -15,8 +15,6 @@ const Home = () => {
 
       <SectionForWho />
 
-      {/* Témoignages et preuves sociales */}
-
       <div>
         <h2>Foire Aux Questions</h2>
         <SectionFAQ />
