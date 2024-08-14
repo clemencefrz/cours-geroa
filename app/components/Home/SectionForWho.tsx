@@ -1,5 +1,4 @@
 import { CircleCheck } from "lucide-react";
-import { classNameSection } from ".";
 
 const SectionForWho = () => {
   const cardsData = [
@@ -19,7 +18,7 @@ const SectionForWho = () => {
   ];
 
   return (
-    <div className={classNameSection}>
+    <div>
       <div className="flex flex-row gap-4 justify-center">
         {cardsData.map((card, index) => (
           <Card

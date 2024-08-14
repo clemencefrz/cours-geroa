@@ -23,6 +23,9 @@ const config = {
     },
     extend: {
       colors: {
+        brandTwo: "var(--brand-two)",
+        brandThree: "var(--brand-three)",
+        brandFour: "var(--brand-four)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
