@@ -1,10 +1,9 @@
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 
-
 const Subjects = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center gap-16">
+    <div className="flex flex-col md:flex-row items-center justify-around w-full">
       <CardMatiere title={"Physique-chimie"} bgColor={"bg-brandTwo"} />
       <CardMatiere title={"Mathématiques"} bgColor={"bg-brandThree"} />
       <CardMatiere title={"Informatique"} bgColor={"bg-brandFour"} />

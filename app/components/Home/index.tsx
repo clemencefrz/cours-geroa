@@ -18,11 +18,11 @@ type SectionIntroProps = {
 };
 
 // Classes utilisées fréquemment
-const classNameH2 = "text-2xl font-bold";
+export const classNameH2 = "text-2xl font-bold";
 const classNameSubtitle = "text-sm text-slate-400 mb-9";
 const classNameSection =
   "w-full flex flex-col md:flex-row justify-center items-center gap-11";
-export const textRight = cn(classNameH2, "text-right");
+const textRight = cn(classNameH2, "text-right");
 
 const Home: React.FC = () => {
   const ref1 = useRef<HTMLDivElement>(null);
@@ -36,11 +36,11 @@ const Home: React.FC = () => {
   const isInView4 = useInView(ref4, { once: true });
 
   return (
-    <div className="flex flex-col gap-9 justify-center">
+    <div className="flex flex-col gap-[17.5rem] justify-center">
       <Hero />
 
       {/* Sections principales */}
-      <div className="flex flex-col gap-[6.75rem]">
+      <div className="flex flex-col gap-[17.5rem] 2xl:px-[24.25rem]">
         {/* Première section */}
         <motion.div
           initial={{ y: 20, opacity: 0 }}
@@ -60,42 +60,43 @@ const Home: React.FC = () => {
           initial={{ y: 20, opacity: 0 }}
           animate={isInView1 ? { y: 0, opacity: 1 } : {}}
           transition={{ ease: "easeInOut", duration: 1 }}
+          className={cn(
+            classNameSection,
+            "flex flex-row justify-center items-center w-full"
+          )}
         >
-          <div className={classNameSection}>
-            <div className="svg-container">
-              <Image
-                src="/assets/Learning-pana.svg"
-                alt="People illustrations by Storyset"
-                width={250}
-                height={250}
-              />
-              <a
-                href="https://storyset.com/people"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs font-extralight text-slate-200"
-              >
-                People illustrations by Storyset
-              </a>
-            </div>
-            <div className="flex flex-col gap-7">
-              <h2 className={textRight}>
-                Pour les lycéens de Seconde, Première et Terminale
-              </h2>
-              <ul className="text-slate-400 text-sm">
-                <li>
-                  • Améliore ta moyenne en maths, physique-chimie ou
-                  informatique
-                </li>
-                <li>• Obtiens ton bac avec mention</li>
-                <li>• Gagne en confiance dans tes capacités</li>
-                <li>• Réussis tes concours post-bac</li>
-                <li>
-                  • Met toutes tes chances de ton côté pour trouver ton
-                  orientation après le bac
-                </li>
-              </ul>
-            </div>
+          <div className="svg-container">
+            <Image
+              src="/assets/Learning-pana.svg"
+              alt="People illustrations by Storyset"
+              width={250}
+              height={250}
+            />
+            <a
+              href="https://storyset.com/people"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs font-extralight text-slate-200"
+            >
+              People illustrations by Storyset
+            </a>
+          </div>
+          <div className="flex flex-col gap-7">
+            <h2 className={classNameH2}>
+              Pour les lycéens de Seconde, Première et Terminale
+            </h2>
+            <ul className="text-slate-400 text-sm">
+              <li>
+                • Améliore ta moyenne en maths, physique-chimie ou informatique
+              </li>
+              <li>• Obtiens ton bac avec mention</li>
+              <li>• Gagne en confiance dans tes capacités</li>
+              <li>• Réussis tes concours post-bac</li>
+              <li>
+                • Met toutes tes chances de ton côté pour trouver ton
+                orientation après le bac
+              </li>
+            </ul>
           </div>
         </motion.div>
 
