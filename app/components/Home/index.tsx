@@ -89,6 +89,34 @@ const Home = () => {
           <Services />
         </div>
 
+        <div className="w-full flex flex-row justify-center items-center gap-11">
+          <div className="svg-container">
+            <Image
+              src="/assets/Learning-pana.svg"
+              alt=""
+              width={250}
+              height={250}
+            />
+            <a
+              href="https://storyset.com/people"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs font-extralight text-slate-200"
+            >
+              People illustrations by Storyset
+            </a>
+          </div>
+          <div className="flex flex-col gap-7">
+            <h2
+              className={cn(classNameH2, "text-right")}
+            >{`Progresse avec nous !`}</h2>
+            <ul className="text-slate-400 text-sm">
+              <li>• Réussit le bac en toute confiance</li>
+              <li>• Réussit le bac en toute confiance</li>
+              <li>• Réussit le bac en toute confiance</li>
+            </ul>
+          </div>
+        </div>
         <div>
           <h2>Foire Aux Questions</h2>
           <SectionFAQ />
