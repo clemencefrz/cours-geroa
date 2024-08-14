@@ -21,10 +21,10 @@ export default function RootLayout({
             <Header />
             <main className="mx-9 mt-9">{children}</main>
           </div>
-          <aside className="flex flex-cal justify-center items-center p-24 w-full my-24 bg-black">
+          <aside className="flex flex-cal justify-center items-center p-24 w-full my-24 bg-brandFour">
             <Button
-              variant="ghost"
-              className="text-4xl font-bold text-white"
+              variant="link"
+              className="text-4xl font-bold text-white text-wrap text-center p-4"
               asChild
             >
               <Link href="/contact">Contactez-nous en cliquant ici </Link>

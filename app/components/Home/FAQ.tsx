@@ -30,7 +30,7 @@ const items: ItemType[] = [
   },
 ];
 
-export function SectionFAQ() {
+export function FAQ() {
   return (
     <Accordion type="single" collapsible className="w-full">
       {items.map(({ value, answer, question }, key) => (

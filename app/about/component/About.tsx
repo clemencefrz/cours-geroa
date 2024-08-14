@@ -56,7 +56,7 @@ const About = () => {
         <div className="flex flex-col gap-1">
           <h2 className="self-end text-justify">{`Notre vision`}</h2>
           <span>
-            plus tard,on veut faire plus que des cours ,etc.....
+            {` Parce que y'a pas que les cours dans la vie !`}
             <br></br>
             {` sdqsdqsdqsds`}
           </span>

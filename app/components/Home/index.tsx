@@ -6,9 +6,10 @@ import { motion, useInView } from "framer-motion";
 
 import { cn } from "@/lib/utils";
 import { Hero } from "./Hero";
-import { SectionFAQ } from "./SectionFAQ";
 import Subjects from "./Subjects";
 import Services from "./Services";
+import AboutUs from "./AboutUs";
+import { FAQ } from "./FAQ";
 
 // Déclaration des types pour les props
 type SectionIntroProps = {
@@ -20,8 +21,8 @@ type SectionIntroProps = {
 const classNameH2 = "text-2xl font-bold";
 const classNameSubtitle = "text-sm text-slate-400 mb-9";
 const classNameSection =
-  "w-full flex flex-row justify-center items-center gap-11";
-const textRight = cn(classNameH2, "text-right");
+  "w-full flex flex-col md:flex-row justify-center items-center gap-11";
+export const textRight = cn(classNameH2, "text-right");
 
 const Home: React.FC = () => {
   const ref1 = useRef<HTMLDivElement>(null);
@@ -79,12 +80,20 @@ const Home: React.FC = () => {
             </div>
             <div className="flex flex-col gap-7">
               <h2 className={textRight}>
-                Lycéens niveau Seconde, Première et Terminale
+                Pour les lycéens de Seconde, Première et Terminale
               </h2>
               <ul className="text-slate-400 text-sm">
-                <li>• Réussit le bac en toute confiance</li>
-                <li>• Réussit le bac en toute confiance</li>
-                <li>• Réussit le bac en toute confiance</li>
+                <li>
+                  • Améliore ta moyenne en maths, physique-chimie ou
+                  informatique
+                </li>
+                <li>• Obtiens ton bac avec mention</li>
+                <li>• Gagne en confiance dans tes capacités</li>
+                <li>• Réussis tes concours post-bac</li>
+                <li>
+                  • Met toutes tes chances de ton côté pour trouver ton
+                  orientation après le bac
+                </li>
               </ul>
             </div>
           </div>
@@ -99,11 +108,12 @@ const Home: React.FC = () => {
         >
           <div className={classNameSection}>
             <div className="flex flex-col gap-7">
-              <h2 className={textRight}>Etudiants en BAC+1/2/3</h2>
+              <h2 className={textRight}>Pour les étudiants en BAC+1/2/3</h2>
               <ul className="text-slate-400 text-sm">
-                <li>• Réussit le bac en toute confiance</li>
-                <li>• Réussit le bac en toute confiance</li>
-                <li>• Réussit le bac en toute confiance</li>
+                <li>• Réussis tes examens et valide ton année</li>
+                <li>• Gagne en autonomie et en organisation</li>
+                <li>• Prépare tes concours</li>
+                <li>• Trouve un stage facilement</li>
               </ul>
             </div>
             <div className="svg-container">
@@ -145,33 +155,9 @@ const Home: React.FC = () => {
           initial={{ y: 20, opacity: 0 }}
           animate={isInView3 ? { y: 0, opacity: 1 } : {}}
           transition={{ ease: "easeInOut", duration: 1 }}
+          className={cn(classNameSection, "flex flex-col md:flex md:flex-row")}
         >
-          <div className={classNameSection}>
-            <div className="svg-container">
-              <Image
-                src="/assets/Learning-pana.svg"
-                alt="People illustrations by Storyset"
-                width={250}
-                height={250}
-              />
-              <a
-                href="https://storyset.com/people"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs font-extralight text-slate-200"
-              >
-                People illustrations by Storyset
-              </a>
-            </div>
-            <div className="flex flex-col gap-7">
-              <h2 className={textRight}>Progresse avec nous !</h2>
-              <ul className="text-slate-400 text-sm">
-                <li>• Réussit le bac en toute confiance</li>
-                <li>• Réussit le bac en toute confiance</li>
-                <li>• Réussit le bac en toute confiance</li>
-              </ul>
-            </div>
-          </div>
+          <AboutUs />
         </motion.div>
 
         {/* Section FAQ */}
@@ -180,8 +166,8 @@ const Home: React.FC = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ ease: "easeInOut", duration: 1 }}
         >
-          <h2 className={classNameH2}>Foire Aux Questions</h2>
-          <SectionFAQ />
+          <h2 className={classNameH2}>Foire aux questions</h2>
+          <FAQ />
         </motion.div>
       </div>
     </div>

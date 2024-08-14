@@ -4,17 +4,18 @@ import Link from "next/link";
 
 export function Hero() {
   const words = [
-    "Dépasse tes limites",
-    "Performe",
+    "Apprends",
+    "Progresse",
+    "Révise",
     "Épanouis-toi",
     "Trouve ta voie",
   ];
 
   return (
     <div className="flex flex-col gap-9 items-center justify-center h-[468px]">
-      <h1 className="text-4xl font-extrabold">
-        <FlipWords words={words} className="text-primary" /> avec les cours
-        Geroa
+      <h1 className="text-4xl font-extrabold flex flex-col">
+        <FlipWords words={words} className="text-primary text-5xl" />
+        <p>avec les cours Geroa</p>
       </h1>
 
       <h2 className="text-base text-center max-w-[500px] font-medium">

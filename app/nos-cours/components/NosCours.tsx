@@ -27,6 +27,7 @@ export const PointsCoursCollectifs = [
     description: `Bilan régulier tout au long de l'année`,
   },
 ];
+
 const NosCours = () => {
   return (
     <div className="flex flex-col items-center w-full gap-12">
