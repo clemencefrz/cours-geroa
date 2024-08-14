@@ -1,6 +1,32 @@
 import { Calendar, Clock, DollarSign, MapPin, User, Users } from "lucide-react";
 import Block from "./Block";
 
+export const PointsCoursParticuliers = [
+  { icon: MapPin, description: "À Anglet" },
+  {
+    icon: Calendar,
+    description: "Le mercredi soir ou le samedi matin",
+  },
+  { icon: Users, description: "En petit groupe de 4 élèves maximum" },
+  { icon: DollarSign, description: "Tarif avantageux" },
+];
+
+export const PointsCoursCollectifs = [
+  { icon: MapPin, description: "À Anglet" },
+  {
+    icon: Calendar,
+    description: "Le soir en semaine",
+  },
+  { icon: Clock, description: "Séances hebdomadaires de 1h30 à 2h00" },
+  {
+    icon: User,
+    description: `Suivi personnalisé des progrès de l'élève`,
+  },
+  {
+    icon: User,
+    description: `Bilan régulier tout au long de l'année`,
+  },
+];
 const NosCours = () => {
   return (
     <div className="flex flex-col items-center w-full gap-12">
@@ -43,15 +69,7 @@ const NosCours = () => {
             </div>
           </div>
         }
-        infos={[
-          { icon: MapPin, description: "À Anglet" },
-          {
-            icon: Calendar,
-            description: "Le mercredi soir ou le samedi matin",
-          },
-          { icon: Users, description: "En petit groupe de 4 élèves maximum" },
-          { icon: DollarSign, description: "Tarif avantageux" },
-        ]}
+        infos={PointsCoursParticuliers}
       />
 
       {/* Les cours particuliers */}
@@ -86,22 +104,7 @@ const NosCours = () => {
             </div>
           </div>
         }
-        infos={[
-          { icon: MapPin, description: "À Anglet" },
-          {
-            icon: Calendar,
-            description: "Le soir en semaine",
-          },
-          { icon: Clock, description: "Séances hebdomadaires de 1h30 à 2h00" },
-          {
-            icon: User,
-            description: `Suivi personnalisé des progrès de l'élève`,
-          },
-          {
-            icon: User,
-            description: `Bilan régulier tout au long de l'année`,
-          },
-        ]}
+        infos={PointsCoursCollectifs}
       />
 
       {/* Les stages */}
