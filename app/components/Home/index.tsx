@@ -62,7 +62,7 @@ const Home: React.FC = () => {
           transition={{ ease: "easeInOut", duration: 1 }}
           className={cn(
             classNameSection,
-            "flex flex-row justify-center items-center w-full"
+            "flex flex-col md:flex-row justify-center items-center w-full"
           )}
         >
           <div className="svg-container">

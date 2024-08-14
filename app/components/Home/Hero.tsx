@@ -14,7 +14,10 @@ export function Hero() {
   return (
     <div className="flex flex-col gap-9 items-center justify-center h-[468px]">
       <h1 className="text-4xl font-extrabold flex flex-col">
-        <FlipWords words={words} className="text-primary text-5xl" />
+        <FlipWords
+          words={words}
+          className="text-primary text-4xl md:text-5xl"
+        />
         <p>avec les cours Geroa</p>
       </h1>
 
