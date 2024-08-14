@@ -28,7 +28,7 @@ const Block = ({ title, id, content, infos }: Props) => {
       <div className="bg-slate-200 p-4 gap-2 flex flex-col ">
         {infos.map((info, key) => (
           <p className="flex flex-row" key={key}>
-            <info.icon className="mr-2" /> {info.description}
+            <info.icon className="mr-2 w-2 h-2" /> {info.description}
           </p>
         ))}
       </div>
