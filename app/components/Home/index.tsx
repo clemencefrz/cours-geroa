@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { HeaderHome } from "./HeaderHome";
+import { Hero } from "./Hero";
 import { SectionFAQ } from "./SectionFAQ";
 import SectionForWho from "./SectionForWho";
 import SectionOurServices from "./SectionOurServices";
@@ -12,7 +12,7 @@ const classNameSubtitle = "text-2xl mb-12";
 const Home = () => {
   return (
     <div className="flex flex-col gap-24 justify-center">
-      <HeaderHome />
+      <Hero />
 
       <div>
         <h2 className={cn(classNameH2, "text-center")}>

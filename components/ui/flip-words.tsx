@@ -72,7 +72,7 @@ export const FlipWords = ({
               delay: index * 0.08,
               duration: 0.4,
             }}
-            className="inline-block"
+            className="inline-block whitespace-pre" // Ajout de whitespace-pre
           >
             {letter}
           </motion.span>
