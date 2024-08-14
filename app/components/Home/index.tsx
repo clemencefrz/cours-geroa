@@ -1,53 +1,70 @@
 "use client";
 
+import { useRef } from "react";
+import Image from "next/image";
+import { motion, useInView } from "framer-motion";
+
 import { cn } from "@/lib/utils";
 import { Hero } from "./Hero";
 import { SectionFAQ } from "./SectionFAQ";
 import Subjects from "./Subjects";
-import Image from "next/image";
 import Services from "./Services";
-import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
 
+// Déclaration des types pour les props
+type SectionIntroProps = {
+  title: string;
+  subtitle: string;
+};
+
+// Classes utilisées fréquemment
 const classNameH2 = "text-2xl font-bold";
 const classNameSubtitle = "text-sm text-slate-400 mb-9";
-const Home = () => {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
+const classNameSection =
+  "w-full flex flex-row justify-center items-center gap-11";
+const textRight = cn(classNameH2, "text-right");
+
+const Home: React.FC = () => {
+  const ref1 = useRef<HTMLDivElement>(null);
+  const ref2 = useRef<HTMLDivElement>(null);
+  const ref3 = useRef<HTMLDivElement>(null);
+  const ref4 = useRef<HTMLDivElement>(null);
+
+  const isInView1 = useInView(ref1, { once: true });
+  const isInView2 = useInView(ref2, { once: true });
+  const isInView3 = useInView(ref3, { once: true });
+  const isInView4 = useInView(ref4, { once: true });
+
   return (
     <div className="flex flex-col gap-9 justify-center">
       <Hero />
 
-      {/* Sections */}
-
+      {/* Sections principales */}
       <div className="flex flex-col gap-[6.75rem]">
+        {/* Première section */}
         <motion.div
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ ease: "easeInOut", duration: 1 }}
         >
-          <div>
-            <h2 className={cn(classNameH2, "text-center")}>
-              {`Améliore tes compétences en sciences`}
-            </h2>
-            <p
-              className={cn(classNameSubtitle, "text-center")}
-            >{`Choisis la ou les matières scientifiques sur lesquelles tu souhaiterais progresser.`}</p>
-            <Subjects />
-          </div>
+          <SectionIntro
+            title="Améliore tes compétences en sciences"
+            subtitle="Choisis la ou les matières scientifiques sur lesquelles tu souhaiterais progresser."
+          />
+          <Subjects />
         </motion.div>
 
+        {/* Deuxième section */}
         <motion.div
-          ref={ref}
+          ref={ref1}
           initial={{ y: 20, opacity: 0 }}
-          animate={isInView ? { y: 0, opacity: 1 } : {}}
+          animate={isInView1 ? { y: 0, opacity: 1 } : {}}
           transition={{ ease: "easeInOut", duration: 1 }}
         >
-          <div className="w-full flex flex-row justify-center items-center gap-11">
+          <div className={classNameSection}>
             <div className="svg-container">
               <Image
                 src="/assets/Learning-pana.svg"
-                alt=""
+                alt="People illustrations by Storyset"
                 width={250}
                 height={250}
               />
@@ -61,9 +78,9 @@ const Home = () => {
               </a>
             </div>
             <div className="flex flex-col gap-7">
-              <h2
-                className={cn(classNameH2, "text-right")}
-              >{`Lycéens niveau Seconde, Première et Terminale`}</h2>
+              <h2 className={textRight}>
+                Lycéens niveau Seconde, Première et Terminale
+              </h2>
               <ul className="text-slate-400 text-sm">
                 <li>• Réussit le bac en toute confiance</li>
                 <li>• Réussit le bac en toute confiance</li>
@@ -72,75 +89,111 @@ const Home = () => {
             </div>
           </div>
         </motion.div>
-        <div className="w-full flex flex-row justify-center items-center gap-11">
-          <div className="flex flex-col gap-7">
-            <h2
-              className={cn(classNameH2, "text-right")}
-            >{`Etudiants en BAC+1/2/3`}</h2>
-            <ul className="text-slate-400 text-sm">
-              <li>• Réussit le bac en toute confiance</li>
-              <li>• Réussit le bac en toute confiance</li>
-              <li>• Réussit le bac en toute confiance</li>
-            </ul>
-          </div>
-          <div className="svg-container">
-            <Image src="/assets/pana.svg" alt="" width={250} height={250} />
-            <a
-              href="https://storyset.com/people"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs font-extralight text-slate-200"
-            >
-              People illustrations by Storyset
-            </a>
-          </div>
-        </div>
 
-        <div>
-          <h2 className={cn(classNameH2, "text-center")}>
-            {`Des solutions pour tous les profils`}
-          </h2>
-          <p
-            className={cn(classNameSubtitle, "text-center")}
-          >{`Choisis la ou les matières scientifiques sur lesquelles tu souhaiterais progresser.`}</p>
+        {/* Troisième section */}
+        <motion.div
+          ref={ref2}
+          initial={{ y: 20, opacity: 0 }}
+          animate={isInView2 ? { y: 0, opacity: 1 } : {}}
+          transition={{ ease: "easeInOut", duration: 1 }}
+        >
+          <div className={classNameSection}>
+            <div className="flex flex-col gap-7">
+              <h2 className={textRight}>Etudiants en BAC+1/2/3</h2>
+              <ul className="text-slate-400 text-sm">
+                <li>• Réussit le bac en toute confiance</li>
+                <li>• Réussit le bac en toute confiance</li>
+                <li>• Réussit le bac en toute confiance</li>
+              </ul>
+            </div>
+            <div className="svg-container">
+              <Image
+                src="/assets/pana.svg"
+                alt="People illustrations by Storyset"
+                width={250}
+                height={250}
+              />
+              <a
+                href="https://storyset.com/people"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs font-extralight text-slate-200"
+              >
+                People illustrations by Storyset
+              </a>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Quatrième section */}
+        <motion.div
+          ref={ref4}
+          initial={{ y: 20, opacity: 0 }}
+          animate={isInView4 ? { y: 0, opacity: 1 } : {}}
+          transition={{ ease: "easeInOut", duration: 1 }}
+        >
+          <SectionIntro
+            title="Des solutions pour tous les profils"
+            subtitle="Choisis la ou les matières scientifiques sur lesquelles tu souhaiterais progresser."
+          />
           <Services />
-        </div>
+        </motion.div>
 
-        <div className="w-full flex flex-row justify-center items-center gap-11">
-          <div className="svg-container">
-            <Image
-              src="/assets/Learning-pana.svg"
-              alt=""
-              width={250}
-              height={250}
-            />
-            <a
-              href="https://storyset.com/people"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs font-extralight text-slate-200"
-            >
-              People illustrations by Storyset
-            </a>
+        {/* Cinquième section */}
+        <motion.div
+          ref={ref3}
+          initial={{ y: 20, opacity: 0 }}
+          animate={isInView3 ? { y: 0, opacity: 1 } : {}}
+          transition={{ ease: "easeInOut", duration: 1 }}
+        >
+          <div className={classNameSection}>
+            <div className="svg-container">
+              <Image
+                src="/assets/Learning-pana.svg"
+                alt="People illustrations by Storyset"
+                width={250}
+                height={250}
+              />
+              <a
+                href="https://storyset.com/people"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs font-extralight text-slate-200"
+              >
+                People illustrations by Storyset
+              </a>
+            </div>
+            <div className="flex flex-col gap-7">
+              <h2 className={textRight}>Progresse avec nous !</h2>
+              <ul className="text-slate-400 text-sm">
+                <li>• Réussit le bac en toute confiance</li>
+                <li>• Réussit le bac en toute confiance</li>
+                <li>• Réussit le bac en toute confiance</li>
+              </ul>
+            </div>
           </div>
-          <div className="flex flex-col gap-7">
-            <h2
-              className={cn(classNameH2, "text-right")}
-            >{`Progresse avec nous !`}</h2>
-            <ul className="text-slate-400 text-sm">
-              <li>• Réussit le bac en toute confiance</li>
-              <li>• Réussit le bac en toute confiance</li>
-              <li>• Réussit le bac en toute confiance</li>
-            </ul>
-          </div>
-        </div>
-        <div>
-          <h2>Foire Aux Questions</h2>
+        </motion.div>
+
+        {/* Section FAQ */}
+        <motion.div
+          initial={{ y: 20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ ease: "easeInOut", duration: 1 }}
+        >
+          <h2 className={classNameH2}>Foire Aux Questions</h2>
           <SectionFAQ />
-        </div>
+        </motion.div>
       </div>
     </div>
   );
 };
 
 export default Home;
+
+// Composant SectionIntro avec les types
+const SectionIntro: React.FC<SectionIntroProps> = ({ title, subtitle }) => (
+  <div>
+    <h2 className={cn(classNameH2, "text-center")}>{title}</h2>
+    <p className={cn(classNameSubtitle, "text-center")}>{subtitle}</p>
+  </div>
+);
