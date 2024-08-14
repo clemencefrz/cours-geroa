@@ -32,13 +32,16 @@ const items: ItemType[] = [
 
 export function FAQ() {
   return (
-    <Accordion type="single" collapsible className="w-full">
-      {items.map(({ value, answer, question }, key) => (
-        <AccordionItem value={value} key={key}>
-          <AccordionTrigger>{question}</AccordionTrigger>
-          <AccordionContent>{answer}</AccordionContent>
-        </AccordionItem>
-      ))}
-    </Accordion>
+    <div className="mt-9">
+      <p className="font-bold text-2xl">Foire aux questions</p>
+      <Accordion type="single" collapsible className="w-full">
+        {items.map(({ value, answer, question }, key) => (
+          <AccordionItem value={value} key={key}>
+            <AccordionTrigger>{question}</AccordionTrigger>
+            <AccordionContent>{answer}</AccordionContent>
+          </AccordionItem>
+        ))}
+      </Accordion>
+    </div>
   );
 }

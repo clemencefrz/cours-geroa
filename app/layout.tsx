@@ -20,7 +20,7 @@ export default function RootLayout({
         <div className="min-h-screen flex flex-col justify-between">
           <div>
             <Header />
-            <main className="mx-9 mt-9">
+            <main className="mx-9 mt-9 gap-9">
               {children}
               <FAQ />
               <Button
