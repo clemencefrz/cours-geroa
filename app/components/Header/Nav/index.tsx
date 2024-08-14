@@ -57,7 +57,7 @@ export function Nav() {
     [router]
   );
   return (
-    <NavigationMenu>
+    <NavigationMenu className="hidden md:block">
       <NavigationMenuList>
         {composants.map((props, key) => (
           <NavMenuItem {...props} key={key} />

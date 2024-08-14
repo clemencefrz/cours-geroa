@@ -5,11 +5,13 @@ import Logo from "../Logo";
 
 import { Nav } from "./Nav";
 import Link from "next/link";
+import NavMobile from "./NavMobile";
 
 const Header = () => {
   return (
     <header>
       <div className="flex items-center justify-between px-8 h-[108px]">
+        <NavMobile />
         <div className="flex flex-row items-center">
           <Logo />
           {/* nav */}
