@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 
 const Subjects = () => {
   return (
-    <div className="flex flex-row items-center justify-around">
+    <div className="flex flex-row items-center justify-center gap-16">
       <CardMatiere title={"Physique-chimie"} bgColor={"bg-brandTwo"} />
       <CardMatiere title={"Mathématiques"} bgColor={"bg-brandThree"} />
       <CardMatiere title={"Informatique"} bgColor={"bg-brandFour"} />
