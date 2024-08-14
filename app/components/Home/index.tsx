@@ -25,11 +25,12 @@ const classNameSection =
 const textRight = cn(classNameH2, "text-right");
 
 const Home: React.FC = () => {
+  const ref0 = useRef<HTMLDivElement>(null);
   const ref1 = useRef<HTMLDivElement>(null);
   const ref2 = useRef<HTMLDivElement>(null);
   const ref3 = useRef<HTMLDivElement>(null);
   const ref4 = useRef<HTMLDivElement>(null);
-
+  const isInView0 = useInView(ref0, { once: true });
   const isInView1 = useInView(ref1, { once: true });
   const isInView2 = useInView(ref2, { once: true });
   const isInView3 = useInView(ref3, { once: true });
@@ -45,7 +46,7 @@ const Home: React.FC = () => {
         <motion.div
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ ease: "easeInOut", duration: 1 }}
+          transition={isInView0 ? { ease: "easeInOut", duration: 1 } : {}}
         >
           <SectionIntro
             title="Améliore tes compétences en sciences"
