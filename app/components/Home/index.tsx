@@ -9,7 +9,6 @@ import { Hero } from "./Hero";
 import Subjects from "./Subjects";
 import Services from "./Services";
 import AboutUs from "./AboutUs";
-import { FAQ } from "./FAQ";
 
 // Déclaration des types pour les props
 type SectionIntroProps = {
@@ -160,16 +159,6 @@ const Home: React.FC = () => {
           className={cn(classNameSection, "flex flex-col md:flex md:flex-row")}
         >
           <AboutUs />
-        </motion.div>
-
-        {/* Section FAQ */}
-        <motion.div
-          initial={{ y: 20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ ease: "easeInOut", duration: 1 }}
-        >
-          <h2 className={classNameH2}>Foire aux questions</h2>
-          <FAQ />
         </motion.div>
       </div>
     </div>
