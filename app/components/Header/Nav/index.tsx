@@ -46,7 +46,7 @@ export function Nav() {
             description: "Des sujets d'examens et de TD",
           },
           {
-            href: "/docs",
+            href: "/blog",
             title: "Blog",
             description:
               "Des articles pour aider les étudiants à progresser et à s'épanouir",
