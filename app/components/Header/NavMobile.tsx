@@ -1,13 +1,15 @@
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
+  SheetClose,
   SheetContent,
+  SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import Link from "next/link";
 import { Menu } from "lucide-react";
-
 const navigationItems = [
   { textTrigger: "Accueil", href: "/" },
   {
@@ -44,19 +46,14 @@ const navigationItems = [
 const NavMobile = () => {
   return (
     <Sheet>
-      {/* Trigger button for mobile menu */}
       <SheetTrigger asChild>
-        <Button variant="link" aria-label="Open menu" className="md:hidden">
+        <Button variant="link" className="md:hidden">
           <Menu size={24} />
         </Button>
       </SheetTrigger>
-      <SheetContent
-        side="left"
-        className="md:hidden"
-        aria-labelledby="sheet-title"
-      >
+      <SheetContent>
         <SheetHeader>
-          <SheetTitle id="sheet-title">Menu</SheetTitle>
+          <SheetTitle>Menu</SheetTitle>
         </SheetHeader>
         <div className="space-y-4 p-4">
           {navigationItems.map((item, index) => (
@@ -94,6 +91,13 @@ const NavMobile = () => {
             </div>
           ))}
         </div>
+        <SheetFooter>
+          <SheetClose asChild>
+            <Button asChild>
+              <Link href="/contact">Contactez-nous</Link>
+            </Button>
+          </SheetClose>
+        </SheetFooter>
       </SheetContent>
     </Sheet>
   );
