@@ -41,7 +41,7 @@ export function Nav() {
         textTrigger: "Apprendre",
         navContentItems: [
           {
-            href: "/docs",
+            href: "/login",
             title: "Nos exercices",
             description: "Des sujets d'examens et de TD",
           },
