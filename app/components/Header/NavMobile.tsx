@@ -51,7 +51,7 @@ const NavMobile = () => {
           <Menu size={24} />
         </Button>
       </SheetTrigger>
-      <SheetContent>
+      <SheetContent side={"left"}>
         <SheetHeader>
           <SheetTitle>Menu</SheetTitle>
         </SheetHeader>
