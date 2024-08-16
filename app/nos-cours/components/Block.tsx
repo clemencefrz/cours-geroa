@@ -14,21 +14,23 @@ const Block = ({ title, id, content, infos }: Props) => {
   return (
     <div
       id={id}
-      className=" bg-slate-100 w-full gap-28 flex flex-row p-12 items-start"
+      className="shadow-[6px_6px_0px] shadow-brandFour border-slate-200 border w-full gap-12 flex flex-row p-12 items-start rounded-lg"
     >
       {/* Bloc de gauche */}
-      <div className=" bg-slate-100 w-full gap-4 flex flex-col">
-        <h2>{title}</h2>
+      <div className="w-full flex flex-col gap-6">
+        <h2 className="w-max bg-gradient-to-b from-transparent to-brandThree from-40%">
+          {title}
+        </h2>
         {content}
-        <Button asChild className="self-start">
+        <Button asChild className="self-start mt-9">
           <Link href="/contact">Je prends rendez-vous</Link>
         </Button>
       </div>
       {/* Bloc de droite */}
-      <div className="bg-slate-200 p-4 gap-2 flex flex-col ">
+      <div className="border rounded-lg border-slate-200 p-4 gap-2 flex flex-col ">
         {infos.map((info, key) => (
-          <p className="flex flex-row" key={key}>
-            <info.icon className="mr-2 w-2 h-2" /> {info.description}
+          <p className="flex flex-row items-center" key={key}>
+            <info.icon className="mr-2" /> {info.description}
           </p>
         ))}
       </div>
