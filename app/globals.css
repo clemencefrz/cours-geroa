@@ -72,9 +72,17 @@
     @apply bg-background text-foreground;
   }
   h1 {
-    @apply text-4xl font-bold;
+    @apply text-4xl font-extrabold;
   }
   h2 {
-    @apply text-3xl; 
+    @apply text-2xl font-bold;
+  }
+
+  .ContainerHeaderPage {
+    @apply flex flex-col gap-9 items-center justify-center h-[468px]
+  }
+
+  .H2SubtitlePage {
+    @apply text-base text-center max-w-[500px] font-medium
   }
 }

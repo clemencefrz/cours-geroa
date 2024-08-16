@@ -12,16 +12,16 @@ export function Hero() {
   ];
 
   return (
-    <div className="flex flex-col gap-9 items-center justify-center h-[468px]">
-      <h1 className="text-4xl font-extrabold flex flex-col">
+    <div className="ContainerHeaderPage">
+      <h1 className="flex flex-col">
         <FlipWords
           words={words}
           className="text-primary text-4xl md:text-5xl"
         />
-        <p>avec les cours Geroa</p>
+        avec les cours Geroa
       </h1>
 
-      <h2 className="text-base text-center max-w-[500px] font-medium">
+      <h2 className="H2SubtitlePage">
         {`Cours de soutien scolaire en Mathématiques, physique-chimie et informatique pour lycéens et étudiants d'Anglet, Biarritz et Bayonne.`}
       </h2>
 

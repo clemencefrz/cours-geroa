@@ -1,42 +1,50 @@
 import { Calendar, Clock, DollarSign, MapPin, User, Users } from "lucide-react";
 import Block from "./Block";
 
-export const PointsCoursParticuliers = [
-  { icon: MapPin, description: "À Anglet" },
-  {
-    icon: Calendar,
-    description: "Le mercredi soir ou le samedi matin",
-  },
-  { icon: Users, description: "En petit groupe de 4 élèves maximum" },
-  { icon: DollarSign, description: "Tarif avantageux" },
-];
+export const PointsCoursCollectifs = {
+  points: [
+    { icon: MapPin, description: "À Anglet" },
+    {
+      icon: Calendar,
+      description: "Le mercredi soir ou le samedi matin",
+    },
+    { icon: Users, description: "En petit groupe de 4 élèves maximum" },
+    { icon: DollarSign, description: "Tarif avantageux" },
+  ],
+  href: "/nos-cours#cours-collectifs",
+};
 
-export const PointsCoursCollectifs = [
-  { icon: MapPin, description: "À Anglet" },
-  {
-    icon: Calendar,
-    description: "Le soir en semaine",
-  },
-  { icon: Clock, description: "Séances hebdomadaires de 1h30 à 2h00" },
-  {
-    icon: User,
-    description: `Suivi personnalisé des progrès de l'élève`,
-  },
-  {
-    icon: User,
-    description: `Bilan régulier tout au long de l'année`,
-  },
-];
+export const PointsCoursParticuliers = {
+  points: [
+    { icon: MapPin, description: "À Anglet" },
+    {
+      icon: Calendar,
+      description: "Le soir en semaine",
+    },
+    { icon: Clock, description: "Séances hebdomadaires de 1h30 à 2h00" },
+    {
+      icon: User,
+      description: `Suivi personnalisé des progrès de l'élève`,
+    },
+    {
+      icon: User,
+      description: `Bilan régulier tout au long de l'année`,
+    },
+  ],
+  href: "nos-cours#cours-particuliers",
+};
 
 const NosCours = () => {
   return (
     <div className="flex flex-col items-center w-full gap-12">
-      <h1 className="p-8">Nos cours</h1>
-      <h2>
-        {`Chez Geroa, on fait aimer les maths, la physique-chimie et
+      <div className="ContainerHeaderPage">
+        <h1>Nos cours</h1>
+        <h2 className="H2SubtitlePage">
+          {`Chez Geroa, on fait aimer les maths, la physique-chimie et
         l'informatique à tous les lycéens et étudiants, peu importe leur niveau
         !`}
-      </h2>
+        </h2>
+      </div>
 
       {/* Les cours collectifs */}
       <Block
@@ -70,7 +78,7 @@ const NosCours = () => {
             </div>
           </div>
         }
-        infos={PointsCoursParticuliers}
+        infos={PointsCoursParticuliers.points}
       />
 
       {/* Les cours particuliers */}
@@ -105,7 +113,7 @@ const NosCours = () => {
             </div>
           </div>
         }
-        infos={PointsCoursCollectifs}
+        infos={PointsCoursCollectifs.points}
       />
 
       {/* Les stages */}

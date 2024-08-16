@@ -17,11 +17,9 @@ type SectionIntroProps = {
 };
 
 // Classes utilisées fréquemment
-export const classNameH2 = "text-2xl font-bold";
 const classNameSubtitle = "text-sm text-slate-400 mb-9";
 const classNameSection =
   "w-full flex flex-col md:flex-row justify-center items-center gap-11";
-const textRight = cn(classNameH2, "text-right");
 
 const Home: React.FC = () => {
   const ref0 = useRef<HTMLDivElement>(null);
@@ -82,9 +80,7 @@ const Home: React.FC = () => {
             </a>
           </div>
           <div className="flex flex-col gap-7">
-            <h2 className={classNameH2}>
-              Pour les lycéens de Seconde, Première et Terminale
-            </h2>
+            <h2>Pour les lycéens de Seconde, Première et Terminale</h2>
             <ul className="text-slate-400 text-sm">
               <li>
                 • Améliore ta moyenne en maths, physique-chimie ou informatique
@@ -109,7 +105,7 @@ const Home: React.FC = () => {
         >
           <div className={classNameSection}>
             <div className="flex flex-col gap-7">
-              <h2 className={textRight}>Pour les étudiants en BAC+1/2/3</h2>
+              <h2 className={"textRight"}>Pour les étudiants en BAC+1/2/3</h2>
               <ul className="text-slate-400 text-sm">
                 <li>• Réussis tes examens et valide ton année</li>
                 <li>• Gagne en autonomie et en organisation</li>
@@ -170,7 +166,7 @@ export default Home;
 // Composant SectionIntro avec les types
 const SectionIntro: React.FC<SectionIntroProps> = ({ title, subtitle }) => (
   <div>
-    <h2 className={cn(classNameH2, "text-center")}>{title}</h2>
+    <h2 className={"text-center"}>{title}</h2>
     <p className={cn(classNameSubtitle, "text-center")}>{subtitle}</p>
   </div>
 );

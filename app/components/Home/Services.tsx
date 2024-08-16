@@ -8,39 +8,48 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { FileText, Smartphone, UserCheck, Lightbulb } from "lucide-react";
 
-const PointsRessources = [
-  {
-    icon: FileText,
-    description: "Exercices en parfaite adéquation avec le programme",
-  },
-  {
-    icon: Smartphone,
-    description: "Une application dédiée pour nos élèves",
-  },
-  {
-    icon: UserCheck,
-    description:
-      "Interviews de professionnels du Pays Basque pour découvrir les métiers",
-  },
-  {
-    icon: Lightbulb,
-    description:
-      "Articles de blog et astuces pour mieux apprendre et trouver sa voie",
-  },
-];
+const Ressources = {
+  points: [
+    {
+      icon: FileText,
+      description: "Exercices en parfaite adéquation avec le programme",
+    },
+    {
+      icon: Smartphone,
+      description: "Une application dédiée pour nos élèves",
+    },
+    {
+      icon: UserCheck,
+      description:
+        "Interviews de professionnels du Pays Basque pour découvrir les métiers",
+    },
+    {
+      icon: Lightbulb,
+      description:
+        "Articles de blog et astuces pour mieux apprendre et trouver sa voie",
+    },
+  ],
+  href: "/login",
+};
 
 const Services = () => {
   return (
     <div className="grid flex-col md:grid-cols-3 items-start justify-center gap-11">
       <CardService
         title="Cours particuliers"
-        bulletPoints={PointsCoursParticuliers}
+        bulletPoints={PointsCoursParticuliers.points}
+        href={PointsCoursParticuliers.href}
       />
       <CardService
         title="Cours collectifs"
-        bulletPoints={PointsCoursCollectifs}
+        bulletPoints={PointsCoursCollectifs.points}
+        href={PointsCoursCollectifs.href}
       />
-      <CardService title="Ressources" bulletPoints={PointsRessources} />
+      <CardService
+        title="Ressources"
+        bulletPoints={Ressources.points}
+        href={Ressources.href}
+      />
     </div>
   );
 };
@@ -50,9 +59,11 @@ export default Services;
 const CardService = ({
   title,
   bulletPoints,
+  href,
 }: {
   title: string;
   bulletPoints: { icon: LucideIcon; description: string }[];
+  href: string;
 }) => {
   return (
     <motion.div
@@ -70,7 +81,7 @@ const CardService = ({
         ))}
       </ul>
       <Button asChild className="self-center mt-auto">
-        <Link href="/nos-cours">En savoir +</Link>
+        <Link href={href}>En savoir +</Link>
       </Button>
     </motion.div>
   );
