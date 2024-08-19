@@ -120,7 +120,19 @@ const NosCours = () => {
       <Block
         title={"Nos stages"}
         id={"stages"}
-        content={<p>à venir</p>}
+        content={
+          <p>
+            {`Boostez vos résultats avec nos stages intensifs, spécialement conçus
+            pour les lycéens et étudiants en maths, physique et informatique.
+            Dans des groupes réduits (max 8 élèves), bénéficiez d'un
+            accompagnement sur-mesure pour réviser les notions clés au bon
+            moment. Nos programmes sont adaptés aux nouveaux cursus et visent à
+            renforcer votre compréhension tout en développant votre confiance.
+            En plus de leur expertise, nos professeurs sont réputés pour leur
+            bienveillance et leur pédagogie, garantissant un apprentissage aussi
+            efficace qu'agréable. Rejoignez-nous pour des vacances productives !`}
+          </p>
+        }
         infos={[
           {
             icon: Clock,
