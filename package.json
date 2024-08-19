@@ -24,7 +24,7 @@
     "@radix-ui/react-tooltip": "^1.1.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "framer-motion": "^11.3.24",
+    "framer-motion": "^11.3.28",
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.414.0",
     "markdown-to-jsx": "^7.4.7",
@@ -36,7 +36,7 @@
     "react-hook-form": "^7.52.1",
     "resend": "^3.5.0",
     "sonner": "^1.5.0",
-    "tailwind-merge": "^2.4.0",
+    "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.1",
     "zod": "^3.23.8"

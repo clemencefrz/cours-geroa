@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className={font.className}>
-        <div className="min-h-screen flex flex-col justify-between">
+        <div className="flex flex-col gap-40 justify-center min-h-screen">
           <div>
             <Header />
             <main className="mx-9 mt-9 gap-9">

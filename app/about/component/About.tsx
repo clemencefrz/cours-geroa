@@ -1,17 +1,29 @@
+"use client";
+import { motion, useInView } from "framer-motion";
 import CardTutor from "./CardTutor";
 import Title from "./Title";
+import { useRef } from "react";
 
 const About = () => {
+  const ref0 = useRef<HTMLDivElement>(null);
+
+  const isInView0 = useInView(ref0, { once: true });
   return (
-    // Container
-    <div className="w-full flex flex-col items-center justify-center px-24 gap-24">
-      {/* Geroa signgification */}
+ 
+ 
+ <div className="w-full flex flex-col items-center justify-center px-24 gap-24">
       <Title />
 
       {/* Clémence et Damien, Notre missions, nos valeurs*/}
-      <div className="flex flex-row items-start justify-center gap-4">
+      <motion.div
+        ref={ref0}
+        initial={{ y: 20, opacity: 0 }}
+        animate={isInView0 ? { y: 0, opacity: 1 } : {}}
+        transition={{ ease: "easeInOut", duration: 1 }}
+        className="flex flex-row items-start justify-center gap-4"
+      >
         {/* Image de nous deux */}
-        <div className="h-[300px] min-w-[500px] bg-black gap-2 -rotate-6" />
+        <div className="h-[300px] min-w-[500px] bg-black gap-2" />
         <div className="flex flex-col gap-1">
           <h2 className="self-end text-justify">{`Hey ! Bienvenue aux cours Geroa.`}</h2>
           <span>
@@ -24,7 +36,7 @@ const About = () => {
             bonne humeur.`}
           </span>
         </div>
-      </div>
+      </motion.div>
 
       {/* Qualifications, expériences et spécialisation */}
       <div className="flex flex-col items-center justify-start gap-4">
