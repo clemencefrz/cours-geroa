@@ -14,7 +14,7 @@ const Block = ({ title, id, content, infos }: Props) => {
   return (
     <div
       id={id}
-      className="shadow-[6px_6px_0px] shadow-brandFour border-slate-200 border w-full gap-12 flex flex-row p-12 items-start rounded-lg"
+      className="shadow-[6px_6px_0px] shadow-brandFour border-slate-200 border w-full gap-12 flex flex-col md:flex-row items-center p-12 md:items-start rounded-lg text-justify"
     >
       {/* Bloc de gauche */}
       <div className="w-full flex flex-col gap-6">
@@ -22,12 +22,12 @@ const Block = ({ title, id, content, infos }: Props) => {
           {title}
         </h2>
         {content}
-        <Button asChild className="self-start mt-9">
+        <Button asChild className="md:self-start mt-9">
           <Link href="/contact">Je prends rendez-vous</Link>
         </Button>
       </div>
       {/* Bloc de droite */}
-      <div className="border rounded-lg border-slate-200 p-4 gap-2 flex flex-col ">
+      <div className="border rounded-lg border-slate-200 p-4 gap-4 flex flex-col min-w-[396px] bg-brandFour text-white font-semibold">
         {infos.map((info, key) => (
           <p className="flex flex-row items-center" key={key}>
             <info.icon className="mr-2" /> {info.description}
