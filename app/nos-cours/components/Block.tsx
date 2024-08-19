@@ -27,7 +27,7 @@ const Block = ({ title, id, content, infos }: Props) => {
         </Button>
       </div>
       {/* Bloc de droite */}
-      <div className="border rounded-lg border-slate-200 p-4 gap-4 flex flex-col min-w-[396px] bg-brandFour text-white font-semibold">
+      <div className="border rounded-lg border-slate-200 p-4 gap-4 flex flex-col lg:min-w-[396px] bg-brandFour text-white font-semibold">
         {infos.map((info, key) => (
           <p className="flex flex-row items-center" key={key}>
             <info.icon className="mr-2" /> {info.description}
