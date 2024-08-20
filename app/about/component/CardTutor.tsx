@@ -3,27 +3,41 @@ type Props = {
   job: string;
   subjects: string[];
   qualifications: string;
+  cibles: [string, ...string[]];
 };
 
-const CardTutor = ({ firstName, job, subjects, qualifications }: Props) => {
+const CardTutor = ({
+  firstName,
+  job,
+  subjects,
+  qualifications,
+  cibles,
+}: Props) => {
   return (
-    <div className="border-2 border-black p-9 flex flex-col gap-8">
+    <div className="border-2 p-9 flex flex-col gap-8 rounded-lg border-slate-200">
       {/* Header */}
       <div className="flex flex-col gap-1 items-center">
         {/* Photo */}
-        <div className="rounded-full bg-black w-44 h-44" />
+        <div className="rounded-full bg-black w-44 h-44 shadow-[6px_6px_0px] shadow-brandFour" />
         <span className="font-bold text-3xl">{firstName}</span>
         <span className="font-bold text-xl text-slate-400">{job}</span>
       </div>
 
       {/* Content */}
       <div className="flex flex-col gap-4">
-        {/* Spécialités */}
         <div className="flex flex-col gap-1">
           <span className="font-semibold text-xl">{`Ce que j'enseigne :`}</span>
           <ul>
             {subjects.map((subject, key) => (
               <li key={key}>{`- ${subject}`}</li>
+            ))}
+          </ul>
+        </div>
+        <div className="flex flex-col gap-1">
+          <span className="font-semibold text-xl">{`Pour qui ? :`}</span>
+          <ul>
+            {cibles.map((cible, key) => (
+              <li key={key}>{`- ${cible}`}</li>
             ))}
           </ul>
         </div>
