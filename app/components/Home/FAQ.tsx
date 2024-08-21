@@ -41,6 +41,12 @@ const items: ItemType[] = [
     answer:
       "Oui, nos cours sont adaptés à tous les niveaux, du débutant à l'avancé. Nos professeurs ajustent le contenu et le rythme en fonction du niveau de l'élève pour garantir une progression efficace.",
   },
+  {
+    value: "item-6",
+    question: "Quels langages informatiques enseignez-vous ?",
+    answer:
+      "Clémence se spécialise dans l’enseignement des langages Python, Matlab, JavaScript, HTML, et CSS. En plus, elle propose des cours d'algorithmie de base ainsi que des sessions pratiques sur les IA LLM (comme ChatGPT, Gemini, etc.), et comment les utiliser intelligemment.",
+  },
 ];
 
 export function FAQ() {
