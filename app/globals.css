@@ -77,6 +77,9 @@
   h2 {
     @apply text-2xl font-bold;
   }
+  h3 {
+    @apply font-bold text-lg;
+  }
 
   .ContainerHeaderPage {
     @apply flex flex-col gap-9 items-center justify-center h-[468px]

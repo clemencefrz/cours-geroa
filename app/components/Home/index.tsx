@@ -39,7 +39,7 @@ const Home: React.FC = () => {
       <Hero />
 
       {/* Sections principales */}
-      <div className="flex flex-col gap-[17.5rem] 2xl:px-[24.25rem]">
+      <div className="flex flex-col gap-24 2xl:px-[24.25rem]">
         {/* Première section */}
         <motion.div
           initial={{ y: 20, opacity: 0 }}
@@ -82,7 +82,7 @@ const Home: React.FC = () => {
           </div>
           <div className="flex flex-col gap-7">
             <h2>Pour les lycéens de Seconde, Première et Terminale</h2>
-            <ul className="text-slate-400 text-sm">
+            <ul>
               <li>
                 • Améliore ta moyenne en maths, physique-chimie ou informatique
               </li>
@@ -107,7 +107,7 @@ const Home: React.FC = () => {
           <div className={classNameSection}>
             <div className="flex flex-col gap-7">
               <h2 className={"textRight"}>Pour les étudiants en BAC+1/2/3</h2>
-              <ul className="text-slate-400 text-sm">
+              <ul>
                 <li>• Réussis tes examens et valide ton année</li>
                 <li>• Gagne en autonomie et en organisation</li>
                 <li>• Prépare tes concours</li>

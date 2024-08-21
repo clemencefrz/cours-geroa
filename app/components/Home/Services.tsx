@@ -71,7 +71,7 @@ const CardService = ({
       whileHover={{ y: -10 }} // Lift the card by 10px on hover
       transition={{ type: "spring", stiffness: 200, damping: 20 }} // Smooth spring-like animation
     >
-      <h3 className="font-bold text-lg self-center">{title}</h3>
+      <h3 className="self-center">{title}</h3>
       <ul>
         {bulletPoints.map(({ description, icon: Icon }, key) => (
           <li className="font-medium text-md flex items-start" key={key}>
