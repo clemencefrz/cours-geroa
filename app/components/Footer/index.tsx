@@ -1,32 +1,38 @@
 import Logo from "../Logo";
 import FooterHeader from "./FooterHeader";
 import FooterLink from "./FooterLink";
+import { MapPin, Phone, Clock } from "lucide-react";
 
 const navigation = {
   general: [
-    { name: "Documentation", href: "/docs" },
-    { name: "API Reference", href: "/docs/reference/command-line-reference" },
+    { name: "Accueil", href: "/" },
+    { name: "Nos services", href: "/nos-cours" },
     { name: "Blog", href: "/blog" },
-    { name: "Releases", href: "https://github.com/vercel/turborepo/releases" },
-    { name: "FAQ", href: "/docs/faq" },
+    { name: "À propos", href: "/about" },
+    { name: "Ressources", href: "/login" },
+    { name: "Se connecter", href: "/login" },
   ],
-  support: [
+
+  contactInfo: [
     {
-      name: "GitHub",
-      href: "https://github.com/vercel/turborepo",
+      name: "Anglet",
+      href: "/contact",
+      icon: <MapPin className="h-4 w-4 text-gray-500" />,
     },
-  ],
-  company: [
     {
-      name: "Open Source Software",
-      href: "https://vercel.com/oss?utm_source=turborepo.org&utm_medium=referral&utm_campaign=footer-ossLink",
+      name: "06 65 45 22 14",
+      href: "/contact",
+      icon: <Phone className="h-4 w-4 text-gray-500" />,
     },
-    { name: "GitHub", href: "https://github.com/vercel" },
-    { name: "Twitter", href: "https://twitter.com/vercel" },
+    {
+      name: "Lun. à Sam 12-14h",
+      href: "/contact",
+      icon: <Clock className="h-4 w-4 text-gray-500" />,
+    },
   ],
   legal: [
-    { name: "Privacy Policy", href: "/privacy" },
-    { name: "Terms of Use", href: "/terms" },
+    { name: "Mention légale", href: "/privacy" },
+    { name: "Réglement intérieur", href: "/terms" },
   ],
 };
 
@@ -40,20 +46,16 @@ const Footer = () => {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="grid grid-cols-2 gap-8 xl:col-span-2">
             <div className="md:grid md:grid-cols-2 md:gap-8">
+              <div className="mt-12 md:mt-0">
+                <FooterHeader>Cours Geroa</FooterHeader>
+                <div className="mt-4 space-y-1.5 list-none ml-0 text-xs text-justify">
+                  <p>{`Nous sommes passionnés par ce que nous faisons et espérons que cela transparaît à travers votre visite sur notre site. Nous serions ravis de vous accueillir en personne et de discuter avec vous de vos besoins.`}</p>
+                </div>
+              </div>
               <div>
-                <FooterHeader>Solutions</FooterHeader>
+                <FooterHeader>Tu cherches quelque chose ?</FooterHeader>
                 <ul role="list" className="mt-4 space-y-1.5 list-none ml-0">
                   {navigation.general.map((item) => (
-                    <li key={item.name}>
-                      <FooterLink href={item.href}>{item.name}</FooterLink>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="mt-12 md:mt-0">
-                <FooterHeader>Support</FooterHeader>
-                <ul role="list" className="mt-4 space-y-1.5 list-none ml-0">
-                  {navigation.support.map((item) => (
                     <li key={item.name}>
                       <FooterLink href={item.href}>{item.name}</FooterLink>
                     </li>
@@ -63,17 +65,21 @@ const Footer = () => {
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <FooterHeader>Company</FooterHeader>
+                <FooterHeader>Comment nous joindre ?</FooterHeader>
                 <ul role="list" className="mt-4 space-y-1.5 list-none ml-0">
-                  {navigation.company.map((item) => (
-                    <li key={item.name}>
+                  {navigation.contactInfo.map((item) => (
+                    <li
+                      key={item.name}
+                      className={"flex flex-row items-center gap-2"}
+                    >
+                      {item.icon}
                       <FooterLink href={item.href}>{item.name}</FooterLink>
                     </li>
                   ))}
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
-                <FooterHeader>Legal</FooterHeader>
+                <FooterHeader>Légal</FooterHeader>
                 <ul role="list" className="mt-4 space-y-1.5 list-none ml-0">
                   {navigation.legal.map((item) => (
                     <li key={item.name}>
@@ -84,21 +90,14 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="">
-            <FooterHeader>Subscribe to our newsletter</FooterHeader>
-            <p className="mt-4 text-sm text-gray-600 dark:text-gray-500">
-              Join the Turborepo newsletter and stay updated on new releases and
-              features, guides, and case studies.
-            </p>
-          </div>
         </div>
 
         <div className="pt-8 mt-8 md:flex md:items-center md:justify-between">
           <div>
             <Logo />
             <p className="mt-4 text-xs text-gray-500 ">
-              &copy; {new Date().getFullYear()} Vercel, Inc. All rights
-              reserved.
+              &copy; {new Date().getFullYear()} Cours Geroa, Inc. Tous droits
+              réservés.
             </p>
           </div>
         </div>
