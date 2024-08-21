@@ -75,14 +75,60 @@ const About = () => {
         </div>
       </MotionDiv>
 
-      {/* Notre vision */}
-      <MotionDiv title={`Notre vision`}>
-        <span>
-          {`Parce que y'a pas que les cours dans la vie !`}
-          <br />
-          {`Nous aimerions développer une institution pour donner une chance aux élèves et aux jeunes du Pays Basque de croire en soi, de découvrir ce qui les fait vibrer, d'aller plus loins que les croyances limitantes.
-          - On aimerait également aider les écoles `}
-        </span>
+      <MotionDiv title="Notre vision">
+        <div className="flex flex-col items-center gap-8 p-6 border-slate-200 rounded-lg">
+          <div className="text-center">
+            <h3 className="text-2xl font-semibold text-brandTwo mb-4">{`Faciliter l'accès à une formation de qualité`}</h3>
+            <p className="text-lg leading-relaxed max-w-3xl mx-auto">
+              {`Chez Geroa, notre vision est de faciliter l'accès à une formation de qualité dans le Pays Basque, tout en favorisant l'épanouissement personnel et le développement de l'esprit critique des élèves et jeunes adultes. Nous croyons fermement que chaque étudiant mérite un accompagnement personnalisé, une aide précieuse pour comprendre les défis académiques et une confiance renforcée pour atteindre ses objectifs.`}
+            </p>
+          </div>
+
+          <div className="text-center">
+            <h3 className="text-2xl font-semibold text-brandTwo mb-4">{`Adapter l'éducation aux évolutions technologiques`}</h3>
+            <p className="text-lg leading-relaxed max-w-3xl mx-auto">
+              {`Nous nous engageons à adapter l'éducation aux évolutions technologiques tout en préservant les valeurs humaines et les principes fondamentaux de l'enseignement. Nous intégrons les dernières avancées en intelligence artificielle, en numérique et en réseaux sociaux, tout en maintenant un lien humain essentiel.`}
+            </p>
+          </div>
+
+          <div className="text-center">
+            <h3 className="text-2xl font-semibold text-brandTwo mb-4">{`Objectifs à court terme`}</h3>
+            <h4 className="text-xl font-medium     mb-4">{`Dans les 5 prochaines années, nous aspirons à établir un espace dédié à Anglet, où nous offrirons :`}</h4>
+            <ul className="list-disc list-inside space-y-3 max-w-2xl mx-auto">
+              <li>{` Soutien scolaire et activités pratiques :   Cours de soutien scolaire et ateliers pour acquérir des compétences essentielles pour la vie adulte.`}</li>
+              <li>{` Ateliers et Débats :   Discussions sur des sujets d'actualité pour stimuler la réflexion critique.`}</li>
+              <li>{` Conférences :   Événements sur des thématiques pertinentes pour les jeunes.`}</li>
+              <li>{` Sorties sportives et culturelles :   Explorations de la région et découvertes d'entreprises locales.`}</li>
+              <li>{` Découverte de métiers :   Programmes pour explorer diverses professions et rencontrer des professionnels du Pays Basque.`}</li>
+            </ul>
+          </div>
+
+          <div className="text-center">
+            <h3 className="text-2xl font-semibold text-brandTwo mb-4">{`Objectifs à moyen terme`}</h3>
+            <h4 className="text-xl font-medium     mb-4">{`Dans 10 ans, nous visons à :`}</h4>
+            <ul className="list-disc list-inside space-y-3 max-w-2xl mx-auto">
+              <li>{` Élargir notre équipe :   Développer des applications et des outils éducatifs en collaboration avec les écoles locales.`}</li>
+              <li>{` Créer des Références Régionales :   Transformer notre modèle en une référence régionale, similaire à "Prof en Poche".`}</li>
+              <li>{` Continuer le soutien scolaire :   Offrir un soutien scolaire de premier ordre tout en intégrant des innovations technologiques.`}</li>
+            </ul>
+          </div>
+
+          <div className="text-center">
+            <h3 className="text-2xl font-semibold text-brandTwo mb-4">{`Objectifs à long terme`}</h3>
+            <h4 className="text-xl font-medium     mb-4">{`Dans 20 ans nous avons pour ambition de :`}</h4>
+            <ul className="list-disc list-inside space-y-3 max-w-2xl mx-auto">
+              <li>{` Étendre notre modèle :   Établir fermement notre présence dans le Pays Basque et ouvrir des écoles similaires dans d'autres régions.`}</li>
+              <li>{` Garantir une approche locale :   Chaque établissement sera dirigé par des personnes profondément ancrées dans leur communauté locale.`}</li>
+              <li>{` Assurer l'Indépendance et l'Alignement :   Maintenir l'indépendance des écoles tout en respectant nos valeurs fondamentales pour offrir une approche éducative adaptée à chaque région.`}</li>
+            </ul>
+          </div>
+
+          <div className="text-center">
+            <p className="text-lg leading-relaxed max-w-3xl mx-auto">
+              {`Chez Geroa, nous sommes déterminés à créer un avenir où l'éducation et l'accompagnement sont à la fois innovants et profondément humains, préparant les jeunes à exceller dans un monde en constante évolution tout en restant fidèles à nos valeurs essentielles.`}
+            </p>
+          </div>
+        </div>
       </MotionDiv>
     </div>
   );
