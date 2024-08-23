@@ -14,7 +14,7 @@ const AboutUs = () => {
 
       <div className="flex flex-col gap-7">
         <h2>
-          {`L'endroit idéal pour apprendre, réussir et s'épanouir pleinement.`}
+          {`Geroa, c'est l'endroit idéal pour apprendre, réussir et s'épanouir pleinement.`}
         </h2>
         <h3>{`Une méthode qui s'ajuste à ton profil et tes objectifs.`}</h3>
         <p>
