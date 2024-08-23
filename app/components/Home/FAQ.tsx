@@ -15,7 +15,7 @@ const items: ItemType[] = [
     value: "item-1",
     question: "Comment se déroulent les cours particuliers ?",
     answer:
-      "L'élève prépare ses questions et le chapitre qu'il souhaite étudier à l'avance. Le professeur adapte le contenu du cours en fonction des besoins spécifiques de l'élève, et le cours se déroule en ligne ou en présentiel selon les préférences.",
+      "L'élève prépare ses questions et le chapitre qu'il souhaite étudier à l'avance. Le professeur adapte le contenu du cours en fonction des besoins spécifiques de l'élève, et le cours se déroule en présentiel.",
   },
   {
     value: "item-2",
@@ -27,13 +27,14 @@ const items: ItemType[] = [
     value: "item-3",
     question: "Quelles sont les qualifications des professeurs ?",
     answer:
-      "Tous nos professeurs sont hautement qualifiés dans leurs domaines respectifs. Ils possèdent des diplômes académiques pertinents ainsi qu'une expérience significative dans l'enseignement, ce qui leur permet de s'adapter aux besoins de chaque élève.",
+      "Nous sommes deux ingénieurs passionés d'enseignements et nous avons beaucoup d'expériences dans le domaine des cours particuliers. Nous apprenons en autonomie les rouages de la pédagogie et nous nous efforçons de nous améliorer dans ce domaine. Pour en savoir plus, rendez-vous sur la page Qui sommes-nous :).",
   },
   {
     value: "item-4",
-    question: "Puis-je choisir mon professeur ?",
+    question:
+      "Combien coûte une séance de cours particulier de cours collectifs ?",
     answer:
-      "Oui, vous avez la possibilité de choisir le professeur qui vous convient le mieux en fonction de son profil, de ses qualifications et des avis laissés par d'autres élèves. Vous pouvez également demander une recommandation si vous hésitez.",
+      "Le prix des cours est variable selon le besoin de chacun. Pour en savoir plus, rendez-vous sur la page Contact.",
   },
   {
     value: "item-5",
@@ -45,7 +46,7 @@ const items: ItemType[] = [
     value: "item-6",
     question: "Quels langages informatiques enseignez-vous ?",
     answer:
-      "Clémence se spécialise dans l’enseignement des langages Python, Matlab, JavaScript, HTML, et CSS. En plus, elle propose des cours d'algorithmie de base ainsi que des sessions pratiques sur les IA LLM (comme ChatGPT, Gemini, etc.), et comment les utiliser intelligemment.",
+      "Clémence se spécialise dans l’enseignement des langages Python, Matlab, JavaScript, HTML, et CSS. Elle propose également des cours d'algorithmie de base ainsi que des sessions pratiques sur les IA LLM (comme ChatGPT, Gemini, etc.), et comment les utiliser intelligemment.",
   },
 ];
 
