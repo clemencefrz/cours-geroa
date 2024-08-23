@@ -68,14 +68,23 @@ const Home: React.FC = () => {
             title="Développe tes qualités personnelles"
             subtitle="Au-delà des compétences académiques, on t'aide à développer des compétences essentielles pour réussir tant dans tes études que dans ta vie professionnelle."
           />
-          <Skills
-            skills={[
+          <div className="flex flex-col md:flex-row">
+            {[
               "Communication orale et écrite",
               "Gestion efficace du temps",
               "Développement de l'esprit critique",
               "Gestion du stress et résilience",
-            ]}
-          />
+            ].map((skill, key) => (
+              <motion.div
+                className="flex flex-col gap-2 items-center"
+                whileHover={{ y: -10 }}
+                transition={{ type: "spring", stiffness: 200, damping: 20 }}
+                key={key}
+              >
+                <p className="font-bold text-[1.25rem] text-center">{skill}</p>
+              </motion.div>
+            ))}
+          </div>
         </MotionSection>
 
         <MotionSection
