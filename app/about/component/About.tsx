@@ -3,6 +3,7 @@ import { motion, useInView } from "framer-motion";
 import CardTutor from "./CardTutor";
 import Title from "./Title";
 import { PropsWithChildren, useRef } from "react";
+import Image from "next/image";
 
 const MotionDiv = ({
   children,
@@ -34,7 +35,12 @@ const About = () => {
       {/* Clémence et Damien, Notre missions, nos valeurs */}
       <MotionDiv title={`Hey ! Bienvenue aux cours Geroa`}>
         {/* Image de nous deux */}
-        <div className="h-[300px] min-w-[500px] bg-black gap-2" />
+        <Image
+          height={500}
+          width={300}
+          src={"/images/nous_deux.jpeg"}
+          alt={"Clémence et Damien, professeurs de Geroa"}
+        />
 
         <span>
           Nous sommes Clémence et Damien, deux ingénieurs Angloys. Notre mission
@@ -64,6 +70,7 @@ const About = () => {
               "L'informatique (Python, Typescript, Matlab, etc.)",
             ]}
             qualifications={`Après une classe prépa Math Sup/Math Spé, je suis entrée dans une grande école d'ingénieur toulousaine (l'ENSEEIHT). C'est là que j'ai commencé les cours particuliers, d'abord en agence (Complétude), puis avec mon école (Cours particuliers à des prépa) et enfin en auto-entreprise (des élèves du lycée Villa Pia, d'ISA BTP, d'EPITA...)`}
+            srcImage="/images/clemence.jpeg"
           />
           <CardTutor
             firstName="Damien"
@@ -74,6 +81,7 @@ J'ai ensuite intégré l'Université de Toulouse où j'ai obtenu une Licence pui
 Je travaille aujourd'hui à Anglet en tant qu'ingénieur en performance énergétique et environnementale des bâtiments au sein de l'entreprise TIKOAM (filiale du groupe ETCHART).
 Depuis mes années en prépa, je donne régulièrement des cours particuliers à des lycéens. J'ai également animé des sessions de cours de soutien collectifs en étant tuteur pour le CNAM (10-18 élèves par cours)`}
             cibles={["Elèves lycéens niveau seconde, première et terminale"]}
+            srcImage="/images/damien.jpeg"
           />
         </div>
       </MotionDiv>
