@@ -69,7 +69,10 @@ const About = () => {
             firstName="Damien"
             job="Ingénieur dans l'énergie du bâtiment"
             subjects={["Les mathématiques"]}
-            qualifications={`Après une classe prépa Math Sup/Math Spé, j'ai été ..`}
+            qualifications={`Après mes années lycée à Villa Pia (Bayonne), je suis parti en classe prépa Maths Sup/Spé à Louis Barthou (Pau).
+J'ai ensuite intégré l'Université de Toulouse où j'ai obtenu une Licence puis un Master en Génie Civil.
+Je travaille aujourd'hui à Anglet en tant qu'ingénieur en performance énergétique et environnementale des bâtiments au sein de l'entreprise TIKOAM (filiale du groupe ETCHART).
+Depuis mes années en prépa, je donne régulièrement des cours particuliers à des lycéens. J'ai également animé des sessions de cours de soutien collectifs en étant tuteur pour le CNAM (10-18 élèves par cours)`}
             cibles={["Elèves lycéens niveau seconde, première et terminale"]}
           />
         </div>
