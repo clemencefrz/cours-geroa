@@ -29,7 +29,7 @@ const MotionDiv = ({
 
 const About = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center px-24 gap-24">
+    <div className="w-full flex flex-col items-center justify-center md:px-24 gap-24">
       <Title />
 
       {/* Clémence et Damien, Notre missions, nos valeurs */}
