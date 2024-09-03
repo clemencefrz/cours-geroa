@@ -1,0 +1,16 @@
+{
+  "cities": [
+    {
+      "city_name": "anglet",
+      "travel_time_min": "0"
+    },
+    {
+      "city_name": "biarritz",
+      "travel_time_min": "10"
+    },
+    {
+      "city_name": "bayonne",
+      "travel_time_min": "10"
+    }
+  ]
+}
