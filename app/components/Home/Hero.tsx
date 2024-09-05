@@ -18,7 +18,7 @@ export function Hero() {
           words={words}
           className="text-primary text-4xl md:text-5xl"
         />
-        avec les cours Geroa
+        avec le soutien scolaire Geroa
       </h1>
 
       <h2 className="H2SubtitlePage">
