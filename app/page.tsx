@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import Home from "./components/Home";
-import LocalBusinessSchema from "./components/LocalBusinessSchema";
 export const metadata: Metadata = {
   title:
     "Cours particuliers Geroa - Soutien scolaire à Anglet, Biarritz et Bayonne  - Réussite en Maths, Physique et Informatique",
@@ -11,7 +10,6 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <Home />
     </>
   );

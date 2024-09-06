@@ -1,4 +1,3 @@
-// components/LocalBusinessSchema.js
 import Script from "next/script";
 
 const LocalBusinessSchema = () => {

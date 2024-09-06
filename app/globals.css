@@ -82,7 +82,7 @@
   }
 
   .ContainerHeaderPage {
-    @apply flex flex-col gap-9 items-center justify-center h-[468px]
+    @apply flex flex-col gap-9 items-center justify-center h-[468px] md:h-96
   }
 
   .H2SubtitlePage {
