@@ -44,7 +44,7 @@ export async function POST(request: Request) {
     }
 
     const { subject } = body;
-    console.log({ subject });
+
     const { data, error } = await resend.emails.send({
       from: `${body.lastname} <contact@resend.dev>`,
       to: [MAIL_COURS_GEROA],
