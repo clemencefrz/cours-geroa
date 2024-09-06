@@ -22,7 +22,7 @@ import MatieresFormField from "./MatieresFormField";
 import { toast } from "sonner";
 import { EmailContactRequestBody } from "@/app/api/send/contact/route";
 
-const SEND_CONTACT_ROUTE = "send/contact";
+const SEND_CONTACT_ROUTE = "api/send/contact";
 
 const ARRAY_CLASSES = [
   "Seconde",
