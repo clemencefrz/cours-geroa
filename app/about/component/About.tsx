@@ -76,6 +76,7 @@ const About = () => {
           <CardTutor
             firstName="Damien"
             job="Ingénieur dans l'énergie du bâtiment"
+            formation="Math sup/Math spé puis Master en Génie Civil"
             subjects={["Les mathématiques"]}
             qualifications={`Après mes années lycée à Villa Pia (Bayonne), je suis parti en classe prépa Math Sup/ Math Spé à Louis Barthou (Pau).
 J'ai ensuite intégré l'Université de Toulouse où j'ai obtenu une Licence puis un Master en Génie Civil.
