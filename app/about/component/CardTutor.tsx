@@ -3,6 +3,7 @@ import Image from "next/image";
 type Props = {
   firstName: string;
   job: string;
+  formation: string;
   subjects: string[];
   qualifications: string;
   cibles: [string, ...string[]];
@@ -16,6 +17,7 @@ const CardTutor = ({
   qualifications,
   cibles,
   srcImage,
+  formation,
 }: Props) => {
   return (
     <div className="border-2 p-9 flex flex-col gap-8 rounded-lg border-slate-200">
@@ -34,6 +36,7 @@ const CardTutor = ({
 
         <span className="font-bold text-3xl">{firstName}</span>
         <span className="font-bold text-xl text-slate-400">{job}</span>
+        <span className="font-bold text-xl text-slate-400">{formation}</span>
       </div>
 
       {/* Content */}

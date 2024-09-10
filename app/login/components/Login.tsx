@@ -66,7 +66,7 @@ const Login = () => {
           {`Bientôt, vous pourrez accéder à des exercices approfondis, des quizz
           interactifs, des conseils pour l'orientation, et bien plus encore.`}
           <br />
-          {`Restez informé en vous inscrivant à notre newsletter 👇`}
+          {`Restez informés en vous inscrivant à notre newsletter 👇`}
         </span>
 
         <Form {...form}>
