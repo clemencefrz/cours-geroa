@@ -5,7 +5,7 @@ import Title from "./Title";
 import { PropsWithChildren, useRef } from "react";
 import Image from "next/image";
 
-const MotionDiv = ({
+export const MotionDiv = ({
   children,
   title,
 }: PropsWithChildren<{ title: string }>) => {
@@ -18,9 +18,9 @@ const MotionDiv = ({
       initial={{ y: 20, opacity: 0 }}
       animate={isInView ? { y: 0, opacity: 1 } : {}}
       transition={{ ease: "easeInOut", duration: 1 }}
-      className="flex flex-col items-center justify-center gap-4"
+      className="flex flex-col items-center justify-center gap-4 overflow-hidden"
     >
-      <h2 className="text-center">{title}</h2>
+      <h2 className="text-center text-wrap">{title}</h2>
 
       {children}
     </motion.div>

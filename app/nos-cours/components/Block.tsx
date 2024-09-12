@@ -14,11 +14,11 @@ const Block = ({ title, id, content, infos }: Props) => {
   return (
     <div
       id={id}
-      className="shadow-[6px_6px_0px] shadow-brandFour border-slate-200 border w-full gap-12 flex flex-col md:flex-row items-center p-12 md:items-start rounded-lg text-justify"
+      className="shadow-[6px_6px_0px] shadow-brandFour border-slate-200 border gap-12 flex flex-col md:flex-row items-center p-12 md:items-start rounded-lg text-justify overflow-hidden"
     >
       {/* Bloc de gauche */}
       <div className="w-full flex flex-col gap-6">
-        <h2 className="w-max bg-gradient-to-b from-transparent to-brandThree from-40%">
+        <h2 className="bg-gradient-to-b from-transparent to-brandThree from-40% text-wrap">
           {title}
         </h2>
         {content}
