@@ -93,7 +93,7 @@ Depuis mes années en prépa, je donne régulièrement des cours particuliers à
           <div className="text-center">
             <h3 className="text-2xl font-semibold text-brandTwo mb-4">{`Faciliter l'accès à une formation de qualité`}</h3>
             <p className="text-lg leading-relaxed max-w-3xl mx-auto">
-              {`Chez Geroa, on souhaite faciliter l'accès à une formation de qualité dans le Pays Basque, tout en favorisant l'épanouissement personnel et le développement de l'esprit critique des élèves et jeunes adultes. Nous croyons fermement que chaque étudiant mérite un accompagnement personnalisé et possède les ressources en lui pour comprendre les défis académiques et une confiance renforcée pour atteindre ses objectifs.`}
+              {`Chez Geroa, on souhaite faciliter l'accès à une formation de qualité dans le Pays Basque, tout en favorisant l'épanouissement personnel et le développement de l'esprit critique des élèves et jeunes adultes. Nous croyons fermement que chaque étudiant mérite un accompagnement personnalisé et possède les ressources en lui et la confiance dont il a besoin pour atteindre ses objectifs.`}
             </p>
           </div>
 
@@ -111,7 +111,7 @@ Depuis mes années en prépa, je donne régulièrement des cours particuliers à
               <li>{` Soutien scolaire et activités pratiques :   Cours de soutien scolaire et ateliers pour acquérir des compétences essentielles pour le futur.`}</li>
               <li>{` Ateliers et Débats :   Discussions sur des sujets d'actualité pour stimuler la réflexion critique.`}</li>
               <li>{` Conférences :   Événements sur des thématiques pertinentes pour les jeunes.`}</li>
-              <li>{` Sortiesculturelles :   Explorations de la région et découvertes d'entreprises locales.`}</li>
+              <li>{` Sorties culturelles :   Explorations de la région et découvertes d'entreprises locales.`}</li>
               <li>{` Découverte de métiers :   Programmes pour explorer diverses professions et rencontrer des professionnels du Pays Basque.`}</li>
             </ul>
           </div>
@@ -138,7 +138,7 @@ Depuis mes années en prépa, je donne régulièrement des cours particuliers à
                 >
                   Biltoki
                 </a>
-                pour leurs halles.
+                {` pour leurs halles.`}
               </li>
               <li>{` Garantir une approche locale :   Chaque établissement sera dirigé par des personnes profondément ancrées dans leur communauté locale.`}</li>
               <li>{` Assurer l'Indépendance et l'Alignement :   Maintenir l'indépendance des écoles tout en respectant nos valeurs fondamentales pour offrir une approche éducative adaptée à chaque région.`}</li>
