@@ -2,39 +2,44 @@ import { Metadata } from "next";
 import { PropsWithChildren } from "react";
 export const metadata: Metadata = {
   title:
-    "Soutien Scolaire à Anglet - Cours Particuliers Mathématiques, Physique, Informatique",
+    "Soutien Scolaire à Anglet - Cours Particuliers Mathématiques, Physique, Informatique | Cours Geroa",
   description:
-    "Besoin de soutien scolaire à Anglet ? Cours Geroa offre des cours particuliers et collectifs en Mathématiques, Physique-Chimie et Informatique pour les élèves de lycée et étudiants. Professeurs ingénieurs et passionnés, pédagogie adaptée à tous niveaux.",
+    "Cours Geroa à Anglet : soutien scolaire personnalisé en Mathématiques, Physique-Chimie et Informatique pour lycéens et étudiants. Professeurs expérimentés. Résultats garantis.",
   keywords: [
     "soutien scolaire anglet",
     "cours particuliers anglet",
-    "mathématiques anglet",
+    "cours mathématiques anglet",
     "physique-chimie anglet",
-    "cours à domicile anglet",
     "cours informatique anglet",
-    "professeur soutien scolaire anglet",
-    "éducation anglet",
+    "professeur particulier anglet",
+    "aide scolaire anglet",
+    "tutorat anglet",
+    "éducation personnalisée anglet",
+    "cours à domicile anglet",
+    "soutien scolaire lycée anglet",
   ],
   alternates: {
     canonical: "https://cours-geroa.fr/soutien-scolaire/anglet",
   },
   openGraph: {
-    title: "Soutien Scolaire à Anglet - Cours Particuliers et Collectifs",
+    title:
+      "Soutien Scolaire à Anglet - Cours Particuliers Mathématiques, Physique, Informatique | Cours Geroa",
     description:
-      "Cours Geroa à Anglet propose du soutien scolaire et des cours particuliers en Mathématiques, Physique-Chimie et Informatique pour les lycéens et étudiants. Réservez un cours dès maintenant.",
-    url: "etudiante-devant-ordi.jpg",
+      "Profitez du soutien scolaire de qualité à Anglet avec Cours Geroa. Cours particuliers en Mathématiques, Physique-Chimie et Informatique pour lycéens et étudiants. Inscrivez-vous dès aujourd'hui !",
+    url: "https://cours-geroa.fr/soutien-scolaire/anglet",
     type: "website",
     images: [
       {
         url: "/images/etudiante-devant-ordi.jpg",
         width: 1200,
         height: 630,
-        alt: "Soutien Scolaire à Anglet",
+        alt: "Soutien Scolaire à Anglet - Cours Geroa",
       },
     ],
     locale: "fr_FR",
   },
 };
+
 const Layout = ({ children }: PropsWithChildren) => {
   return (
     <>
@@ -43,7 +48,7 @@ const Layout = ({ children }: PropsWithChildren) => {
           id="local-business"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-          key="local-business"
+          key="local-business-soutien-scolaire-anglet"
         />
       </section>
       {children}
