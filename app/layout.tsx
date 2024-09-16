@@ -3,8 +3,20 @@ import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { Toaster } from "@/components/ui/sonner";
+import { Metadata } from "next";
+import { SRC_LOGO } from "./components/Logo";
 
 const font = Karla({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://cours-geroa.fr"),
+  icons: {
+    icon: SRC_LOGO,
+  },
+  title: "Cours Geroa - Soutien scolaire Pays basque, Cours particuliers Geroa",
+  description:
+    "Découvrez notre soutien scolaire sur mesure pour lycéens et étudiants. Améliorez vos notes, gagnez en confiance et préparez votre avenir avec des cours en maths, physique et informatique adaptés à vos besoins.",
+};
 
 export default function RootLayout({
   children,

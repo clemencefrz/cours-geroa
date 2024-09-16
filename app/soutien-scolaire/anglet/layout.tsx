@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/etudiante-devant-ordi.jpg",
+        url: "/images/etudiante-devant-ordi.jpg", //ça marche pas !
         width: 1200,
         height: 630,
         alt: "Soutien Scolaire à Anglet - Cours Geroa",
@@ -45,10 +45,16 @@ const Layout = ({ children }: PropsWithChildren) => {
     <>
       <section>
         <script
-          id="local-business"
+          id="local-business-soutien-scolaire-anglet"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
           key="local-business-soutien-scolaire-anglet"
+        />
+        <script
+          id="faq-soutien-scolaire-anglet"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchemaJson) }}
+          key="faq-soutien-scolaire-anglet"
         />
       </section>
       {children}
@@ -57,7 +63,92 @@ const Layout = ({ children }: PropsWithChildren) => {
 };
 
 export default Layout;
-
+const faqSchemaJson = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Qu'est-ce que le soutien scolaire à Anglet chez Cours Geroa ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Le soutien scolaire à Anglet chez Cours Geroa offre des cours particuliers en Mathématiques, Physique-Chimie et Informatique pour les lycéens et étudiants. Les professeurs sont des ingénieurs expérimentés, prêts à aider les élèves à réussir.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Quels niveaux sont couverts par les cours de soutien scolaire à Anglet ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Les cours de soutien scolaire à Anglet couvrent principalement les élèves du lycée et les étudiants. Un accompagnement est proposé pour tous les niveaux, du débutant à l'avancé.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Quels sont les tarifs des cours particuliers de soutien scolaire à Anglet ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Les tarifs des cours particuliers varient en fonction du niveau de l'élève et du type de cours (individuel ou collectif). Contactez-nous pour un devis personnalisé.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Quels types de matières sont proposés pour le soutien scolaire à Anglet ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Cours Geroa propose des cours en Mathématiques, Physique-Chimie et Informatique, avec des enseignants spécialisés dans chaque matière.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Les cours de soutien scolaire à Anglet sont-ils adaptés aux élèves en difficulté ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Oui, les cours sont personnalisés et conçus pour répondre aux besoins spécifiques des élèves en difficulté, avec une pédagogie adaptée.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Comment se déroulent les cours particuliers de soutien scolaire à Anglet ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Les cours particuliers se déroulent à domicile ou en ligne, avec un suivi personnalisé et un plan d'apprentissage adapté aux besoins de chaque élève.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Les cours de soutien scolaire à Anglet sont-ils disponibles en ligne ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Oui, les cours de soutien scolaire à Anglet peuvent être suivis en ligne, via une plateforme dédiée qui permet un suivi en temps réel.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Qui sont les professeurs de soutien scolaire chez Cours Geroa à Anglet ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Les professeurs chez Cours Geroa sont des ingénieurs et enseignants expérimentés, passionnés par l'enseignement et spécialisés dans leur domaine.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Comment puis-je réserver un cours de soutien scolaire à Anglet ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Pour réserver un cours, vous pouvez nous contacter directement via notre site web ou par téléphone pour fixer un rendez-vous.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Cours Geroa propose-t-il du soutien scolaire en groupe à Anglet ?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Oui, Cours Geroa propose des cours en petits groupes pour permettre aux élèves d'apprendre dans un environnement collaboratif tout en bénéficiant d'un suivi individualisé.",
+      },
+    },
+  ],
+};
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "EducationalOrganization",
