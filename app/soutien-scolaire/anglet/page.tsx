@@ -9,14 +9,8 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { FlipWords } from "@/components/ui/flip-words";
 
-import { Metadata } from "next";
 import Link from "next/link";
 
-export const metadata: Metadata = {
-  title: "Soutien Scolaire, Cours Particuliers à Anglet, Cours à domicile",
-  description:
-    "Les cours Geroa, école d'Anglet, proposent des Solutions de Soutien Scolaire et Cours particuliers et Collectifs à Anglet de Mathématiques, Physique-chimie et Informatique pour les élèves de lycée et d'études supérieurs. Les professeurs sont des ingénieurs d'Anglet, pédagogues et passionnés.",
-};
 const items = [
   {
     value: "item-1",
@@ -175,3 +169,6 @@ const Page = () => {
 };
 
 export default Page;
+
+
+
