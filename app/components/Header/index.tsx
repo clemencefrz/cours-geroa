@@ -1,8 +1,6 @@
 "use client";
-
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import Logo from "../Logo";
-
 import { Nav } from "./Nav";
 import Link from "next/link";
 import NavMobile from "./NavMobile";
@@ -13,7 +11,14 @@ const Header = () => {
       <div className="flex items-center justify-between px-8 h-[108px]">
         <NavMobile />
         <div className="flex flex-row items-center">
-          <Logo />
+          <Link href={"/"} className=" hidden md:block mr-6 mb-4">
+            <Image
+              src={"/images/LogoGeroa.svg"}
+              alt={"logo Cours Geroa"}
+              width={120}
+              height={80}
+            />
+          </Link>
           {/* nav */}
           <Nav />
         </div>
