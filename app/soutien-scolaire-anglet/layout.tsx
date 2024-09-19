@@ -19,14 +19,14 @@ export const metadata: Metadata = {
     "soutien scolaire lycée anglet",
   ],
   alternates: {
-    canonical: "https://cours-geroa.fr/soutien-scolaire/anglet",
+    canonical: "https://cours-geroa.fr/soutien-scolaire-anglet",
   },
   openGraph: {
     title:
       "Soutien Scolaire à Anglet - Cours Particuliers Mathématiques, Physique, Informatique | Cours Geroa",
     description:
       "Profitez du soutien scolaire de qualité à Anglet avec Cours Geroa. Cours particuliers en Mathématiques, Physique-Chimie et Informatique pour lycéens et étudiants. Inscrivez-vous dès aujourd'hui !",
-    url: "https://cours-geroa.fr/soutien-scolaire/anglet",
+    url: "https://cours-geroa.fr/soutien-scolaire-anglet",
     type: "website",
     images: [
       {
@@ -178,7 +178,7 @@ const jsonLd = {
   },
   offers: {
     "@type": "Offer",
-    url: "https://cours-geroa.fr/soutien-scolaire/anglet",
+    url: "https://cours-geroa.fr/soutien-scolaire-anglet",
     priceCurrency: "EUR",
     price: "30",
     eligibleRegion: {
