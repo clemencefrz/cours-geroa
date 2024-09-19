@@ -1,4 +1,4 @@
-import SoutienScolaireAnglet from "@/app/soutien-scolaire/anglet/SoutienScolaireAnglet";
+import SoutienScolaireAnglet from "./SoutienScolaireAnglet";
 
 const Page = () => {
   return <SoutienScolaireAnglet />;
