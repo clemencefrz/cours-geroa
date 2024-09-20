@@ -1,8 +1,7 @@
-import Markdown from "markdown-to-jsx";
-
 import fs from "fs";
 import matter from "gray-matter";
 import getPostMetadata from "./utils";
+import ReactMarkdown from "react-markdown";
 interface Params {
   slug: string;
 }
@@ -32,8 +31,12 @@ export default function BlogPage(props: { params: Params }) {
   const post = getPostContent(slug);
 
   return (
-    <article>
-      <Markdown>{post.content}</Markdown>
-    </article>
+    <div className="flex justify-center py-8">
+      <article className="max-w-4xl w-full bg-white rounded-lg p-8 shadow-lg">
+        <ReactMarkdown className="prose prose-lg md:prose-lg px-10 md:px-0 md:max-w-[750px] prose-p:my-3">
+          {post.content}
+        </ReactMarkdown>
+      </article>
+    </div>
   );
 }

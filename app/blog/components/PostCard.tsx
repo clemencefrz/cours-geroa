@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import {
   Card,
-  CardContent,
   CardDescription,
   CardFooter,
   CardHeader,
@@ -22,9 +21,9 @@ export default function PostCard({
           <CardTitle>{post.title}</CardTitle>
           <CardDescription>{post.bio}</CardDescription>
         </CardHeader>
-        <CardContent>
+        {/* <CardContent>
           <p>{`     Photo? `}</p>
-        </CardContent>
+        </CardContent> */}
         <CardFooter className="flex justify-between">
           <Button>{`Lire l'article`}</Button>
         </CardFooter>

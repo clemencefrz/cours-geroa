@@ -1,0 +1,129 @@
+---
+title: "Villapia : Méthode pour Apprendre un Cours"
+prep_time: "10 minutes de lecture"
+cook_time: "25 ans d'expérience partagés"
+description: "Explorez les stratégies pour renforcer votre autonomie et réussir votre transition du collège au lycée avec les méthodes proposées par Dominique Duriez de Villa Pia."
+---
+
+# Villapia : Méthode pour Apprendre un Cours
+
+## Introduction
+
+Le passage du collège au lycée marque un tournant majeur dans la vie d’un élève. Durant l’enfance, nous évoluons dans un cadre structuré, façonné par nos parents, nos professeurs, et les adultes qui nous entourent. Ce cadre nous guide, nous protège, et nous aide à nous adapter.
+
+Mais à l’approche du lycée, ce désir d’indépendance se fait sentir. On aspire à sortir de ce cadre, à tracer sa propre voie, à affirmer sa liberté. Cette quête d’autonomie s'accompagne de nouvelles responsabilités.
+
+L’indépendance, bien que libératrice, peut s'avérer inconfortable. En devenant maître de ses choix, on accepte aussi d’assumer pleinement ses échecs, tout autant que ses réussites. Impossible désormais de blâmer les autres pour nos faux pas ou nos malheurs : nous avançons selon notre propre volonté, libérés des contraintes imposées par l’enfance.
+
+Cela devient de plus en plus évident à mesure que l'on progresse dans la vie : notre environnement peut parfois devenir inconfortable. En études supérieures, on peut se retrouver face à des professeurs peu inspirants, et dans le monde du travail, il n'est pas rare d'avoir un patron décevant. Il est alors essentiel d’apprendre à se responsabiliser, à composer avec ces situations et à tirer le meilleur parti de ce qui nous entoure pour atteindre nos objectifs et réussir.
+
+C’est précisément cette prise de responsabilité qui devient la clé de la réussite. En assumant nos choix, nous devenons les architectes de notre propre avenir.
+
+Lors de cette conférence, Dominique Duriez, Directeur du lycée Saint Louis-Villa Pia, nous invite à explorer les stratégies à adopter pour transformer cette responsabilité en levier de succès. Fort de ses 25 ans d’expérience dans l’éducation et des avancées en neurosciences, il partage des clés concrètes pour tirer le meilleur parti de cette transition vers l'autonomie.
+
+L'objectif ? Trouver des solutions pour bâtir sa propre réussite, avec confiance et détermination, peu importe son profil.
+
+## Différentes façons de penser
+
+### Et vous, comment réfléchissez-vous ?
+
+Avez-vous déjà remarqué que votre manière d’apprendre une leçon de maths n’est pas tout à fait la même que celle de votre enfant, de votre parent ou de votre ami ? Tandis qu’il a peut-être besoin de faire des exercices pour bien comprendre, vous préférez juste mémoriser la théorie. Chacun a sa propre méthode, et ce n’est pas un hasard !
+
+En fait, il existe deux grands types de pensée : la pensée analytique et la pensée séquentielle, ou “intuitive”.
+
+Le célèbre psychologue Daniel Kahneman, lauréat du prix Nobel d’économie, a mis en lumière ces deux façons de raisonner avec son modèle du Système 1 et du Système 2. Le Système 1, rapide et intuitif, nous pousse à prendre des décisions presque instinctivement, alors que le Système 2, plus réfléchi et analytique, prend le temps de peser le pour et le contre. Ce modèle de la "double voie" explique pourquoi nous pouvons parfois nous tromper, mais aussi comment nous pouvons corriger nos erreurs une fois que nous prenons le temps d'y réfléchir.
+
+### La pensée analytique : Récolter les infos, faire sa conclusion
+
+La pensée analytique, c’est un peu comme faire du tri méthodique. Elle consiste à diviser un problème complexe en petits morceaux pour les analyser un à un, de manière rigoureuse. Pour faire simple, on rassemble toutes les informations disponibles, on les examine en détail et, seulement après, on tire une conclusion éclairée. Ça paraît logique, non ?
+
+Cette façon de réfléchir permet une analyse très précise et aide à comprendre des systèmes compliqués comme l’économie ou la politique internationale. Mais elle a un inconvénient majeur : elle prend du temps. Avant de prendre une décision, il faut tout examiner minutieusement, ce qui peut demander un certain investissement en termes de temps et d'énergie.
+
+Les personnes qui fonctionnent ainsi développent des compétences spécifiques, comme la capacité à trier et classer les informations, ou encore à repérer celles qui sont vraiment utiles. Elles doivent aussi apprendre à accélérer ce processus pour ne pas passer trop de temps à accumuler des données avant de pouvoir agir.
+
+Les générations nées avant 1994, qui ont grandi avant l'explosion d’Internet et des réseaux sociaux, sont souvent adeptes de cette pensée analytique. Pour elles, l'information n’était pas aussi immédiatement accessible qu’aujourd'hui, ce qui les a poussées à la traiter en profondeur, avec soin.
+
+### La pensée séquentielle : Une pensée intuitive et créative
+
+De l’autre côté, les générations nées après 1994, qui ont grandi avec Internet, ont une approche différente : leur réflexion est plus rapide, presque instantanée, et souvent plus tranchée. Pour elles, tout semble couler de source, "comme appuyer sur 'Démarrer' pour éteindre un ordinateur", plaisante M. Duriez.
+
+L'exposition précoce aux technologies numériques a modifié leur façon de penser : elles sont capables de traiter rapidement des informations superficielles (on appelle ça une pensée séquentielle), et de jongler avec plusieurs sources d’information en même temps.
+
+Mais attention, cette rapidité peut parfois manquer de nuance. Si une information ne rentre pas directement dans les cases qu’elles ont en tête, elle est vite mise de côté, ce qui peut entraîner des jugements un peu trop rapides. Cela rend aussi plus difficile l’analyse de systèmes complexes, comme la politique.
+
+Pour les personnes qui pensent de manière séquentielle, le défi est d’apprendre à ralentir, à prendre le temps d’approfondir leur réflexion et à rechercher la subtilité. En cultivant l’art de la nuance, elles pourront éviter des conclusions trop simplistes et gagner en profondeur.
+
+### Pensée analytique ou séquentielle : Qui a raison ?
+
+Comme le dirait Otis dans Astérix Mission Cléopâtre, "il n’y a pas de bonne ou de mauvaise situation" ou façon de penser. L’important, c’est de comprendre nos différences pour mieux saisir nos comportements. Par exemple, pourquoi mes parents insistent-ils autant sur l’importance d’apprendre les leçons avant de faire des exercices ? Ou encore, pourquoi le professeur de physique de mon enfant lui donne des exercices sur un chapitre qu’il n’a pas encore étudié ?
+
+On peut dire que la génération X valorise la "règle d’abord", tandis que les générations Y et Z privilégient l'expérience. Que ce soit à travers leurs propres vécus ou des contenus partagés en ligne, comme des vidéos et des échanges sur les réseaux sociaux, l’expérience prend souvent le pas sur la théorie.
+
+Pour mieux illustrer cette différence, Dominique Duriez propose un exemple : pour les parents, respecter la limite de 50 km/h en ville, c'est suivre une règle inscrite dans le code de la route. En revanche, pour les jeunes générations, la perception du danger les amène à rouler à 50 km/h non pas parce que c'est une règle, mais parce qu'ils constatent que dépasser cette vitesse peut être risqué. Ils créent donc leurs propres règles basées sur l'expérience.
+
+Sur le plan cognitif, cela change pas mal de choses. En prenant conscience de notre mode de pensée, nous pouvons mieux nous adapter à notre environnement et atteindre nos objectifs.
+
+## Apprendre à mieux apprendre dans le monde d’aujourd’hui
+
+### Quelle stratégie d’apprentissage adopter selon son mode de pensée ?
+
+Imaginons que vous ayez bientôt un contrôle de mathématiques. Pour réussir, vous devez maîtriser la leçon. Si vous avez une pensée analytique, vous allez apprendre votre leçon par cœur : la lire, la réécrire, l’analyser en profondeur, puis éventuellement faire des exercices.
+
+En revanche, si votre approche est plus intuitive, vous préférez vous entraîner directement en faisant et refaisant les exercices, et en revenant de temps en temps sur la leçon au besoin. Pas besoin de mémoriser chaque formule mathématique ; l'important, c’est de l’appliquer encore et encore tout en travaillant sur des problèmes concrets.
+
+Le conseil de Dominique Duriez est alors de produire d'abord, d’enrichir après. De faire, de s’exercer, puis d’analyser sa résolution et s’améliorer.
+
+C’est tout l’intérêt de faire un brouillon pour une dissertation de philosophie ! Cela peut sembler ennuyeux ou inutile, comme si l'on réécrivait deux fois la même chose. Pourtant, lorsque le professeur nous dit “à approfondir”, on réalise vite l’importance du brouillon : il s’agit de produire d’abord une version succincte, puis de la relire, de l’enrichir et de l’améliorer, jusqu’à obtenir un résultat de bien meilleure qualité.
+
+C'est d’ailleurs ce que j'ai fait avec l'article que vous êtes en train de lire. J'ai dû le relire, revoir mes notes, le modifier et l’améliorer à plusieurs reprises. Pour réussir ce processus, il faut accepter de faire quelque chose d'inconfortable : accepter que notre première production ne soit pas toujours parfaite, voire médiocre.
+
+Dominique Duriez souligne que les premiers pas d’un enfant ne sont jamais très gracieux, mais avec le temps, cela s'améliore. Les premières vidéos YouTube d’Inoxtag n'étaient pas d'une qualité exceptionnelle, mais à force de persévérance, au fur et à mesure qu’il en a sorti, il a progressé et aujourd’hui, je défie quiconque de me dire que son dernier documentaire de 2h20 sur son ascension de l’Everest n’est pas digne d'un film de cinéma.
+
+En somme, il faut produire, puis approfondir et enrichir afin d’être plus performant.
+
+## La trace mnésique : Comment renforcer sa mémoire ?
+
+La trace mnésique est la **“modification du tissu nerveux constituant la base neurophysiologique de la conservation du passé dans la mémoire”** (Source). Plus simplement, c’est la conservation de la mémoire.
+
+Pensez à un chemin dans une forêt : au départ, il n’y a pas de sentier. Puis, à force de passer au même endroit, le chemin commence à se former petit à petit. Avec le temps et les passages répétés, ce chemin devient complètement visible et bien défini.
+
+La trace mnésique fonctionne de la même manière. Lorsqu’on apprend une compétence, que l’on vit une expérience, le cerveau génère une série de modifications physiques et chimiques dans les réseaux neuronaux formant ainsi une trace mnésique. Cela permet au cerveau de se concentrer uniquement sur les informations utiles. Sans elle, les nouvelles informations seraient oubliées (Source).
+
+Un peu comme quand on passe le permis : au début, on a du mal à trouver le levier de vitesse puis très rapidement ces petits gestes deviennent des automatismes.
+
+### Est-ce qu’on peut renforcer notre mémoire ? Heureusement pour nous, oui !
+
+Dominique Duriez nous donne deux leviers pour renforcer la trace mnésique, qui n’est pas statique :
+
+1. **Réviser régulièrement et s’entraîner.** Faire des exercices régulièrement permet aux réseaux de neurones de débroussailler le chemin jusqu’à la formule de mathématiques dont on a besoin, à tel point que cela devient automatique, comme apprendre à conduire.
+2. **La motivation.** Pour rendre le processus plus facile, la motivation est essentielle, surtout au début où tout semble compliqué. Il faut penser à ses objectifs, à son avenir ou simplement à la direction que l'on souhaiterait prendre. Ces réflexions peuvent vraiment booster votre motivation et donc votre apprentissage.
+
+## Le passage du collège au lycée : Entre savoir et savoir-faire
+
+En passant du collège au lycée, le référentiel change. Jusqu’en milieu de 4ème, on nous demande de savoir, analyser, justifier… Puis, on nous demande de nous exercer. On nous demande de savoir faire. Sauf que, savoir faire, ça ne s’apprend pas. On peut lire tous les livres de natation du monde, si on ne se mouille pas, on ne sera jamais nageur.
+
+Ce passage peut être difficile pour ceux qui n’ont pas l’habitude de s’entraîner. Beaucoup de très bons élèves, qui apprennent correctement leurs leçons, qui font des fiches très pertinentes, se plantent au lycée car ils n’ont pas pris l’habitude de s’entraîner, de s’exercer.
+
+Il est donc nécessaire de changer de stratégie. Il faut s’exercer. Le jour du bac, on nous demande de résoudre un exercice ou de rédiger une dissertation. Dans le monde du travail, on nous demandera de prendre des décisions, d’improviser parfois. Dans certaines écoles post-bac, on a carrément le droit à toutes les leçons et à internet pendant les évaluations (c’était mon cas dans certains examens dans mon école d’ingénieur, notamment pendant la période Covid).
+
+En effet, l’accès à l’information n’est plus un enjeu, on peut littéralement tout savoir, tout demander à Google ou à des IA comme ChatGPT, mais on ne peut pas savoir résoudre sans s’entraîner.
+
+M. Duriez établit un parallèle entre l’utilisation de ChatGPT et un champion d’athlétisme. Si on donne une voiture à un coureur, il pourra évidemment l’utiliser pour aller à l’entraînement. Il y gagnera en confort et en temps. Il peut aussi l’utiliser pour tourner autour du stade, il ira très vite, c’est sûr. Mais le jour des Jeux Olympiques, cela ne l’aura pas aidé à gagner.
+
+Finalement, l’objectif est-il de résoudre l’exercice ou de savoir résoudre l’exercice ?
+
+## Connaître, se connaître et s’adapter pour progresser et réussir
+
+Finalement, Dominique Duriez souligne que chaque profil, peu importe la génération, est différent. Deux coureurs n’ont pas le même entraînement s’ils n’ont pas les mêmes objectifs. On ne partage pas le même planning, on n’apprend pas de la même façon donc notre stratégie ne peut pas être la même. On n’avance pas au même rythme non plus.
+
+Ce qui compte, c’est que l’on soit autonome, c’est-à-dire capable de demander la bonne chose, à la bonne personne, au bon moment. Être autonome, ce n’est pas être indépendant, c’est-à-dire tout faire tout seul. C’est savoir quand est-ce que j’ai besoin d'une clé supplémentaire, d’un petit coup de boost ou d’une information complémentaire pour pouvoir avancer.
+
+**L’autonomie, c’est de l’intelligence.** Et pour la renforcer, il faut s’entraîner, être régulier dans l’entraînement, être motivé donc avoir un projet et travailler sur son orientation. Il faut aussi construire sa confiance en soi, qui est un enjeu clé dans la réussite, beaucoup d'athlètes vous le diront. Il faut croire en son projet pour pouvoir avoir confiance, être motivé, travailler régulièrement, être autonome et construire sa réussite. C’est un cercle vertueux.
+
+## Conclusion
+
+En conclusion, Dominique Duriez, directeur du lycée de Bayonne Saint-Louis Villa Pia, nous a appris qu’il existe différentes manières de penser, donc d’apprendre. On peut parler d’une manière plutôt analytique, qui se fonde sur la réflexion approfondie, et d’une manière plus intuitive, partagée par la nouvelle génération qui a plus rapidement accès à une multitude d'informations.
+
+Comprendre notre mode de fonctionnement nous permet d'adapter nos méthodes d'apprentissage, de miser sur nos forces et de combler nos faiblesses. Il faut savoir se responsabiliser, être motivé et persévérer pour réussir. Autonomie ne signifie pas faire tout seul, mais demander de l'aide quand c'est nécessaire.
+
+Le passage du collège au lycée est une étape cruciale où les élèves doivent apprendre à articuler savoir et savoir-faire. La clé de la réussite réside dans l'adaptabilité, la régularité des efforts et la motivation. En maîtrisant ces aspects, chacun peut devenir l'architecte de sa propre réussite.
