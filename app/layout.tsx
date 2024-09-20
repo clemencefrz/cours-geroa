@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { Toaster } from "@/components/ui/sonner";
 import { Metadata } from "next";
+import GoogleAnalytics from "./GoogleAnalytics";
 
 const font = Karla({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
+      <GoogleAnalytics />
       <body className={font.className}>
         <div className="flex flex-col gap-40 justify-center min-h-screen">
           <div>
