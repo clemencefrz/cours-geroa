@@ -1,5 +1,5 @@
 ---
-title: "Réussir le passage Collège au Lycée : Comment trouver la Méthode pour Apprendre un Cours et réussir sa scolarité, d'après les conseils de Dominique Duriez, Directeur du lycée Saint-Louis Villa Pia"
+title: "Réussir le passage Collège au Lycée : La Méthode pour Apprendre un Cours, d'après les conseils de Dominique Duriez, Directeur du lycée Saint-Louis Villa Pia"
 description: "Découvrez comment réussir la transition du collège au lycée avec les conseils de Dominique Duriez, directeur du lycée Saint-Louis Villa Pia. Apprenez à adapter vos méthodes de travail selon votre profil pour bâtir votre avenir."
 date: "2024-09-23"
 coverImage: "/images/etudiante-devant-ordi.jpg"
