@@ -8,7 +8,11 @@ type Props = {
 
 const Avatar = ({ name, picture }: Props) => {
   return (
-    <div className="flex items-center gap-2">
+    <Link
+      className="flex items-center gap-2"
+      href={"/about#Clémence"}
+      target="_blank"
+    >
       <div className="h-12 w-12">
         <Image
           src={picture}
@@ -19,14 +23,8 @@ const Avatar = ({ name, picture }: Props) => {
         />
       </div>
 
-      <Link
-        href={"/about#Clémence"}
-        target="_blank"
-        className="text-xl font-bold"
-      >
-        {name}
-      </Link>
-    </div>
+      <div className="text-xl font-bold">{name}</div>
+    </Link>
   );
 };
 

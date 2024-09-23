@@ -1,5 +1,5 @@
 ---
-title: "Réussir le passage Collège au Lycée : comment trouver la méthode pour apprendre un cours et réussir sa scolarité, d'après les conseils de Dominique Duriez, Directeur de Saint-Louis Villa Pia"
+title: "Réussir le passage Collège au Lycée : Comment trouver la Méthode pour Apprendre un Cours et réussir sa scolarité, d'après les conseils de Dominique Duriez, Directeur de Saint-Louis Villa Pia"
 description: "Découvrez comment réussir la transition du collège au lycée avec les conseils de Dominique Duriez, directeur de Saint-Louis VIlla Pia. Apprenez à adapter vos méthodes de travail selon votre profil pour bâtir votre avenir."
 date: "2024-09-23"
 coverImage: "/images/etudiante-devant-ordi.jpg"
@@ -18,7 +18,7 @@ Son objectif ? Nous aider à construire notre réussite avec confiance, peu impo
 
 ## Nos différentes façons de penser
 
-### Et vous, comment réfléchissez-vous ?
+### La construction analytique et la construction séquentielle
 
 Avez-vous déjà remarqué que votre manière d’apprendre une leçon de maths n’est pas tout à fait la même que celle de votre enfant, de votre parent ou de votre ami ? Tandis qu’il a peut-être besoin de faire des exercices, vous préférez d'abord mémoriser la leçon.
 
@@ -44,9 +44,9 @@ Mais cette rapidité peut parfois manquer de nuance. Si une information ne rentr
 
 Pour les personnes qui pensent de manière séquentielle, le défi est **d’apprendre à ralentir**, à prendre le temps d’**approfondir leur réflexion** et à **rechercher la subtilité**. En cultivant l’art de la nuance, elles pourront éviter des conclusions trop simplistes et gagner en profondeur.
 
-### Pensée analytique ou séquentielle : Quelle est la meilleure pensée ?
+### Pensée analytique ou séquentielle : Quelle est la meilleure façon de penser ?
 
-Comme le dirait Otis dans Astérix Mission Cléopâtre, _"il n’y a pas de bonne ou de mauvaise situation"_. L’important, c’est de comprendre nos différences pour mieux saisir nos comportements. Par exemple, pourquoi mes parents insistent-ils autant sur l’importance d’apprendre les leçons avant de faire des exercices ? Ou encore, pourquoi le professeur de physique de mon enfant lui donne des exercices sur un chapitre qu’il n’a pas encore étudié ?
+Comme le dirait Otis dans Astérix Mission Cléopâtre, _"il n’y a pas de bonne ou de mauvaise situation"_. L’important, c’est de comprendre nos différences pour mieux saisir nos comportements. Par exemple, avoir conscience qu'il existe différentes manières de penser permet de mieux comprendre pourquoi mes parents insistent autant sur l’importance d’apprendre les leçons avant de faire des exercices, ou encore, pourquoi le professeur de physique de mon enfant lui donne des exercices sur un chapitre qu’il n’a pas encore étudié.
 
 On peut dire que la génération X valorise **la "règle d’abord"**, tandis que les **générations Y et Z privilégient l'expérience**, que ce soit à travers leurs propres vécus ou des contenus partagés en ligne, comme des vidéos et des échanges sur les réseaux sociaux, l’expérience prend souvent le pas sur la théorie.
 
