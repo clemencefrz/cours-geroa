@@ -19,7 +19,7 @@ const Avatar = ({ name, picture }: Props) => {
           className="w-full h-full rounded-full object-cover"
           height={102}
           width={102}
-          alt={name}
+          alt={`Photo de ${name}`}
         />
       </div>
 
