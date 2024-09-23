@@ -1,6 +1,6 @@
 ---
-title: "Réussir le passage Collège au Lycée : La Méthode pour Apprendre un Cours, d'après les conseils de Dominique Duriez, Directeur du lycée Saint-Louis Villa Pia"
-description: "Découvrez comment réussir la transition du collège au lycée avec les conseils de Dominique Duriez, directeur du lycée Saint-Louis Villa Pia. Apprenez à adapter vos méthodes de travail selon votre profil pour bâtir votre avenir."
+title: "Réussir le passage du Collège au Lycée : La Méthode pour Apprendre un Cours, d'après les conseils de Dominique Duriez, Directeur du lycée Saint-Louis Villa Pia"
+description: "Découvrez comment réussir la transition du collège au lycée avec les conseils de Dominique Duriez, directeur du lycée Saint-Louis Villa Pia. Apprenez à adapter vos méthodes de travail selon votre profil pour bâtir votre avenir, et adapter la méthode pour apprendre un cours."
 date: "2024-09-23"
 coverImage: "/images/etudiante-devant-ordi.jpg"
 ---
@@ -16,7 +16,7 @@ Le 19 septembre dernier, j’ai assisté à une conférence de Dominique Duriez,
 
 Son objectif ? Nous aider à construire notre réussite avec confiance, peu importe d’où on part.
 
-## Nos différentes façons de penser
+## Nos différentes façons de penser et méthodes pour apprendre un cours
 
 ### La construction analytique et la construction séquentielle
 
@@ -56,7 +56,7 @@ Sur le plan cognitif, cela change pas mal de choses. En prenant conscience de no
 
 ## Apprendre à mieux apprendre dans le monde d’aujourd’hui
 
-### Quelle stratégie d’apprentissage adopter selon son mode de pensée ?
+### Quelle méthode pour apprendre un cours utiliser selon son mode de pensée ?
 
 Imaginons que vous ayez bientôt un contrôle de mathématiques. Pour réussir, vous devez maîtriser la leçon. Si vous avez une pensée analytique, vous allez **apprendre votre leçon par cœur** : la lire, la réécrire, l’analyser en profondeur, puis éventuellement faire des exercices.
 
