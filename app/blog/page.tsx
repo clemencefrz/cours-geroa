@@ -1,8 +1,14 @@
-import getPostMetadata from "./[slug]/utils";
-import SearchView from "./components/SearchView";
+import { getAllPosts } from "../api/blog/utils";
+import { Intro } from "./components/intro";
+import { MoreStories } from "./components/more-stories";
 
 export default function Home() {
-  const postMetadata = getPostMetadata("blog");
+  const allPosts = getAllPosts();
 
-  return <SearchView postMetadata={postMetadata} />;
+  return (
+    <div>
+      <Intro />
+      <MoreStories posts={allPosts} />
+    </div>
+  );
 }

@@ -1,50 +1,57 @@
-import fs from "fs";
-import matter from "gray-matter";
-import getPostMetadata from "./utils";
-import { PostHeader } from "./components/post-header";
-import { PostBody } from "./components/post-body";
+import { PostHeader } from "../components/post-header";
+import { PostBody } from "../components/post-body";
+import Container from "../components/container";
+import { getAllPosts, getPostBySlug } from "@/app/api/blog/utils";
+import { Metadata } from "next";
+import { notFound } from "next/navigation";
 
-import Container from "./components/container";
 interface Params {
   slug: string;
 }
-function getPostContent(slug: string) {
-  const folder = "blog/";
-  const file = folder + `${slug}.md`;
-  const content = fs.readFileSync(file, "utf8");
 
-  const matterResult = matter(content);
-  return matterResult;
+export async function generateStaticParams() {
+  const posts = getAllPosts();
+  return posts.map((post) => ({ slug: post.slug }));
 }
 
-export const generateStaticParams = async () => {
-  const posts = getPostMetadata("blog");
-  return posts.map((post) => ({ slug: post.slug }));
-};
+export function generateMetadata({
+  params,
+}: {
+  params: Params;
+}): Metadata | null {
+  const { slug } = params;
+  const post = getPostBySlug(slug);
 
-export async function generateMetadata({ params }: { params: Params }) {
-  const id = params?.slug ? " ⋅ " + params?.slug : "";
+  if (!post) {
+    return notFound();
+  }
+
+  const title = `${post.title} | Cours Geroa Blog Soutien Scolaire Anglet`;
+
   return {
-    title: `Blog de Cours Geroa - ${id.replaceAll("_", " ")}`,
+    title,
+    openGraph: {
+      title,
+    },
   };
 }
 
-export default function BlogPage(props: { params: Params }) {
-  const slug = props.params.slug;
-  const post = getPostContent(slug);
+const BlogPage = ({ params }: { params: Params }) => {
+  const { slug } = params;
+  const post = getPostBySlug(slug);
+
+  if (!post) {
+    return notFound();
+  }
 
   return (
-    <>
-      <Container>
-        <article className="mb-32">
-          <PostHeader
-            title={"post.title"}
-            coverImage={"/images/etudiante-devant-ordi.jpg"}
-            date={"2024-10-10"}
-          />
-          <PostBody content={post.content} />
-        </article>
-      </Container>
-    </>
+    <Container>
+      <article className="mb-32">
+        <PostHeader {...post} />
+        <PostBody {...post} />
+      </article>
+    </Container>
   );
-}
+};
+
+export default BlogPage;
