@@ -80,7 +80,7 @@ La trace mnésique fonctionne de la même manière. Lorsqu’on apprend une comp
 
 Un peu comme quand on passe le permis : au début, on a du mal à trouver le levier de vitesse puis très rapidement ces petits gestes deviennent des automatismes.
 
-### Est-ce qu’on peut renforcer notre mémoire ? Heureusement pour nous, oui !
+### Quelles sont les techniques pour renforcer notre mémoire ?
 
 Dominique Duriez nous donne deux leviers pour renforcer la trace mnésique, qui n’est pas statique :
 
@@ -120,3 +120,5 @@ En conclusion, Dominique Duriez, directeur du lycée Saint-Louis Villa Pia à Ba
 **Comprendre notre mode de fonctionnement nous permet d'adapter nos méthodes d'apprentissage**, de miser sur nos forces et de combler nos faiblesses. Il faut savoir se responsabiliser, être motivé et persévérer pour réussir.
 
 Le passage du collège au lycée est une étape importante où les élèves doivent apprendre à articuler savoir et savoir-faire. La clé de la réussite réside dans l'adaptabilité, la régularité des efforts et la motivation. En maîtrisant ces aspects, chacun peut devenir l'architecte de sa propre réussite.
+
+Je remercie Dominique Duriez et le lycée Saint-Louis Villa Pia pour avoir organisé cette conférence très enrichissante, ouverte au public.
