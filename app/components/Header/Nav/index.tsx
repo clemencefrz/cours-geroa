@@ -38,20 +38,8 @@ export function Nav() {
         href: "/about",
       },
       {
-        textTrigger: "Apprendre",
-        navContentItems: [
-          {
-            href: "/login",
-            title: "Nos exercices",
-            description: "Des sujets d'examens et de TD",
-          },
-          {
-            href: "/blog",
-            title: "Blog",
-            description:
-              "Des articles pour aider les étudiants à progresser et à s'épanouir",
-          },
-        ],
+        textTrigger: "Blog",
+        href: "/blog",
       },
     ],
     [router]

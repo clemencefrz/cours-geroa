@@ -1,7 +1,10 @@
 import fs from "fs";
 import matter from "gray-matter";
 import getPostMetadata from "./utils";
-import ReactMarkdown from "react-markdown";
+import { PostHeader } from "./components/post-header";
+import { PostBody } from "./components/post-body";
+
+import Container from "./components/container";
 interface Params {
   slug: string;
 }
@@ -31,12 +34,17 @@ export default function BlogPage(props: { params: Params }) {
   const post = getPostContent(slug);
 
   return (
-    <div className="flex justify-center py-8">
-      <article className="max-w-4xl w-full bg-white rounded-lg p-8 shadow-lg">
-        <ReactMarkdown className="prose prose-lg md:prose-lg px-10 md:px-0 md:max-w-[750px] prose-p:my-3">
-          {post.content}
-        </ReactMarkdown>
-      </article>
-    </div>
+    <>
+      <Container>
+        <article className="mb-32">
+          <PostHeader
+            title={"post.title"}
+            coverImage={"/images/etudiante-devant-ordi.jpg"}
+            date={"2024-10-10"}
+          />
+          <PostBody content={post.content} />
+        </article>
+      </Container>
+    </>
   );
 }
