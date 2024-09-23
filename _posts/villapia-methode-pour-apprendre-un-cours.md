@@ -1,20 +1,20 @@
 ---
-title: "Du collège au lycée : comment réussir et trouver la méthode pour apprendre un cours, par Dominique Duriez directeur de Saint-Louis Villa Pia"
+title: "Réussir le passage Collège au Lycée : comment trouver la méthode pour apprendre un cours et réussir sa scolarité, d'après les conseils de Dominique Duriez, Directeur de Saint-Louis Villa Pia"
 description: "Découvrez comment réussir la transition du collège au lycée avec les conseils de Dominique Duriez, directeur de Saint-Louis VIlla Pia. Apprenez à adapter vos méthodes de travail selon votre profil pour bâtir votre avenir."
 date: "2024-09-23"
 coverImage: "/images/etudiante-devant-ordi.jpg"
 ---
 
-Le passage du collège au lycée marque un tournant majeur dans la vie d’un élève. Durant l’enfance, nous évoluons dans un cadre structuré, façonné par nos parents, nos professeurs, et les adultes qui nous entourent.
+Le passage du collège au lycée est un vrai tournant dans notre vie. Jusqu’ici, on avance dans un cocon, guidé par nos parents, nos profs, et tous les adultes qui nous entourent.
 
-Mais à l’approche du lycée, on aspire à sortir de ce cadre, à tracer sa propre voie, à affirmer sa liberté.
-En devenant maître de ses choix, on accepte aussi d’assumer pleinement ses échecs, tout autant que ses réussites. Impossible désormais de blâmer les autres pour nos faux pas ou nos malheurs : nous avançons selon notre propre volonté, libérés des contraintes imposées par l’enfance.
+Mais, en arrivant au lycée, quelque chose change. On commence à ressentir le besoin de sortir de ce cadre et de tracer notre propre chemin.
+On réalise qu’on doit maintenant faire nos propres choix et en assumer les conséquences. Fini de pouvoir blâmer les autres quand ça ne marche pas : cette fois, c’est à nous de jouer. On prend conscience que nos réussites, comme nos échecs, ne dépendront plus que de nous.
 
-Il est alors essentiel d’apprendre à se responsabiliser, à composer avec ces situations et à tirer le meilleur parti de ce qui nous entoure pour atteindre nos objectifs et réussir.
+Il faut apprendre à transformer cette nouvelle liberté en force pour avancer vers ce qu’on veut vraiment, pour faire de cette période une opportunité, plutôt qu’un obstacle.
 
-Le 19 septembre dernier, j'ai eu l'occasion d'assister à une cofnérence de Dominique Duriez, Directeur du lycée Saint-Louis Villa Pia, sur les stratégies à adopter pour transformer cette responsabilité en levier de succès. Fort de ses 25 ans d’expérience dans l’éducation et des avancées en neurosciences, il partage des clés concrètes pour tirer le meilleur parti de cette transition vers l'autonomie.
+Le 19 septembre dernier, j’ai assisté à une conférence de Dominique Duriez, Directeur du lycée Saint-Louis Villa Pia. Avec ses 25 ans d’expérience et les dernières découvertes en neurosciences, il nous a donné des conseils concrets pour faire de cette prise de responsabilité un vrai atout.
 
-L'objectif ? Trouver des solutions pour bâtir sa propre réussite, avec confiance et détermination, peu importe son profil.
+Son objectif ? Nous aider à construire notre réussite avec confiance, peu importe d’où on part.
 
 ## Nos différentes façons de penser
 
