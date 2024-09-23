@@ -30,6 +30,8 @@ export function generateMetadata({
 
   return {
     title,
+    keywords: post.keywords,
+    description: post.description,
     openGraph: {
       title,
     },

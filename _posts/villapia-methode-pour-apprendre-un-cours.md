@@ -3,6 +3,7 @@ title: "Réussir le passage du Collège au Lycée : La Méthode pour Apprendre u
 description: "Découvrez comment réussir la transition du collège au lycée avec les conseils de Dominique Duriez, directeur du lycée Saint-Louis Villa Pia. Apprenez à adapter vos méthodes de travail selon votre profil pour bâtir votre avenir, et adapter la méthode pour apprendre un cours."
 date: "2024-09-23"
 coverImage: "/images/etudiante-devant-ordi.jpg"
+keywords: ["apprendre", "villa pia"]
 ---
 
 Le passage du collège au lycée est un vrai tournant dans notre vie. Jusqu’ici, on avance dans un cocon, guidé par nos parents, nos profs, et tous les adultes qui nous entourent.

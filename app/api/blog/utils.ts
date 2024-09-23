@@ -1,14 +1,15 @@
 import fs from "fs";
 import matter from "gray-matter";
+import { Metadata } from "next";
 import { join } from "path";
 
-export type Post = {
+export interface Post extends Pick<Metadata, "keywords" | "description"> {
   slug: string;
   title: string;
   date: string;
   content: string;
   coverImage: string;
-};
+}
 
 const postsDirectory = join(process.cwd(), "_posts");
 
