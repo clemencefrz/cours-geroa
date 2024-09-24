@@ -123,3 +123,11 @@ En conclusion, Dominique Duriez, directeur du lycée Saint-Louis Villa Pia à Ba
 Le passage du collège au lycée est une étape importante où les élèves doivent apprendre à articuler savoir et savoir-faire. La clé de la réussite réside dans l'adaptabilité, la régularité des efforts et la motivation. En maîtrisant ces aspects, chacun peut devenir l'architecte de sa propre réussite.
 
 Je remercie Dominique Duriez et le lycée Saint-Louis Villa Pia pour avoir organisé cette conférence très enrichissante, ouverte au public.
+
+## Ressources supplémentaires
+
+Lien vers la vidéo de la conférence par Dominique Duriez [https://vp64.page.link/Methodo1-Video](https://vp64.page.link/Methodo1-Video)
+
+Les ressources vidéos + le diaporama + le support papier : [https://vp64.page.link/Methodologie1](https://vp64.page.link/Methodologie1)
+
+Pour connaître les prochaines conférences de Dominique Duriez, Directeur du lycée Saint-Louis Villa Pia : [https://vp64.page.link/conferences-2024-25](https://vp64.page.link/conferences-2024-25)
