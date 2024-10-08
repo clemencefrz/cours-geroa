@@ -18,9 +18,7 @@ const Block = ({ title, id, content, infos }: Props) => {
     >
       {/* Bloc de gauche */}
       <div className="w-full flex flex-col gap-6">
-        <h2 className="bg-gradient-to-b from-transparent to-brandThree from-40% text-wrap">
-          {title}
-        </h2>
+        <h2 className="text-wrap">{title}</h2>
         {content}
         <Button asChild className="md:self-start mt-9">
           <Link href="/contact">Je prends rendez-vous</Link>

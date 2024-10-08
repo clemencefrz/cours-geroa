@@ -3,7 +3,6 @@ import { motion, useInView } from "framer-motion";
 import CardTutor from "./CardTutor";
 import Title from "./Title";
 import { PropsWithChildren, useRef } from "react";
-import Image from "next/image";
 
 export const MotionDiv = ({
   children,
@@ -34,14 +33,6 @@ const About = () => {
 
       {/* Clémence et Damien, Notre missions, nos valeurs */}
       <MotionDiv title={`Hey ! Bienvenue aux cours Geroa`}>
-        {/* Image de nous deux */}
-        <Image
-          height={500}
-          width={300}
-          src={"/images/nous_deux.jpeg"}
-          alt={"Clémence et Damien, professeurs de Geroa"}
-        />
-
         <span>
           Nous sommes Clémence et Damien, deux ingénieurs Angloys. Notre mission
           ? Aider les lycéens et les étudiants à réussir dans leurs études et à

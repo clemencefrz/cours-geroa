@@ -8,6 +8,8 @@ import {
   Users,
 } from "lucide-react";
 import Block from "./Block";
+import CoursCollectifs from "./CoursCollectifs";
+import CoursParticuliers from "./CoursParticuliers";
 
 export const PointsCoursCollectifs = {
   points: [
@@ -16,7 +18,7 @@ export const PointsCoursCollectifs = {
       icon: Calendar,
       description: "Le mercredi soir ou le samedi matin",
     },
-    { icon: Users, description: "En petit groupe de 4 élèves maximum" },
+    { icon: Users, description: "En petit groupe de 5 élèves maximum" },
     { icon: DollarSign, description: "Tarifs avantageux" },
   ],
   href: "/nos-cours#cours-collectifs",
@@ -54,65 +56,9 @@ const NosCours = () => {
         </h2>
       </div>
 
-      <Block
-        title={"Nos cours collectifs"}
-        id={"cours-collectifs"}
-        content={
-          <div className="flex flex-col gap-8">
-            <p>
-              {`Les cours collectifs Geroa s'adressent aux lycéens et aux étudiants. Chaque semaine, les élèves travaillent en petit groupe (3-4), progressent à leur rythme, tout ça dans une bonne ambiance !`}
-            </p>
+      <CoursCollectifs />
 
-            <div>
-              <h3 className="font-semibold text-xl">
-                Les sessions de soutien scolaire
-              </h3>
-              <p>{`Pour rester alignés avec leur programme, les élèves et étudiants sélectionnent chaque semaine un cours correspondant au chapitre qu’ils étudient sur le moment.
-              
-              Plus détailler comment ça se passe le cours : chacun vient avec son chapitre à réviser et ses questions, en amont ils peeuvent demander des exos à l'avance, s'ils ont pas d'idées on leur propose, ça peut être individuel`}</p>
-            </div>
-            <div>
-              <h3 className="font-semibold text-xl">
-                {`Les cours de renforcement`}
-              </h3>
-              <p>
-                {`Ces cours sont réservés aux lycéens. Pendant les cours de renforcement, le groupe d'élève choissit à l'avance un chapitre précis du programme et on le révise en profondeur tous ensemble.`}
-              </p>
-            </div>
-          </div>
-        }
-        infos={PointsCoursCollectifs.points}
-      />
-
-      <Block
-        title={"Nos cours particuliers"}
-        id={"cours-particuliers"}
-        content={
-          <div className="flex flex-col gap-8">
-            <p>
-              {`Besoin d'une aide encore plus personnalisée et d'un entraînement intensif ? Les cours particuliers sont là pour ça. Que ce soit pour combler des lacunes, renforcer tes connaissances ou préparer un examen important, on t'offre un accompagnement sur mesure pour atteindre tes objectifs.`}
-            </p>
-
-            <div>
-              <h3 className="font-semibold text-xl">
-                {`Entraînement et renforcement sur les notions clés`}
-              </h3>
-              <p>
-                {`Nous ciblons ensemble les notions essentielles pour te garantir une compréhension solide et durable. Grâce à des exercices pratiques et des explications détaillées, tu gagneras en confiance et en compétence.`}
-              </p>
-            </div>
-            <div>
-              <h3 className="font-semibold text-xl">
-                {`Préparation spécifique au grand oral ou à d'autres examens`}
-              </h3>
-              <p>
-                {`Prépare-toi efficacement pour tes examens avec des sessions intensives axées sur la méthodologie, la gestion du stress, et la maîtrise du sujet. Je t'aide à développer une argumentation claire et convaincante.`}
-              </p>
-            </div>
-          </div>
-        }
-        infos={PointsCoursParticuliers.points}
-      />
+      <CoursParticuliers />
 
       <Block
         title={"Nos stages"}
@@ -145,7 +91,7 @@ const NosCours = () => {
           },
           {
             icon: Users,
-            description: "Révisions en groupe de 4 élèves maximum",
+            description: "Révisions en groupe de 5 élèves maximum",
           },
         ]}
       />

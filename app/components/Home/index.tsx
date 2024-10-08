@@ -108,7 +108,7 @@ const Home: React.FC = () => {
             title="Développe tes qualités personnelles"
             subtitle="Au-delà des compétences académiques, avec Cours Geroa on t'aide à développer des compétences essentielles pour réussir tant dans tes études que dans ta vie professionnelle."
           />
-          <div className="flex flex-col md:flex-row">
+          <div className="flex flex-col gap-8 md:flex-row">
             {[
               "Communication orale et écrite",
               "Gestion efficace du temps",

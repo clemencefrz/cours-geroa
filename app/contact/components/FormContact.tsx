@@ -11,7 +11,6 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 
 import { useForm } from "react-hook-form";
@@ -45,12 +44,6 @@ const ARRAY_SPECIALITES = [
 ] as const;
 
 type TYPE_SPECIALITES = (typeof ARRAY_SPECIALITES)[number];
-
-const ARRAY_PROFILE_TYPE = [
-  "Je suis parent",
-  "Je suis lycéen",
-  "Je suis étudiant",
-] as const;
 
 const ARRAY_VOIE = ["Générale", "Technologique", ""] as const;
 
@@ -129,19 +122,7 @@ const FormContact = () => {
   };
   return (
     <div className="flex flex-col gap-2">
-      <RadioGroup
-        defaultValue={ARRAY_PROFILE_TYPE[0]}
-        className="flex flex-row items-center gap-4"
-      >
-        <div className="flex items-center space-x-2">
-          {ARRAY_PROFILE_TYPE.map((value, key) => (
-            <div key={key} className="flex items-center space-x-2">
-              <RadioGroupItem value={value} id={value} aria-label={value} />
-              <Label htmlFor={value}>{value}</Label>
-            </div>
-          ))}
-        </div>
-      </RadioGroup>
+      <h2>Prenez rendez-vous en quelques clics !</h2>
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}

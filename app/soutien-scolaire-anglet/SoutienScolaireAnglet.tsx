@@ -1,15 +1,11 @@
 import { MotionDiv } from "@/app/about/component/About";
 import { FAQ } from "@/app/components/Home/FAQ";
-import Block from "@/app/nos-cours/components/Block";
-import {
-  PointsCoursCollectifs,
-  PointsCoursParticuliers,
-} from "@/app/nos-cours/components/NosCours";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import { FlipWords } from "@/components/ui/flip-words";
 
 import Link from "next/link";
+import CoursCollectifs from "../nos-cours/components/CoursCollectifs";
+import CoursParticuliers from "../nos-cours/components/CoursParticuliers";
 
 const items = [
   {
@@ -87,14 +83,6 @@ const SoutienScolaireAnglet = () => {
       </div>
       <MotionDiv title={`Hey ! Vous cherchez du soutien scolaire à Anglet ?`}>
         <div className="flex flex-row w-full items-center justify-center gap-4">
-          <Image
-            height={300}
-            width={200}
-            src={"/images/nous_deux.jpeg"}
-            alt={"Clémence et Damien, professeurs de Geroa à Anglet"}
-            className="object-cover rounded-lg"
-          />
-
           <span className="w-64 text-justify">
             {` Nous sommes Clémence et Damien, deux ingénieurs vivant à Anglet. Notre
           mission ? Aider les lycéens et les étudiants d'Anglet à réussir dans
@@ -104,65 +92,9 @@ const SoutienScolaireAnglet = () => {
           </span>
         </div>
       </MotionDiv>
-      <Block
-        title={"Nos cours collectifs à Anglet"}
-        id={"cours-collectifs"}
-        content={
-          <div className="flex flex-col gap-8">
-            <p>
-              {`Les cours collectifs Geroa s'adressent aux lycéens et aux étudiants d'Anglet. Chaque semaine, les élèves travaillent en petit groupe (3-4), progressent à leur rythme, tout ça dans une bonne ambiance !`}
-            </p>
+      <CoursCollectifs />
 
-            <div>
-              <h3 className="font-semibold text-xl">
-                Les sessions de soutien scolaire à Anglet
-              </h3>
-              <p>{`Pour rester alignés avec leur programme, les élèves et étudiants d'Anglet sélectionnent chaque semaine un cours correspondant au chapitre qu’ils étudient sur le moment.
-              
-              Chacun vient avec son chapitre à réviser et ses questions, en amont ils peeuvent demander des exos à l'avance, s'ils ont pas d'idées on leur propose, ça peut être individuel`}</p>
-            </div>
-            <div>
-              <h3 className="font-semibold text-xl">
-                {`Les cours de renforcement à Anglet`}
-              </h3>
-              <p>
-                {`Ces cours sont réservés aux lycéens. Pendant les cours de renforcement, le groupe d'élève choissit à l'avance un chapitre précis du programme et on le révise en profondeur tous ensemble.`}
-              </p>
-            </div>
-          </div>
-        }
-        infos={PointsCoursCollectifs.points}
-      />
-
-      <Block
-        title={"Nos cours particuliers à Anglet"}
-        id={"cours-particuliers"}
-        content={
-          <div className="flex flex-col gap-8">
-            <p>
-              {`Besoin d'une aide encore plus personnalisée et d'un entraînement intensif ? Les cours particuliers sont là pour ça. Que ce soit pour combler des lacunes, renforcer tes connaissances ou préparer un examen important, on t'offre un accompagnement sur mesure pour atteindre tes objectifs.`}
-            </p>
-
-            <div>
-              <h3 className="font-semibold text-xl">
-                {`Entraînement et renforcement sur les notions clés`}
-              </h3>
-              <p>
-                {`Nous ciblons ensemble les notions essentielles pour te garantir une compréhension solide et durable. Grâce à des exercices pratiques et des explications détaillées, tu gagneras en confiance et en compétence.`}
-              </p>
-            </div>
-            <div>
-              <h3 className="font-semibold text-xl">
-                {`Préparation spécifique au grand oral ou à d'autres examens`}
-              </h3>
-              <p>
-                {`Prépare-toi efficacement pour tes examens avec des sessions intensives axées sur la méthodologie, la gestion du stress, et la maîtrise du sujet. Je t'aide à développer une argumentation claire et convaincante.`}
-              </p>
-            </div>
-          </div>
-        }
-        infos={PointsCoursParticuliers.points}
-      />
+      <CoursParticuliers />
       <FAQ items={items} />
     </div>
   );
