@@ -57,7 +57,7 @@ Sur le plan cognitif, cela change pas mal de choses. En prenant conscience de no
 
 ## Apprendre à mieux apprendre dans le monde d’aujourd’hui
 
-### Quelle méthode pour apprendre un cours utiliser selon son mode de pensée ?
+### Quelle méthode pour apprendre un cours selon son mode de pensée ?
 
 Imaginons que vous ayez bientôt un contrôle de mathématiques. Pour réussir, vous devez maîtriser la leçon. Si vous avez une pensée analytique, vous allez **apprendre votre leçon par cœur** : la lire, la réécrire, l’analyser en profondeur, puis éventuellement faire des exercices.
 
