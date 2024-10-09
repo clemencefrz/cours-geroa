@@ -12,7 +12,7 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { toast } from "sonner";
-import { EmailNewsletterRequestBody } from "@/api/send/newsletter/route";
+import { EmailNewsletterRequestBody } from "@/app/api/send/newsletter/route";
 const SEND_NEWSLETTER_ROUTE = "api/send/newsletter";
 const FormSchema = z.object({
   email: z

@@ -19,7 +19,7 @@ import SelectFormItem from "./SelectFormItem";
 import MatieresFormField from "./MatieresFormField";
 
 import { toast } from "sonner";
-import { EmailContactRequestBody } from "@/api/send/contact/route";
+import { EmailContactRequestBody } from "@/app/api/send/contact/route";
 
 const SEND_CONTACT_ROUTE = "api/send/contact";
 

@@ -1,4 +1,4 @@
-import { Post } from "@/api/blog/utils";
+import { Post } from "@/app/api/blog/utils";
 import Avatar from "./avatar";
 import CoverImage from "./cover-image";
 import DateFormatter from "./date-formatter";

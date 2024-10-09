@@ -1,7 +1,7 @@
 import { PostHeader } from "../components/post-header";
 import { PostBody } from "../components/post-body";
 import Container from "../components/container";
-import { getAllPosts, getPostBySlug } from "@/api/blog/utils";
+import { getAllPosts, getPostBySlug } from "@/app/api/blog/utils";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 
