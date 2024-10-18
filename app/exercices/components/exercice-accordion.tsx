@@ -5,29 +5,23 @@ import {
   AccordionContent,
 } from "@/components/ui/accordion";
 import "katex/dist/katex.min.css";
-import { BlockMath } from "react-katex";
-interface ExerciseAccordionProps {
-  exercise: { title: string; enonce: string };
-  solution: string;
-}
+import Latex from "react-latex-next";
+import { Exercise } from "../type";
 
-const ExerciseAccordion: React.FC<ExerciseAccordionProps> = ({
-  exercise,
-  solution,
-}) => {
+type Props = { exercise: Exercise };
+
+const ExerciseAccordion: React.FC<Props> = ({ exercise }): JSX.Element => {
   return (
     <>
-      {/* Exercice */}
       <h2 className="font-semibold">{exercise.title}</h2>
-      <BlockMath math="\frac{a}{b} = c" />
+      <Latex>{exercise.problemStatement}</Latex>
       <Accordion type="single" collapsible>
-        {/* Solution */}
         <AccordionItem value="solution">
           <AccordionTrigger>
             <h2 className="font-semibold">Afficher la solution</h2>
           </AccordionTrigger>
           <AccordionContent>
-            <p>{solution}</p>
+            <Latex>{exercise.solution}</Latex>
           </AccordionContent>
         </AccordionItem>
       </Accordion>
