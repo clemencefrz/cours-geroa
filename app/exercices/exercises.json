@@ -1,0 +1,33 @@
+{
+  "categories": [
+    {
+      "category": "Transformées de Laplace",
+      "exercises": [
+        {
+          "id": 1,
+          "title": "Exercice 1",
+          "problemStatement": "Calculer la transformée de Laplace de la fonction exponentielle : $$f(t) = e^{3t}$$",
+          "solution": "La solution est : $$F(p) = \\frac{1}{p - 3}, \\text{ pour } p > 3$$"
+        },
+        {
+          "id": 2,
+          "title": "Exercice 2",
+          "problemStatement": "Calculer la transformée de Laplace de la fonction sinus : $$h(t) = \\sin(2t)$$",
+          "solution": "Pour évaluer cette intégrale, nous utilisons la formule de transformée de Laplace pour la fonction sinus : \n$$L(\\sin(\\omega t)) = \\frac{\\omega}{p^2 + \\omega^2}$$ \n\nDans notre cas, $\\omega = 2$, donc : \n$$H(p) = \\frac{2}{p^2 + 2^2} = \\frac{2}{p^2 + 4}$$ \n\nLa solution est donc : $$H(p) = \\frac{2}{p^2 + 4}, \\text{ pour } p > 0$$"
+        },
+        {
+          "id": 3,
+          "title": "Exercice 3",
+          "problemStatement": "Calculer la transformée de Laplace de la fonction cosinus : $$j(t) = \\cos(5t)$$",
+          "solution": "La transformée de Laplace est donnée par : $$J(p) = L(j(t)) = \\int_{0}^{+\\infty} \\cos(5t) e^{-pt} dt$$ \n\nPour cette intégrale, nous utilisons la formule de transformée de Laplace pour la fonction cosinus : \n$$L(\\cos(\\omega t)) = \\frac{p}{p^2 + \\omega^2}$$ \n\nDans notre cas, $\\omega = 5$, donc : \n$$J(p) = \\frac{p}{p^2 + 5^2} = \\frac{p}{p^2 + 25}$$ \n\nLa solution est donc : $$J(p) = \\frac{p}{p^2 + 25}, \\text{ pour } p > 0$$"
+        },
+        {
+          "id": 4,
+          "title": "Exercice 4",
+          "problemStatement": "Calculer la transformée de Laplace de la fonction f : $$f(t) = (t-2) H(t-2)$$",
+          "solution": "On pose : $$ g(t) = t H(t) $$ \n\nOn a alors : $$g(t-2)=(t-2)H(t-2)=f(t)$$ \n\nDonc, si on calcule la transformée de Laplace de g(t-2), on obtient celle de f(t). \n\nUtilisons la formule du retard pour la transformée de Laplace qui est :\n$$ L[g(t - a)](p)=e^{-ap}L[g(t)](p) $$ \n\n où $a$ est le retard. $$ $$ \n\n Dans notre cas, $a=2$. $$ $$ \n\n De plus, on a : $$ L[g(t)](p) = L[t H(t)](p) = \\frac{1}{p^2} $$ \n\n Donc on obtient : $$L[f(t)](p)=L[g(t-2)](p)=e^{-2p}L[g(t)](p)=\\frac{e^{-2p}}{p^2}$$ \n\n La solution est donc : $$L[f(t)](p)=\\frac{e^{-2p}}{p^2} $$ "
+        }
+      ]
+    }
+  ]
+}
