@@ -134,7 +134,7 @@ const FormContact = () => {
             label="Classe*"
             name="class"
             options_value={ARRAY_CLASSES}
-            placeholder="Selectionne ta classe"
+            placeholder="Selectionnez une classe"
           />
           {/* Voie Générale ou Technologique */}
           {estUnLyceenEnPremiereOuTerminale && (
@@ -186,7 +186,7 @@ const FormContact = () => {
               label="Spécialité*"
               name="specialite"
               options_value={ARRAY_SPECIALITES}
-              placeholder="Selectionne ta spécialité"
+              placeholder="Selectionnez une spécialité"
             />
           )}
 
@@ -200,7 +200,7 @@ const FormContact = () => {
               name="firstname"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Prénom*</FormLabel>
+                  <FormLabel>{`Prénom de l'élève*`}</FormLabel>
                   <FormControl>
                     <Input placeholder="Prénom" {...field} />
                   </FormControl>
@@ -242,7 +242,7 @@ const FormContact = () => {
             label="Ville"
             name="ville"
             options_value={ARRAY_VILLES}
-            placeholder="Selectionne ta ville"
+            placeholder="Selectionnez votre ville"
           />
 
           <span>*Champ requis</span>
