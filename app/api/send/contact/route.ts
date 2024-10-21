@@ -1,6 +1,6 @@
 import { EmailTemplate } from "@/app/contact/components/email-template";
 import { FormInputs } from "@/app/contact/components/FormContact";
-import { MAIL_COURS_GEROA } from "@/lib/resend/constant";
+import { MAIL_COURS_GEROA } from "@/src/lib/constant";
 import { Resend } from "resend";
 
 const RESEND_API_KEY = "re_hR6f89g9_AXg1KAQyAH1HMYmDSkYir2UK";

@@ -1,11 +1,12 @@
-import { MotionDiv } from "@/app/about/component/About";
-import { FAQ } from "@/app/components/Home/FAQ";
-import { Button } from "@/components/ui/button";
-import { FlipWords } from "@/components/ui/flip-words";
+import { MotionDiv } from "@/app/_components/specific/contact/About";
+
+import { Button } from "@/app/_components/design-system/button";
+import { FlipWords } from "@/app/_components/design-system/flip-words";
 
 import Link from "next/link";
-import CoursCollectifs from "../nos-cours/components/CoursCollectifs";
-import CoursParticuliers from "../nos-cours/components/CoursParticuliers";
+import CoursCollectifs from "../_components/specific/nos-cours/CoursCollectifs";
+import CoursParticuliers from "../_components/specific/nos-cours/CoursParticuliers";
+import { FAQ } from "../_components/specific/home/FAQ";
 
 const items = [
   {

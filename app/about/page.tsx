@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import About from "./component/About";
+import About from "../_components/specific/contact/About";
 export const metadata: Metadata = {
   title: "Cours Geroa - À propos",
   description:

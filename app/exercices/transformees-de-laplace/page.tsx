@@ -1,6 +1,6 @@
 import "katex/dist/katex.min.css";
-import ExerciseAccordion from "../components/exercice-accordion";
-import data from "../exercises.json";
+import ExerciseAccordion from "../../_components/specific/exercice-accordion";
+import data from "../../../data/exercises/exercises.json";
 import { notFound } from "next/navigation";
 
 const TITLE_CATEGORY = "Transformées de Laplace";

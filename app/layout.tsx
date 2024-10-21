@@ -1,10 +1,10 @@
 import { Karla } from "next/font/google";
-import "./globals.css";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import { Toaster } from "@/components/ui/sonner";
+import "../styles/globals.css";
+import Header from "./_components/specific/header";
+import Footer from "./_components/specific/footer";
+import { Toaster } from "@/app/_components/design-system/sonner";
 import { Metadata } from "next";
-import GoogleAnalytics from "./GoogleAnalytics";
+import GoogleAnalytics from "./_components/specific/google-analytics";
 
 const font = Karla({ subsets: ["latin"] });
 
