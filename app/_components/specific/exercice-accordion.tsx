@@ -6,7 +6,7 @@ import {
 } from "@/app/_components/design-system/accordion";
 import "katex/dist/katex.min.css";
 import Latex from "react-latex-next";
-import { Exercise } from "../../../src/entities/type";
+import { Exercise } from "../../../src/entities/exercise";
 
 type Props = { exercise: Exercise };
 
