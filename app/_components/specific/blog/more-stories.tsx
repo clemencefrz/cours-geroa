@@ -1,4 +1,4 @@
-import { Post } from "@/src/application/services/blog";
+import { Post } from "@/src/entities/blog";
 import { PostPreview } from "./post-preview";
 
 type Props = {

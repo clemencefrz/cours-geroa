@@ -23,32 +23,17 @@ import { toast } from "sonner";
 import { EmailContactRequestBody } from "@/app/api/send/contact/route";
 import MatieresFormField from "./MatieresFormField";
 import SelectFormItem from "./SelectFormItem";
+import {
+  ARRAY_CLASSES,
+  ARRAY_SPECIALITES,
+  ARRAY_VILLES,
+  ARRAY_VOIE,
+  TYPE_CLASSES,
+  TYPE_SPECIALITES,
+  TYPE_VILLES,
+} from "@/src/entities/student";
 
 const SEND_CONTACT_ROUTE = "api/send/contact";
-
-const ARRAY_CLASSES = [
-  "Seconde",
-  "Première",
-  "Terminale",
-  "Supérieure",
-] as const;
-
-type TYPE_CLASSES = (typeof ARRAY_CLASSES)[number];
-
-const ARRAY_VILLES = ["Anglet", "Bayonne", "Biarritz", "Autre ville"] as const;
-
-type TYPE_VILLES = (typeof ARRAY_VILLES)[number];
-
-const ARRAY_SPECIALITES = [
-  "Mathématiques",
-  "Physique-Chimie",
-  "Numérique et sciences informatiques",
-  "Sciences de l'ingénieur",
-] as const;
-
-type TYPE_SPECIALITES = (typeof ARRAY_SPECIALITES)[number];
-
-const ARRAY_VOIE = ["Générale", "Technologique", ""] as const;
 
 const formSchema = z.object({
   class: z.enum(ARRAY_CLASSES),
