@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import NosCours from "./components/NosCours";
+import NosCours from "../_components/specific/nos-cours/NosCours";
 export const metadata: Metadata = {
   title:
     "Nos cours particuliers et services de soutien scolaire à Anglet, Biarritz et Bayonne",

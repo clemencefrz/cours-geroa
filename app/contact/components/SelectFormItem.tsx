@@ -4,7 +4,7 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/form";
+} from "@/app/_components/design-system/form";
 import { ControllerRenderProps, UseFormReturn } from "react-hook-form";
 import { FormInputs } from "./FormContact";
 import {
@@ -13,7 +13,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "@/app/_components/design-system/select";
 
 type Props<T> = {
   form: UseFormReturn<FormInputs, any, undefined>;

@@ -5,11 +5,11 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/form";
+} from "@/app/_components/design-system/form";
 
 import { UseFormReturn } from "react-hook-form";
 import { FormInputs } from "./FormContact";
-import { Checkbox } from "@/components/ui/checkbox";
+import { Checkbox } from "@/app/_components/design-system/checkbox";
 
 type Props = {
   form: UseFormReturn<FormInputs, any, undefined>;

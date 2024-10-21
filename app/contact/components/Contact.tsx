@@ -2,7 +2,7 @@ import { Mail, Phone } from "lucide-react";
 import FormContact from "./FormContact";
 import Image from "next/image";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/app/_components/design-system/button";
 
 const Contact = () => {
   return (

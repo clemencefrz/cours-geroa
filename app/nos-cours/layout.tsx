@@ -1,4 +1,4 @@
-import BannerContact from "@/components/generic/BannerContact";
+import BannerContact from "@/app/_components/generic/BannerContact";
 import { PropsWithChildren } from "react";
 
 const Layout = ({ children }: PropsWithChildren) => {

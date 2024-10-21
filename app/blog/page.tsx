@@ -1,6 +1,6 @@
-import { getAllPosts } from "../api/blog/utils";
-import { Intro } from "./components/intro";
-import { MoreStories } from "./components/more-stories";
+import { getAllPosts } from "../../src/application/services/blog";
+import { Intro } from "../_components/specific/blog/intro";
+import { MoreStories } from "../_components/specific/blog/more-stories";
 
 export default function Home() {
   const allPosts = getAllPosts();
