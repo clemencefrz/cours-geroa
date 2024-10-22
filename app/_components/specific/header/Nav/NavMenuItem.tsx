@@ -7,7 +7,6 @@ import {
 } from "@/app/_components/design-system/navigation-menu";
 import ListItem from "./ListItem";
 import Link from "next/link";
-import { ButtonProps } from "@/app/_components/design-system/button";
 
 type TypeListItemContent = {
   href: string;
@@ -17,7 +16,6 @@ type TypeListItemContent = {
 
 type NavMenuItemPropsWithContent = {
   textTrigger: string;
-  onTriggerClick?: ButtonProps["onClick"];
   navContentItems: TypeListItemContent[];
 };
 
@@ -49,9 +47,7 @@ const NavMenuItem = (props: NavMenuItemProps) => {
   }
   return (
     <NavigationMenuItem>
-      <NavigationMenuTrigger onClick={props.onTriggerClick}>
-        {props.textTrigger}
-      </NavigationMenuTrigger>
+      <NavigationMenuTrigger>{props.textTrigger}</NavigationMenuTrigger>
       <NavigationMenuContent>
         <ul className="flex flex-col gap-3 p-3 md:w-[500px]">
           {props.navContentItems.map(({ description, ...itemProps }, key) => (
