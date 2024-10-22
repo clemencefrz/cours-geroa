@@ -10,23 +10,7 @@ import {
 } from "@/app/_components/design-system/sheet";
 import Link from "next/link";
 import { Menu } from "lucide-react";
-const navigationItems = [
-  { textTrigger: "Accueil", href: "/" },
-  {
-    textTrigger: "Nos cours",
-    href: "/nos-cours",
-    navContentItems: [
-      { href: "/nos-cours#cours-collectifs", title: "Les cours collectifs" },
-      {
-        href: "/nos-cours#cours-particuliers",
-        title: "Les cours particuliers",
-      },
-      { href: "/nos-cours#stages", title: "Les stages" },
-    ],
-  },
-  { textTrigger: "Qui sommes-nous ?", href: "/about" },
-  { textTrigger: "Blog", href: "/blog" },
-];
+import menuData from "@/data/navlinks/nav-links.json";
 
 const NavMobile = () => {
   return (
@@ -41,34 +25,33 @@ const NavMobile = () => {
           <SheetTitle>Menu</SheetTitle>
         </SheetHeader>
         <div className="space-y-4 p-4">
-          {navigationItems.map((item, index) => (
+          {menuData.menuItems.map((item, index) => (
             <div key={index}>
-              {/* Main navigation item */}
-              {item.href ? (
+              {item.url ? (
                 <a
-                  href={item.href}
+                  href={item.url}
                   className="block text-lg font-semibold text-gray-900 hover:text-blue-600"
                 >
-                  {item.textTrigger}
+                  {item.label}
                 </a>
               ) : (
                 <button
                   type="button"
                   className="block text-lg font-semibold text-gray-900 hover:text-blue-600"
                 >
-                  {item.textTrigger}
+                  {item.label}
                 </button>
               )}
-              {/* Sub-menu items */}
-              {item.navContentItems && (
+
+              {item.subItems && (
                 <div className="ml-4 mt-2 space-y-2">
-                  {item.navContentItems.map((subItem, subIndex) => (
+                  {item.subItems.map((subItem, subIndex) => (
                     <a
                       key={subIndex}
-                      href={subItem.href}
+                      href={subItem.url}
                       className="block text-sm text-gray-700 hover:underline"
                     >
-                      <span className="font-semibold">{subItem.title}</span>
+                      <span className="font-semibold">{subItem.label}</span>
                     </a>
                   ))}
                 </div>

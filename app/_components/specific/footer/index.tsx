@@ -2,37 +2,29 @@ import Logo from "../../generic/Logo";
 import FooterHeader from "./FooterHeader";
 import FooterLink from "./FooterLink";
 import { MapPin, Phone, Clock } from "lucide-react";
+import menuData from "@/data/navlinks/nav-links.json";
 
 const navigation = {
-  general: [
-    { name: "Accueil", href: "/" },
-    { name: "Nos services", href: "/nos-cours" },
-    { name: "Blog", href: "/blog" },
-    { name: "À propos", href: "/about" },
-    { name: "Ressources", href: "/login" },
-    { name: "Se connecter", href: "/login" },
-  ],
-
   contactInfo: [
     {
-      name: "Anglet",
+      label: "Anglet",
       href: "/contact",
       icon: <MapPin className="h-4 w-4 text-gray-500" />,
     },
     {
-      name: "06 65 45 22 14",
+      label: "06 65 45 22 14",
       href: "/contact",
       icon: <Phone className="h-4 w-4 text-gray-500" />,
     },
     {
-      name: "Lun. à Sam 12-14h",
+      label: "Lun. à Sam 12-14h",
       href: "/contact",
       icon: <Clock className="h-4 w-4 text-gray-500" />,
     },
   ],
   legal: [
-    { name: "Mention légale", href: "/privacy" },
-    { name: "Réglement intérieur", href: "/terms" },
+    { label: "Mention légale", href: "/privacy" },
+    { label: "Réglement intérieur", href: "/terms" },
   ],
 };
 
@@ -55,9 +47,9 @@ const Footer = () => {
               <div>
                 <FooterHeader>Tu cherches quelque chose ?</FooterHeader>
                 <ul role="list" className="mt-4 space-y-1.5 list-none ml-0">
-                  {navigation.general.map((item) => (
-                    <li key={item.name}>
-                      <FooterLink href={item.href}>{item.name}</FooterLink>
+                  {menuData.menuItems.map((item) => (
+                    <li key={item.label}>
+                      <FooterLink href={item.url}>{item.label}</FooterLink>
                     </li>
                   ))}
                 </ul>
@@ -69,11 +61,11 @@ const Footer = () => {
                 <ul role="list" className="mt-4 space-y-1.5 list-none ml-0">
                   {navigation.contactInfo.map((item) => (
                     <li
-                      key={item.name}
+                      key={item.label}
                       className={"flex flex-row items-center gap-2"}
                     >
                       {item.icon}
-                      <FooterLink href={item.href}>{item.name}</FooterLink>
+                      <FooterLink href={item.href}>{item.label}</FooterLink>
                     </li>
                   ))}
                 </ul>
@@ -82,8 +74,8 @@ const Footer = () => {
                 <FooterHeader>Légal</FooterHeader>
                 <ul role="list" className="mt-4 space-y-1.5 list-none ml-0">
                   {navigation.legal.map((item) => (
-                    <li key={item.name}>
-                      <FooterLink href={item.href}>{item.name}</FooterLink>
+                    <li key={item.label}>
+                      <FooterLink href={item.href}>{item.label}</FooterLink>
                     </li>
                   ))}
                 </ul>

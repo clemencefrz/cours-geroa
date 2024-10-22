@@ -12,7 +12,6 @@ export function Nav() {
   const router = useRouter();
   const composants: NavMenuItemProps[] = useMemo(
     () => [
-      { textTrigger: "Accueil", href: "/" },
       {
         textTrigger: "Nos cours",
         onTriggerClick: () => {
