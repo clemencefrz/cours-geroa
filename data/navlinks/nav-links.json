@@ -23,6 +23,10 @@
       "url": "/about"
     },
     {
+      "label": "Exercices",
+      "url": "/exercices"
+    },
+    {
       "label": "Blog",
       "url": "/blog"
     }
