@@ -19,7 +19,7 @@ export default async function Page() {
   return (
     <div className="flex flex-col items-center gap-8">
       <h1>{chapter.title}</h1>
-      <h2>{"Calcul de Transformée de Laplace"}</h2>
+      <h2>{chapter.title}</h2>
       <div className="flex flex-col gap-4 w-full">
         {exercises.map((exercise, key) => (
           <ExerciseAccordion key={key} exercise={exercise} />
