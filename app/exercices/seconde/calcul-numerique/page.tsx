@@ -1,9 +1,9 @@
 import "katex/dist/katex.min.css";
-import data from "../../../data/exercises/exercises.json";
+import data from "@/data/exercises/exercises.json";
 import { notFound } from "next/navigation";
 import ExerciseAccordion from "@/app/_components/specific/exercices/exercice-accordion";
 
-const TITLE_CHAPTER = "Transformées de Laplace";
+const TITLE_CHAPTER = "Calcul numérique";
 
 export default async function Page() {
   const chapter = data.chapters.find(

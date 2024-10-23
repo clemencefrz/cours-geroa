@@ -8,38 +8,19 @@ import {
 import ListItem from "./ListItem";
 import Link from "next/link";
 
-type TypeListItemContent = {
-  href: string;
-  title: string;
-  description?: string;
-};
-
-type NavMenuItemPropsWithContent = {
-  textTrigger: string;
-  navContentItems: TypeListItemContent[];
-};
-
-type NavMenuItemSimple = {
-  textTrigger: string;
-  href: string;
-};
-
-export type NavMenuItemProps = NavMenuItemSimple | NavMenuItemPropsWithContent;
-
-// Type guard to check if props is NavMenuItemSimple
-const isNavMenuItemPropsWithContent = (
-  props: NavMenuItemProps
-): props is NavMenuItemPropsWithContent => {
-  return "navContentItems" in props;
+type NavMenuItemProps = {
+  url: string;
+  label: string;
+  subItems?: { url: string; label: string }[];
 };
 
 const NavMenuItem = (props: NavMenuItemProps) => {
-  if (!isNavMenuItemPropsWithContent(props)) {
+  if (!props.subItems?.length) {
     return (
       <NavigationMenuItem>
-        <Link href={props.href} legacyBehavior passHref>
+        <Link href={props.url} legacyBehavior passHref>
           <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-            {props.textTrigger}
+            {props.label}
           </NavigationMenuLink>
         </Link>
       </NavigationMenuItem>
@@ -47,12 +28,12 @@ const NavMenuItem = (props: NavMenuItemProps) => {
   }
   return (
     <NavigationMenuItem>
-      <NavigationMenuTrigger>{props.textTrigger}</NavigationMenuTrigger>
+      <NavigationMenuTrigger>{props.label}</NavigationMenuTrigger>
       <NavigationMenuContent>
         <ul className="flex flex-col gap-3 p-3 md:w-[500px]">
-          {props.navContentItems.map(({ description, ...itemProps }, key) => (
-            <ListItem key={key} {...itemProps}>
-              {description}
+          {props.subItems.map(({ label, url }, key) => (
+            <ListItem key={key} href={url}>
+              {label}
             </ListItem>
           ))}
         </ul>
