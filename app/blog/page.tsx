@@ -1,4 +1,4 @@
-import { getAllPosts } from "../../src/application/services/blog";
+import { getAllPosts } from "../../src/infrastructure/blog";
 import { Intro } from "../_components/specific/blog/intro";
 import { MoreStories } from "../_components/specific/blog/more-stories";
 

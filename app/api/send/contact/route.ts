@@ -1,6 +1,5 @@
 import { EmailTemplate } from "@/app/contact/components/email-template";
 import { FormInputs } from "@/app/contact/components/FormContact";
-import { MAIL_COURS_GEROA } from "@/src/lib/constant";
 import { Resend } from "resend";
 
 const RESEND_API_KEY = "re_hR6f89g9_AXg1KAQyAH1HMYmDSkYir2UK";
@@ -44,10 +43,10 @@ export async function POST(request: Request) {
     }
 
     const { subject } = body;
-
+    console.info(process.env.MAIL_COURS_GEROA);
     const { data, error } = await resend.emails.send({
       from: `${body.lastname} <contact@resend.dev>`,
-      to: [MAIL_COURS_GEROA],
+      to: process.env.MAIL_COURS_GEROA ?? "",
       subject,
       react: EmailTemplate(body),
     });
