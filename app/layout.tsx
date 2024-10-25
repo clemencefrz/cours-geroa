@@ -23,13 +23,11 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <GoogleAnalytics />
-      <body className={font.className}>
-        <div className="flex flex-col gap-40 justify-center min-h-screen">
-          <div>
-            <Header />
-            <main className="mx-9 mt-9 gap-9">{children}</main>
-          </div>
-          <Toaster />
+      <body className={`${font.className} min-h-screen`}>
+        <div className="flex flex-col">
+          <Header />
+          <main className="mx-9 mt-9 gap-9 ">{children}</main>
+          <Toaster className="absolute" />
           <Footer />
         </div>
       </body>
