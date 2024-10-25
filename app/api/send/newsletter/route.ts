@@ -1,4 +1,3 @@
-import { MAIL_COURS_GEROA } from "@/src/lib/constant";
 import { Resend } from "resend";
 
 const RESEND_API_KEY = "re_hR6f89g9_AXg1KAQyAH1HMYmDSkYir2UK";
@@ -35,11 +34,11 @@ export async function POST(request: Request) {
         status: 400,
       });
     }
-
+    console.info(process.env.MAIL_COURS_GEROA);
     const { subject } = body;
     const { data, error } = await resend.emails.send({
       from: `${body.email} <contact@resend.dev>`,
-      to: [MAIL_COURS_GEROA],
+      to: process.env.MAIL_COURS_GEROA ?? "",
       subject,
       text: "Inscription",
     });
