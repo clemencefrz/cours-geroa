@@ -1,6 +1,6 @@
 "use client";
 import { TextGenerateEffect } from "@/app/_components/design-system/text-generate-effect";
-import { cn } from "@/src/lib/utils";
+import { cn } from "@/src/utils/cn";
 
 const Title = () => {
   return (
