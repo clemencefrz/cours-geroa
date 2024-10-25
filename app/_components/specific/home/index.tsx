@@ -3,7 +3,7 @@
 import { useRef, ReactNode } from "react";
 import Image from "next/image";
 import { motion, useInView } from "framer-motion";
-import { cn } from "@/src/lib/utils";
+import { cn } from "@/src/utils/cn";
 import { Hero } from "./Hero";
 import Services from "./Services";
 import AboutUs from "./AboutUs";

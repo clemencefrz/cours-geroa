@@ -1,4 +1,4 @@
-import { cn } from "@/src/lib/utils";
+import { cn } from "@/src/utils/cn";
 import { motion } from "framer-motion";
 
 const bgColors = ["bg-brandTwo", "bg-brandThree", "bg-brandFour"];

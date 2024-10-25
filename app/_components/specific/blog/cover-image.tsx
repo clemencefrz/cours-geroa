@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { cn } from "@/src/lib/utils";
+import { cn } from "@/src/utils/cn";
 
 type Props = {
   title: string;

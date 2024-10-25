@@ -1,5 +1,5 @@
 import { NavigationMenuLink } from "@/app/_components/design-system/navigation-menu";
-import { cn } from "@/src/lib/utils";
+import { cn } from "@/src/utils/cn";
 import React from "react";
 
 const ListItem = React.forwardRef<
