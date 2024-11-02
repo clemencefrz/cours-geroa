@@ -3,6 +3,9 @@ const nextConfig = {
     images: {
       domains: ['media.istockphoto.com'],
     },
+    async rewrites() {
+      return [{ source: '/api/:path*', destination: '/src/infrastructure/api/:path*' }]
+    },
   };
   
 

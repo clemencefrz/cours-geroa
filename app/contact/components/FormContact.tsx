@@ -20,7 +20,7 @@ import { useForm } from "react-hook-form";
 import { useMemo } from "react";
 
 import { toast } from "sonner";
-import { EmailContactRequestBody } from "@/src/infrastructure/api/send/contact/route";
+import { EmailContactRequestBody } from "@/app/api/send/contact/route";
 import MatieresFormField from "./MatieresFormField";
 import SelectFormItem from "./SelectFormItem";
 import {
