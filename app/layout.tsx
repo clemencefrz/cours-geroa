@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className={`${font.className} min-h-screen`}>
         <div className="flex flex-col">
           <Header />
-          <main className="mx-9 mt-9 gap-9 ">{children}</main>
+          <main className="mx-9 mt-9 gap-8 ">{children}</main>
           <Toaster className="absolute" />
           <Footer />
         </div>
