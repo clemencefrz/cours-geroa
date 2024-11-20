@@ -3,14 +3,11 @@ import data from "@/data/exercises/exercises.json";
 import { notFound } from "next/navigation";
 import ExerciseAccordion from "@/app/_components/specific/exercices/exercice-accordion";
 
-const TITLE_CHAPTERS = [
-  "Calcul numérique",
-  "Manipulation des nombres négatifs",
-];
+const TITLE_CHAPTER = "Fonctions";
 
 export default async function Page() {
-  const chapter = data.chapters.find((chapter) =>
-    TITLE_CHAPTERS.includes(chapter.title)
+  const chapter = data.chapters.find(
+    (chapter) => chapter.title === TITLE_CHAPTER
   );
 
   if (!chapter) {
