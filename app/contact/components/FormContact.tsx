@@ -41,6 +41,7 @@ const formSchema = z.object({
     .string()
     .min(5, { message: "L'e-mail doit être renseigné." })
     .email("L'e-mail n'est pas valide."),
+  phoneNumber: z.string().optional(),
   voie: z.enum(ARRAY_VOIE),
   firstname: z.string().min(2, {
     message: "Le prénom doit contenir au moins 2 caractères.",
@@ -219,6 +220,20 @@ const FormContact = () => {
                 <FormLabel>e-mail*</FormLabel>
                 <FormControl>
                   <Input type="email" placeholder="e-mail" {...field} />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+          {/* Numéro de téléphone */}
+          <FormField
+            control={form.control}
+            name="phoneNumber"
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel>Numéro de téléphone</FormLabel>
+                <FormControl>
+                  <Input type="tel" placeholder="Téléphone" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
