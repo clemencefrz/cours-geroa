@@ -150,7 +150,93 @@
           "solution": "1. $$-[(4 + (-3)) \\times 2] = -[1 \\times 2] = -2$$ \n2. $$-((-2) + 5) \\times (-3) = -(3 \\times -3) = 9$$ \n3. $$-4 \\times [(-3) + 1] = -4 \\times (-2) = 8$$ \n4. $$[(-6) + (-4)] \\div 2 = (-10) \\div 2 = -5$$"
         }
       ]
+    },
+    {
+      "id": 1,
+      "title": "Transformées de Laplace",
+      "levelId": 4,
+      "exercises": [
+        {
+          "id": 1,
+          "statement": "Calculer la transformée de Laplace de la fonction exponentielle : $$f(t) = e^{3t}$$",
+          "solution": "La solution est : $$F(p) = \\frac{1}{p - 3}, \\text{ pour } p > 3$$"
+        },
+        {
+          "id": 2,
+          "statement": "Calculer la transformée de Laplace de la fonction sinus : $$h(t) = \\sin(2t)$$",
+          "solution": "Pour évaluer cette intégrale, nous utilisons la formule de transformée de Laplace pour la fonction sinus : \n$$L(\\sin(\\omega t)) = \\frac{\\omega}{p^2 + \\omega^2}$$ \n\nDans notre cas, $\\omega = 2$, donc : \n$$H(p) = \\frac{2}{p^2 + 2^2} = \\frac{2}{p^2 + 4}$$ \n\nLa solution est donc : $$H(p) = \\frac{2}{p^2 + 4}, \\text{ pour } p > 0$$"
+        },
+        {
+          "id": 3,
+          "statement": "Calculer la transformée de Laplace de la fonction cosinus : $$j(t) = \\cos(5t)$$",
+          "solution": "La transformée de Laplace est donnée par : $$J(p) = L(j(t)) = \\int_{0}^{+\\infty} \\cos(5t) e^{-pt} dt$$ \n\nPour cette intégrale, nous utilisons la formule de transformée de Laplace pour la fonction cosinus : \n$$L(\\cos(\\omega t)) = \\frac{p}{p^2 + \\omega^2}$$ \n\nDans notre cas, $\\omega = 5$, donc : \n$$J(p) = \\frac{p}{p^2 + 5^2} = \\frac{p}{p^2 + 25}$$ \n\nLa solution est donc : $$J(p) = \\frac{p}{p^2 + 25}, \\text{ pour } p > 0$$"
+        },
+        {
+          "id": 4,
+          "statement": "Calculer la transformée de Laplace de la fonction f : $$f(t) = (t-2) H(t-2)$$",
+          "solution": "On pose : $$ g(t) = t H(t) $$ \n\nOn a alors : $$g(t-2)=(t-2)H(t-2)=f(t)$$ \n\nDonc, si on calcule la transformée de Laplace de g(t-2), on obtient celle de f(t). \n\nUtilisons la formule du retard pour la transformée de Laplace qui est :\n$$ L[g(t - a)](p)=e^{-ap}L[g(t)](p) $$ \n\n où $a$ est le retard. $$ $$ \n\n Dans notre cas, $a=2$. $$ $$ \n\n De plus, on a : $$ L[g(t)](p) = L[t H(t)](p) = \\frac{1}{p^2} $$ \n\n Donc on obtient : $$L[f(t)](p)=L[g(t-2)](p)=e^{-2p}L[g(t)](p)=\\frac{e^{-2p}}{p^2}$$ \n\n La solution est donc : $$L[f(t)](p)=\\frac{e^{-2p}}{p^2} $$ "
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Suites géométriques",
+      "levelId": 2,
+      "exercises": [
+        {
+          "id": 1,
+          "statement": "On considère la suite $(u_n)$ définie par :\n$$u_0 = 5,   u_1 = 15,   u_2 = 45,   u_3 = 135,  $$\nDétermine si cette suite est géométrique. Si oui, donne la raison $q$ et le premier terme $u_0$.",
+          "solution": "Cette suite est géométrique. La raison $q$ est obtenue en divisant chaque terme par le terme précédent :\n$$ q = \\frac{u_1}{u_0} = \\frac{15}{5} = 3. $$\nLa raison de la suite est donc $q = 3$, et le premier terme est $u_0 = 5$."
+        },
+        {
+          "id": 2,
+          "statement": "On considère la suite $(u_n)$ définie par :\n$$u_0 = 8,   u_1 = 4,   u_2 = 2,   u_3 = 1,  $$\nDétermine si cette suite est géométrique. Si oui, trouve la raison $q$ et le premier terme $u_0$.",
+          "solution": "Cette suite est géométrique. La raison $q$ est donnée par :\n$$ q = \\frac{u_1}{u_0} = \\frac{4}{8} = \\frac{1}{2}. $$\nLa raison de la suite est donc $q = \\frac{1}{2}$, et le premier terme est $u_0 = 8$."
+        },
+        {
+          "id": 3,
+          "statement": "On considère la suite $(u_n)$ définie par :\n$$u_0 = 1,   u_1 = 3,   u_2 = 6,   u_3 = 10,  $$\nDétermine si cette suite est géométrique. Si non, justifie ta réponse.",
+          "solution": "Cette suite n'est pas géométrique. En effet, les rapports successifs entre les termes ne sont pas constants. Par exemple, $\\frac{u_1}{u_0} = 3$, mais $\\frac{u_2}{u_1} = 2$, ce qui montre que la suite n'est pas géométrique."
+        },
+        {
+          "id": 4,
+          "statement": "On considère la suite $(u_n)$ définie par :\n$$u_0 = 3,   u_1 = 6,   u_2 = 9,   u_3 = 12,  $$\nDétermine si cette suite est géométrique. Si oui, donne la raison $q$ et le premier terme $u_0$.",
+          "solution": "Cette suite n'est pas géométrique, car les rapports entre les termes successifs ne sont pas constants. Il s'agit en fait d'une suite arithmétique où la différence entre chaque terme est de 3."
+        },
+        {
+          "id": 5,
+          "statement": "Monsieur Dupont place 1000 euros à la banque, et chaque année, son capital augmente de 2,5% par rapport à l’année précédente. De plus, chaque année, il touche une prime de 100 euros. Modélise le capital de Monsieur Dupont après $n$ années par une suite géométrique $(u_n)$, où $u_n$ désigne le capital après $n$ années.",
+          "solution": "Le capital de Monsieur Dupont évolue selon une suite géométrique avec une raison de 1,025 (augmentation de 2,5% chaque année). La suite modélisant son capital est donc :\n$$ u_n = 1000 \\times 1,025^n + 100n. $$"
+        },
+        {
+          "id": 6,
+          "statement": "Monsieur Lefebvre place 5000 euros à la banque et chaque année, son capital augmente de 3% par rapport à l'année précédente. En plus, chaque année, il reçoit une prime de 200 euros. Modélise l'évolution de son capital après $n$ années par une suite $(u_n)$, où $u_n$ représente le capital total après $n$ années.",
+          "solution": "Le capital de Monsieur Lefebvre est modélisé par une suite géométrique pour l'augmentation du capital, et une suite arithmétique pour l'ajout des primes. La suite est donc :\n$$ u_n = 5000 \\times 1,03^n + 200n. $$"
+        },
+        {
+          "id": 7,
+          "statement": "Monsieur Martin place 2000 euros à la banque. Le capital augmente chaque année de 4% et, de plus, chaque année, il reçoit une prime de 50 euros. Exprime le capital total de Monsieur Martin après $n$ années par une suite $(u_n)$.",
+          "solution": "Le capital de Monsieur Martin suit une suite géométrique pour l'augmentation par 4% chaque année, et une suite arithmétique pour la prime. La suite est donc :\n$$ u_n = 2000 \\times 1,04^n + 50n. $$"
+        },
+        {
+          "id": 8,
+          "statement": "Madame Rousseau place 1500 euros dans un placement à intérêt simple. Chaque année, le capital augmente de 2% par rapport à l'année précédente et elle touche une prime de 120 euros chaque année. Exprime le capital total de Madame Rousseau après $n$ années en tenant compte des intérêts et de la prime, sous forme de suite géométrique ou arithmétique.",
+          "solution": "Le capital de Madame Rousseau évolue de manière géométrique pour l'augmentation des intérêts, et de manière arithmétique pour la prime. La suite modélisant son capital est :\n$$ u_n = 1500 \\times 1,02^n + 120n. $$"
+        },
+        {
+          "id": 9,
+          "statement": "On considère la suite $(u_n)$ définie par :\n$$u_n = 10 \\times 3^n $$\nDétermine si cette suite est croissante, décroissante ou ni l'un ni l'autre. Justifie ta réponse.",
+          "solution": "La suite est croissante car la raison $q = 3$ est supérieure à 1. Cela implique que chaque terme est plus grand que le précédent, et la suite est donc croissante."
+        },
+        {
+          "id": 10,
+          "statement": "On considère la suite géométrique $(u_n)$ avec $u_0 = 4$ et $q = 2$. Calcule la somme des $n$ premiers termes de la suite. Trouve $n$ tel que $S_n = 124$.",
+          "solution": "Cela revient à résoudre l'équation : $$ 124 = -4 \\times (1 - 2^n), $$ ce qui donne : $$ 31 = 2^n. $$ En résolvant $2^n = 31$, on trouve $n = 5$."
+        }
+      ]
     }
+    
+    
     
   ]
 }

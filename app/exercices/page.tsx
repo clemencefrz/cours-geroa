@@ -1,6 +1,6 @@
 import LevelCard from "../_components/specific/exercices/level-card";
 
-const levels = [{ name: "Seconde" }];
+const levels = [{ name: "Seconde" }, { name: "Première" }];
 
 const Page = () => {
   return (
