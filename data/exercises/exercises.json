@@ -77,6 +77,38 @@
       ]
     },
     {
+      "id": 4,
+      "title": "Suites arithmétiques",
+      "levelId": 2,
+      "exercises": [
+        {
+          "id": 1,
+          "statement": "On considère une suite arithmétique \\((u_n)\\) définie par :\n$$ u_0 = 3 \\quad \\text{et} \\quad u_{n+1} = u_n + 5. $$\n1. Calcule les premiers termes \\( u_1, u_2, u_3, u_4. \\)\n2. Représente graphiquement ces termes sur un repère.",
+          "solution": "1. Les premiers termes de la suite sont :\n$$ u_1 = u_0 + 5 = 3 + 5 = 8, $$\n$$ u_2 = u_1 + 5 = 8 + 5 = 13, $$\n$$ u_3 = u_2 + 5 = 13 + 5 = 18, $$\n$$ u_4 = u_3 + 5 = 18 + 5 = 23. $$\n2. La représentation graphique montre une droite croissante de pente 5 passant par le point \\((0, 3)\\)."
+        },
+        {
+          "id": 2,
+          "statement": "Une suite arithmétique \\((v_n)\\) est définie par la formule explicite :\n$$ v_n = 7 + 4n. $$\n1. Calcule les termes \\( v_0, v_5 \\text{ et } v_{10}. \\)\n2. Vérifie que \\( v_{n+1} - v_n \\) est constant.",
+          "solution": "1. Les calculs donnent :\n$$ v_0 = 7 + 4 \\times 0 = 7, \\quad v_5 = 7 + 4 \\times 5 = 27, \\quad v_{10} = 7 + 4 \\times 10 = 47. $$\n2. On vérifie :\n$$ v_{n+1} - v_n = \\big(7 + 4(n+1)\\big) - (7 + 4n) = 4. $$\nLa différence est constante, donc \\((v_n)\\) est bien une suite arithmétique."
+        },
+        {
+          "id": 3,
+          "statement": "On considère une suite arithmétique \\((w_n)\\) dont le premier terme est \\( w_0 = -2 \\) et la raison est \\( r = 3. \\)\n1. Écris l’expression explicite de \\( w_n. \\)\n2. Calcule \\( n \\) pour que \\( w_n = 40. \\)",
+          "solution": "1. L’expression explicite est :\n$$ w_n = w_0 + nr = -2 + 3n. $$\n2. Pour \\( w_n = 40 \\) :\n$$ -2 + 3n = 40 \\implies 3n = 42 \\implies n = 14. $$"
+        },
+        {
+          "id": 4,
+          "statement": "Une suite \\((x_n)\\) est définie par :\n$$ x_n = 15 - 2n. $$\n1. Détermine si \\((x_n)\\) est croissante, décroissante ou constante.\n2. Calcule \\( x_{10} \\text{ et } x_{50}. \\)",
+          "solution": "1. La raison de la suite est \\( r = -2 \\), donc \\((x_n)\\) est décroissante.\n2. Les calculs donnent :\n$$ x_{10} = 15 - 2 \\times 10 = -5, \\quad x_{50} = 15 - 2 \\times 50 = -85. $$"
+        },
+        {
+          "id": 5,
+          "statement": "On considère une suite arithmétique \\((y_n)\\) définie par \\( y_0 = 5 \\) et \\( y_{20} = 45. \\)\n1. Trouve la raison \\( r. \\)\n2. Donne l’expression explicite de \\( y_n. \\)",
+          "solution": "1. La raison \\( r \\) se calcule par :\n$$ y_{20} = y_0 + 20r \\implies 45 = 5 + 20r \\implies 20r = 40 \\implies r = 2. $$\n2. L’expression explicite est :\n$$ y_n = y_0 + nr = 5 + 2n. $$"
+        }
+      ]
+    },
+    {
       "id": 1,
       "title": "Factorisation",
       "levelId": 1,
