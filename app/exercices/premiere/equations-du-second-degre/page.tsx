@@ -24,7 +24,7 @@ const revisionSheet = `
       <li>\\( \\Delta < 0 \\) : Pas de factorisation réelle.</li>
     </ul>
   </li>
-  <li><strong>Signe du trinôme</strong> :
+  <li><strong>Signe du trinôme </strong> :
     <ul>
       <li>\\( \\Delta > 0 \\) : Signe de \\( a \\) à l'extérieur des racines, opposé entre les racines.</li>
       <li>\\( \\Delta = 0 \\) : Signe de \\( a \\) sauf à la racine double.</li>
