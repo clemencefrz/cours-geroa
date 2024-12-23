@@ -48,7 +48,7 @@
           "solution": "1. Les termes sont : \n$$ v_1 = \\frac{1 + 2}{2} = \\frac{3}{2}, \\ v_2 = \\frac{\\frac{3}{2} + 2}{2} = \\frac{7}{4}, \\ v_3 = \\frac{\\frac{7}{4} + 2}{2} = \\frac{15}{8}. $$\n\n2. Étudions le sens de variation : \n$$ v_{n+1} - v_n = \\frac{v_n + 2}{2} - v_n = \\frac{-v_n + 2}{2}. $$\nComme $v_n \\leq 2$, le terme $\\frac{-v_n + 2}{2} \\geq 0$. Donc $(v_n)$ est croissante.\n\n3. Si $(v_n)$ converge vers une limite $l$, alors en passant à la limite dans l'équation de récurrence : \n$$ l = \\frac{l + 2}{2}. $$ \nEn résolvant, on obtient $l = 2$. La suite converge vers 2."
         }
       ]
-    },    
+    },
     {
       "id": 3,
       "title": "Trigonométrie",
@@ -75,7 +75,7 @@
           "solution": "L’angle \\( \\beta = \\frac{11\\pi}{6} \\) est dans le 4ème quadrant, à \\( 330^\\circ \\). Les valeurs exactes sont :\n$$ \\cos(\\frac{11\\pi}{6}) = \\frac{\\sqrt{3}}{2}, \\quad \\sin(\\frac{11\\pi}{6}) = -\\frac{1}{2}. $$"
         }
       ]
-    },    
+    },
     {
       "id": 1,
       "title": "Factorisation",
