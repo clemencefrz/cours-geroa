@@ -266,7 +266,35 @@
           "solution": "Cela revient à résoudre l'équation : $$ 124 = -4 \\times (1 - 2^n), $$ ce qui donne : $$ 31 = 2^n. $$ En résolvant $2^n = 31$, on trouve $n = 5$."
         }
       ]
+    },
+    {
+      "id": 2,
+      "title": "Équations du second degré",
+      "levelId": 2,
+      "exercises": [
+        {
+          "id": 1,
+          "statement": "On considère l'équation suivante :\n$$ 2x^2 - 3x + 1 = 0. $$\nCalcule le discriminant $\\Delta$ et déduis le nombre de solutions de cette équation. Interprète graphiquement le résultat.",
+          "solution": "Le discriminant est donné par :\n$$ \\Delta = b^2 - 4ac = (-3)^2 - 4 \\times 2 \\times 1 = 9 - 8 = 1. $$\n\\( \\Delta > 0 \\), donc l'équation a deux solutions réelles distinctes.\nGraphiquement, la parabole coupe l'axe des abscisses en deux points distincts."
+        },
+        {
+          "id": 2,
+          "statement": "On considère le trinôme suivant :\n$$ x^2 - 5x + 6. $$\nFactorise ce trinôme en calculant le discriminant et en déterminant les racines.",
+          "solution": "Le discriminant est donné par :\n$$ \\Delta = (-5)^2 - 4 \\times 1 \\times 6 = 25 - 24 = 1. $$\n\\( \\Delta > 0 \\), donc les racines sont données par :\n$$ x_1 = \\frac{-b - \\sqrt{\\Delta}}{2a} = \\frac{-(-5) - \\sqrt{1}}{2} = \\frac{5 - 1}{2} = 2. $$\n$$ x_2 = \\frac{-b + \\sqrt{\\Delta}}{2a} = \\frac{-(-5) + \\sqrt{1}}{2} = \\frac{5 + 1}{2} = 3. $$\nAinsi, le trinôme factorisé est :\n$$ x^2 - 5x + 6 = (x - 2)(x - 3). $$"
+        },
+        {
+          "id": 3,
+          "statement": "Dresse le tableau de signes pour le trinôme suivant :\n$$ x^2 - x - 6. $$",
+          "solution": "Le discriminant est donné par :\n$$ \\Delta = (-1)^2 - 4 \\times 1 \\times (-6) = 1 + 24 = 25. $$\nLes racines sont :\n$$ x_1 = \\frac{-(-1) - \\sqrt{25}}{2} = \\frac{1 - 5}{2} = -2. $$\n$$ x_2 = \\frac{-(-1) + \\sqrt{25}}{2} = \\frac{1 + 5}{2} = 3. $$\nLe trinôme est positif pour $x < -2$ et $x > 3$, et négatif pour $-2 < x < 3$. Le tableau de signes est :\n$$ \\begin{array}{c|ccc}\nx & -\\infty & -2 & 3 & +\\infty \\\\\\hline\nx^2 - x - 6 & + & 0 & - & 0 & +\\\\\n\\end{array} $$"
+        },
+        {
+          "id": 4,
+          "statement": "Étudie la fonction suivante :\n$$ f(x) = x^2 - 4x + 3. $$\nCalcule les coordonnées du sommet de la parabole, puis dresse le tableau de variations de cette fonction.",
+          "solution": "Les coordonnées du sommet sont données par :\n$$ x_s = -\\frac{b}{2a} = -\\frac{-4}{2 \\times 1} = 2. $$\n$$ y_s = f(2) = (2)^2 - 4 \\times 2 + 3 = 4 - 8 + 3 = -1. $$\nLe sommet est donc $S(2, -1)$.\nLa parabole est tournée vers le haut (\\( a > 0 \\)) et la fonction est décroissante sur $]-\\infty, 2]$ et croissante sur $[2, +\\infty[$. Le tableau de variations est :\n$$ \\begin{array}{c|ccccc}\nx & -\\infty & & 2 & & +\\infty \\\\\\hline\nf(x) & & \\searrow & -1 & \\nearrow & \\\\\n\\end{array} $$"
+        }
+      ]
     }
+    
     
     
     
