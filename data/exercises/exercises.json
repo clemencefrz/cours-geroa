@@ -50,37 +50,32 @@
       ]
     },    
     {
-      "id": 2,
+      "id": 3,
       "title": "Trigonométrie",
       "levelId": 2,
       "exercises": [
         {
           "id": 1,
-          "statement": "Vérifiez que pour tout angle \\(x\\), la relation \\(\\sin^2(x) + \\cos^2(x) = 1\\) est vérifiée.",
-          "solution": "La relation fondamentale \\(\\sin^2(x) + \\cos^2(x) = 1\\) est directement issue du cercle trigonométrique : pour tout angle \\(x\\), la somme des carrés des coordonnées (\\(\\sin(x)\\) et \\(\\cos(x)\\)) d'un point sur le cercle unitaire est égale à 1."
+          "statement": "Place sur le cercle trigonométrique les angles suivants (en radians) :\n$$ \\theta_1 = \\frac{\\pi}{4}, \\quad \\theta_2 = -\\frac{3\\pi}{4}, \\quad \\theta_3 = \\frac{7\\pi}{6}. $$\nIndique leurs positions relatives par rapport aux axes du cercle et aux quadrants.",
+          "solution": "1. \\( \\theta_1 = \\frac{\\pi}{4} \\) : L’angle est dans le 1er quadrant, situé à \\( 45^\\circ \\) dans le sens trigonométrique.\n2. \\( \\theta_2 = -\\frac{3\\pi}{4} \\) : L’angle est dans le 3ème quadrant, équivalent à \\( 135^\\circ \\) dans le sens horaire.\n3. \\( \\theta_3 = \\frac{7\\pi}{6} \\) : L’angle est dans le 3ème quadrant, situé légèrement au-delà de \\( 180^\\circ \\)."
         },
         {
           "id": 2,
-          "statement": "Simplifiez l'expression suivante : \\(\\frac{\\sin(x)}{\\cos(x)} + \\tan(x)\\).",
-          "solution": "On utilise la définition de \\(\\tan(x) = \\frac{\\sin(x)}{\\cos(x)}\\). L'expression devient :\n\\[ \\frac{\\sin(x)}{\\cos(x)} + \\tan(x) = \\tan(x) + \\tan(x) = 2\\tan(x). \\]"
+          "statement": "Calcule la mesure principale des angles suivants (en radians) :\n$$ \\alpha_1 = 5\\pi, \\quad \\alpha_2 = -\\frac{17\\pi}{6}, \\quad \\alpha_3 = \\frac{19\\pi}{4}. $$\n(Rappel : la mesure principale est dans l'intervalle \\( ]-\\pi, \\pi] \\)).",
+          "solution": "1. Pour \\( \\alpha_1 = 5\\pi \\), on soustrait \\( 2\\pi \\) autant de fois que nécessaire pour obtenir une mesure principale :\n$$ \\alpha_1 = 5\\pi - 2\\pi \\times 2 = \\pi. $$\n2. Pour \\( \\alpha_2 = -\\frac{17\\pi}{6} \\), on ajoute \\( 2\\pi \\) jusqu’à tomber dans l’intervalle :\n$$ \\alpha_2 = -\\frac{17\\pi}{6} + 2\\pi \\times 2 = \\frac{\\pi}{6}. $$\n3. Pour \\( \\alpha_3 = \\frac{19\\pi}{4} \\), on soustrait \\( 2\\pi \\) :\n$$ \\alpha_3 = \\frac{19\\pi}{4} - 2\\pi \\times 2 = -\\frac{\\pi}{4}. $$"
         },
         {
           "id": 3,
-          "statement": "Résolvez dans \\([0, 2\\pi[\\) l'équation \\(\\sin(x) = \\cos(x)\\).",
-          "solution": "L'équation \\(\\sin(x) = \\cos(x)\\) implique que \\(\\tan(x) = 1\\). Les solutions dans \\([0, 2\\pi[\\) sont : \\(x = \\frac{\\pi}{4}\\) et \\(x = \\frac{5\\pi}{4}\\)."
+          "statement": "Calcule les valeurs exactes de \\( \\cos(\\theta) \\) et \\( \\sin(\\theta) \\) pour les angles suivants :\n$$ \\theta_1 = \\frac{\\pi}{6}, \\quad \\theta_2 = -\\frac{\\pi}{3}, \\quad \\theta_3 = \\pi. $$\nVérifie également la relation fondamentale \\( \\cos^2(\\theta) + \\sin^2(\\theta) = 1 \\).",
+          "solution": "1. Pour \\( \\theta_1 = \\frac{\\pi}{6} \\) :\n$$ \\cos(\\frac{\\pi}{6}) = \\frac{\\sqrt{3}}{2}, \\quad \\sin(\\frac{\\pi}{6}) = \\frac{1}{2}. $$\nLa relation fondamentale est vérifiée :\n$$ \\cos^2(\\frac{\\pi}{6}) + \\sin^2(\\frac{\\pi}{6}) = \\frac{3}{4} + \\frac{1}{4} = 1. $$\n2. Pour \\( \\theta_2 = -\\frac{\\pi}{3} \\) :\n$$ \\cos(-\\frac{\\pi}{3}) = \\frac{1}{2}, \\quad \\sin(-\\frac{\\pi}{3}) = -\\frac{\\sqrt{3}}{2}. $$\nLa relation fondamentale est vérifiée :\n$$ \\cos^2(-\\frac{\\pi}{3}) + \\sin^2(-\\frac{\\pi}{3}) = \\frac{1}{4} + \\frac{3}{4} = 1. $$\n3. Pour \\( \\theta_3 = \\pi \\) :\n$$ \\cos(\\pi) = -1, \\quad \\sin(\\pi) = 0. $$\nLa relation fondamentale est vérifiée :\n$$ \\cos^2(\\pi) + \\sin^2(\\pi) = 1 + 0 = 1. $$"
         },
         {
           "id": 4,
-          "statement": "Démontrez la formule \\(\\sin(a + b) = \\sin(a)\\cos(b) + \\cos(a)\\sin(b)\\) en utilisant le cercle trigonométrique.",
-          "solution": "Sur le cercle trigonométrique, on considère deux angles \\(a\\) et \\(b\\). La projection de la somme \\(a + b\\) sur les axes donne directement :\n\\[ \\sin(a + b) = \\sin(a)\\cos(b) + \\cos(a)\\sin(b). \\]"
-        },
-        {
-          "id": 5,
-          "statement": "Montrez que \\(\\tan(a + b) = \\frac{\\tan(a) + \\tan(b)}{1 - \\tan(a)\\tan(b)}\\) pour \\(a + b \\neq \\frac{\\pi}{2} + k\\pi\\).",
-          "solution": "En utilisant les formules d'addition pour \\(\\sin\\) et \\(\\cos\\), on trouve :\n\\[ \\tan(a + b) = \\frac{\\sin(a + b)}{\\cos(a + b)} = \\frac{\\tan(a) + \\tan(b)}{1 - \\tan(a)\\tan(b)}. \\]"
+          "statement": "On considère l’angle \\( \\beta = \\frac{11\\pi}{6} \\). Place \\( \\beta \\) sur le cercle trigonométrique et calcule \\( \\cos(\\beta) \\) et \\( \\sin(\\beta) \\).",
+          "solution": "L’angle \\( \\beta = \\frac{11\\pi}{6} \\) est dans le 4ème quadrant, à \\( 330^\\circ \\). Les valeurs exactes sont :\n$$ \\cos(\\frac{11\\pi}{6}) = \\frac{\\sqrt{3}}{2}, \\quad \\sin(\\frac{11\\pi}{6}) = -\\frac{1}{2}. $$"
         }
       ]
-    },
+    },    
     {
       "id": 1,
       "title": "Factorisation",
