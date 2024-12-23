@@ -28,6 +28,38 @@
       ]
     },
     {
+      "id": 2,
+      "title": "Trigonométrie",
+      "levelId": 2,
+      "exercises": [
+        {
+          "id": 1,
+          "statement": "Vérifiez que pour tout angle \\(x\\), la relation \\(\\sin^2(x) + \\cos^2(x) = 1\\) est vérifiée.",
+          "solution": "La relation fondamentale \\(\\sin^2(x) + \\cos^2(x) = 1\\) est directement issue du cercle trigonométrique : pour tout angle \\(x\\), la somme des carrés des coordonnées (\\(\\sin(x)\\) et \\(\\cos(x)\\)) d'un point sur le cercle unitaire est égale à 1."
+        },
+        {
+          "id": 2,
+          "statement": "Simplifiez l'expression suivante : \\(\\frac{\\sin(x)}{\\cos(x)} + \\tan(x)\\).",
+          "solution": "On utilise la définition de \\(\\tan(x) = \\frac{\\sin(x)}{\\cos(x)}\\). L'expression devient :\n\\[ \\frac{\\sin(x)}{\\cos(x)} + \\tan(x) = \\tan(x) + \\tan(x) = 2\\tan(x). \\]"
+        },
+        {
+          "id": 3,
+          "statement": "Résolvez dans \\([0, 2\\pi[\\) l'équation \\(\\sin(x) = \\cos(x)\\).",
+          "solution": "L'équation \\(\\sin(x) = \\cos(x)\\) implique que \\(\\tan(x) = 1\\). Les solutions dans \\([0, 2\\pi[\\) sont : \\(x = \\frac{\\pi}{4}\\) et \\(x = \\frac{5\\pi}{4}\\)."
+        },
+        {
+          "id": 4,
+          "statement": "Démontrez la formule \\(\\sin(a + b) = \\sin(a)\\cos(b) + \\cos(a)\\sin(b)\\) en utilisant le cercle trigonométrique.",
+          "solution": "Sur le cercle trigonométrique, on considère deux angles \\(a\\) et \\(b\\). La projection de la somme \\(a + b\\) sur les axes donne directement :\n\\[ \\sin(a + b) = \\sin(a)\\cos(b) + \\cos(a)\\sin(b). \\]"
+        },
+        {
+          "id": 5,
+          "statement": "Montrez que \\(\\tan(a + b) = \\frac{\\tan(a) + \\tan(b)}{1 - \\tan(a)\\tan(b)}\\) pour \\(a + b \\neq \\frac{\\pi}{2} + k\\pi\\).",
+          "solution": "En utilisant les formules d'addition pour \\(\\sin\\) et \\(\\cos\\), on trouve :\n\\[ \\tan(a + b) = \\frac{\\sin(a + b)}{\\cos(a + b)} = \\frac{\\tan(a) + \\tan(b)}{1 - \\tan(a)\\tan(b)}. \\]"
+        }
+      ]
+    },
+    {
       "id": 1,
       "title": "Factorisation",
       "levelId": 1,
@@ -58,7 +90,7 @@
           "solution": "1. $$(x^2 + 3)(x^2 - 3)$$ : Utilise la différence de deux carrés : \n$$x^4 - 9$$.\n\n2. $$(2y + 1)^2 - (y - 1)^2$$ : Utilise la différence de deux carrés : \n$$((2y + 1) - (y - 1))((2y + 1) + (y - 1)) = (y + 2)(3y) = 3y^2 + 6y$$.\n\n3. $$(a + b)^3 - (a - b)^3$$ : Utilise l'identité des cubes : \n$$2b(3a^2 + b^2)$$.\n\n4. $$(z + 2)^4 - (z - 2)^4$$ : Utilise la différence de puissances : \n$$16z^3$$."
         }
       ]
-    },    
+    },
     {
       "id": 3,
       "title": "Manipulation des nombres négatifs",
@@ -202,9 +234,5 @@
         }
       ]
     }
-    
-    
-    
-    
   ]
 }
