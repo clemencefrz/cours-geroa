@@ -2,33 +2,11 @@
   "menuItems": [
     {
       "label": "Nos cours",
-      "url": "/nos-cours",
-      "subItems": [
-        {
-          "url": "/nos-cours#cours-collectifs",
-          "label": "Les cours collectifs"
-        },
-        {
-          "url": "/nos-cours#cours-particuliers",
-          "label": "Les cours particuliers"
-        },
-        {
-          "url": "/nos-cours#stages",
-          "label": "Les stages"
-        }
-      ]
+      "url": "/nos-cours"
     },
     {
       "label": "Qui sommes-nous ?",
       "url": "/about"
-    },
-    {
-      "label": "Exercices",
-      "url": "/exercices"
-    },
-    {
-      "label": "Blog",
-      "url": "/blog"
     }
   ]
 }
