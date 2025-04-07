@@ -106,41 +106,6 @@ Depuis mes années en prépa, je donne régulièrement des cours particuliers à
               <li>{` Découverte de métiers :   Programmes pour explorer diverses professions et rencontrer des professionnels du Pays Basque.`}</li>
             </ul>
           </div>
-
-          <div className="text-center">
-            <h3 className="text-2xl font-semibold text-brandTwo mb-4">{`Objectifs à moyen terme`}</h3>
-            <h4 className="text-xl font-medium     mb-4">{`Dans 10 ans, nous visons à :`}</h4>
-            <ul className="list-disc list-inside space-y-3 max-w-2xl mx-auto">
-              <li>{` Élargir notre équipe :   Développer des applications et des outils éducatifs en collaboration avec les écoles locales.`}</li>
-              <li>{` Continuer le soutien scolaire :   Offrir un soutien scolaire de premier ordre tout en intégrant des innovations technologiques.`}</li>
-            </ul>
-          </div>
-
-          <div className="text-center">
-            <h3 className="text-2xl font-semibold text-brandTwo mb-4">{`Objectifs à long terme`}</h3>
-            <h4 className="text-xl font-medium     mb-4">{`Dans 20 ans nous avons pour ambition de :`}</h4>
-            <ul className="list-disc list-inside space-y-3 max-w-2xl mx-auto">
-              <li>
-                {` Étendre notre modèle :   Établir fermement notre présence dans le Pays Basque et ouvrir des écoles similaires dans d'autres régions, de la même manière que le fait `}
-                <a
-                  className="text-brandFour"
-                  target="_blank"
-                  href="https://biltoki.com"
-                >
-                  Biltoki
-                </a>
-                {` pour leurs halles.`}
-              </li>
-              <li>{` Garantir une approche locale :   Chaque établissement sera dirigé par des personnes profondément ancrées dans leur communauté locale.`}</li>
-              <li>{` Assurer l'Indépendance et l'Alignement :   Maintenir l'indépendance des écoles tout en respectant nos valeurs fondamentales pour offrir une approche éducative adaptée à chaque région.`}</li>
-            </ul>
-          </div>
-
-          <div className="text-center">
-            <p className="text-lg leading-relaxed max-w-3xl mx-auto">
-              {`Chez Geroa, nous sommes déterminés à créer un avenir où l'éducation et l'accompagnement sont à la fois innovants et profondément humains, préparant les jeunes à exceller dans un monde en constante évolution tout en restant fidèles à nos valeurs essentielles.`}
-            </p>
-          </div>
         </div>
       </MotionDiv>
     </div>
