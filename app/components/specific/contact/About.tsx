@@ -94,18 +94,6 @@ Depuis mes années en prépa, je donne régulièrement des cours particuliers à
               {`Nous avons à coeur d'adapter l'éducation aux évolutions technologiques tout en préservant les valeurs humaines et les principes fondamentaux de l'enseignement. Nous prônons l'intégration des dernières avancées en intelligence artificielle, en numérique et en réseaux sociaux, tout en maintenant un lien humain essentiel.`}
             </p>
           </div>
-
-          <div className="text-center">
-            <h3 className="text-2xl font-semibold text-brandTwo mb-4">{`Objectifs à court terme`}</h3>
-            <h4 className="text-xl font-medium     mb-4">{`Dans les 5 prochaines années, nous aspirons à établir un espace dédié à Anglet, où nous offrirons :`}</h4>
-            <ul className="list-disc list-inside space-y-3 max-w-2xl mx-auto">
-              <li>{` Soutien scolaire et activités pratiques :   Cours de soutien scolaire et ateliers pour acquérir des compétences essentielles pour le futur.`}</li>
-              <li>{` Ateliers et Débats :   Discussions sur des sujets d'actualité pour stimuler la réflexion critique.`}</li>
-              <li>{` Conférences :   Événements sur des thématiques pertinentes pour les jeunes.`}</li>
-              <li>{` Sorties culturelles :   Explorations de la région et découvertes d'entreprises locales.`}</li>
-              <li>{` Découverte de métiers :   Programmes pour explorer diverses professions et rencontrer des professionnels du Pays Basque.`}</li>
-            </ul>
-          </div>
         </div>
       </MotionDiv>
     </div>
