@@ -32,7 +32,7 @@
     "lucide-react": "^0.414.0",
     "markdown-to-jsx": "^7.4.7",
     "mini-svg-data-uri": "^1.4.4",
-    "next": "15.2.2",
+    "next": "15.3.1",
     "next-themes": "^0.3.0",
     "openai": "^4.67.3",
     "react": "18.3.1",
