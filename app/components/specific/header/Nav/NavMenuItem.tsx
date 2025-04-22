@@ -6,7 +6,6 @@ import {
   navigationMenuTriggerStyle,
 } from "@/app/components/design-system/navigation-menu";
 import ListItem from "./ListItem";
-import Link from "next/link";
 
 type NavMenuItemProps = {
   url: string;
