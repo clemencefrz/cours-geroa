@@ -18,11 +18,12 @@ const NavMenuItem = (props: NavMenuItemProps) => {
   if (!props.subItems?.length) {
     return (
       <NavigationMenuItem>
-        <Link href={props.url} passHref>
-          <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-            {props.label}
-          </NavigationMenuLink>
-        </Link>
+        <NavigationMenuLink
+          href={props.url}
+          className={navigationMenuTriggerStyle()}
+        >
+          {props.label}
+        </NavigationMenuLink>
       </NavigationMenuItem>
     );
   }
