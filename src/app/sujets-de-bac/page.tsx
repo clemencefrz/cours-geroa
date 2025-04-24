@@ -114,10 +114,12 @@ export default function ExamPage() {
                             ? matchingExercises.get(exam.id)?.length || 0
                             : exam.exercises.length}
                         </td>
-                        <td className="py-2">
+                        <td className="py-2 flex flex-row gap-2">
                           <a
                             href={exam.paper}
                             className="text-blue-600 hover:underline"
+                            target="_blank"
+                            rel="noopener noreferrer"
                           >
                             Voir le sujet
                           </a>
@@ -125,6 +127,8 @@ export default function ExamPage() {
                             <a
                               href={exam.correction}
                               className="text-blue-600 hover:underline"
+                              target="_blank"
+                              rel="noopener noreferrer"
                             >
                               Voir le corrigé
                             </a>
