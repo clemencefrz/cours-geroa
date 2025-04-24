@@ -116,11 +116,19 @@ export default function ExamPage() {
                         </td>
                         <td className="py-2">
                           <a
-                            href={`/sujets-de-bac/${exam.id}`}
+                            href={exam.paper}
                             className="text-blue-600 hover:underline"
                           >
                             Voir le sujet
                           </a>
+                          {exam?.correction && (
+                            <a
+                              href={exam.correction}
+                              className="text-blue-600 hover:underline"
+                            >
+                              Voir le corrigé
+                            </a>
+                          )}
                         </td>
                       </tr>
                     ))}
