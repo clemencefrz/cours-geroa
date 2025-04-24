@@ -110,7 +110,9 @@ export default function ExamPage() {
                         <td className="py-2">{exam.centers.name}</td>
                         <td className="py-2">{exam.year}</td>
                         <td className="py-2">
-                          {matchingExercises.get(exam.id)?.length || 0}
+                          {searchTerm.trim()
+                            ? matchingExercises.get(exam.id)?.length || 0
+                            : exam.exercises.length}
                         </td>
                         <td className="py-2">
                           <a
@@ -128,9 +130,9 @@ export default function ExamPage() {
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {loading
-                  ? Array.from({ length: SKELETON_CARDS_COUNT }).map((_, index) => (
-                      <SkeletonCard key={index} />
-                    ))
+                  ? Array.from({ length: SKELETON_CARDS_COUNT }).map(
+                      (_, index) => <SkeletonCard key={index} />
+                    )
                   : filteredExams.map((exam) => (
                       <ExamCard
                         key={exam.id}
