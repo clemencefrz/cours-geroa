@@ -159,7 +159,6 @@ export const useExamFilters = (allExams: ExamWithDetails[]) => {
   const { filteredExams, matchingExercises } = useMemo(() => {
     let filtered = allExams;
 
-    // Apply chapter and center filters
     if (selectedChapters.size > 0) {
       filtered = filtered.filter((exam) => {
         const matchesChapter =

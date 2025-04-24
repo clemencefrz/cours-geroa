@@ -70,7 +70,7 @@ export default function ExamPage() {
                 <div className="flex items-center gap-2 text-sm text-gray-600">
                   <span className="font-medium">{filteredExams.length}</span>
                   <span>
-                    {filteredExams.length === 1
+                    {filteredExams.length < 2
                       ? "sujet trouvé"
                       : "sujets trouvés"}
                   </span>
