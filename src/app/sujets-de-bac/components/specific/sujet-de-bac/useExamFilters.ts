@@ -29,25 +29,14 @@ export const useExamFilters = (allExams: ExamWithDetails[]) => {
   const [selectedChapters, setSelectedChapters] = useState<Set<number>>(
     new Set()
   );
-  const [selectedCenters, setSelectedCenters] = useState<Set<number>>(
-    new Set()
-  );
+
   const [searchTerm, setSearchTerm] = useState("");
 
   // Get unique chapters and centers for side bar
-  const { chapters, centers } = useMemo(() => {
+  const { chapters } = useMemo(() => {
     const chaptersMap = new Map<number, { id: number; name: string }>();
-    const centersMap = new Map<number, { id: number; name: string }>();
 
     allExams.forEach((exam) => {
-      // Add center if not already present
-      if (!centersMap.has(exam.centers.id)) {
-        centersMap.set(exam.centers.id, {
-          id: exam.centers.id,
-          name: exam.centers.name,
-        });
-      }
-
       // Add unique chapters for this exam
       const examChapters = new Set<number>();
       exam.exercises.forEach((exercise) => {
@@ -70,13 +59,8 @@ export const useExamFilters = (allExams: ExamWithDetails[]) => {
       a.name.localeCompare(b.name)
     );
 
-    const sortedCenters = Array.from(centersMap.values()).sort((a, b) =>
-      a.name.localeCompare(b.name)
-    );
-
     return {
       chapters: sortedChapters,
-      centers: sortedCenters,
     };
   }, [allExams]);
 
@@ -176,11 +160,8 @@ export const useExamFilters = (allExams: ExamWithDetails[]) => {
     let filtered = allExams;
 
     // Apply chapter and center filters
-    if (selectedChapters.size > 0 || selectedCenters.size > 0) {
+    if (selectedChapters.size > 0) {
       filtered = filtered.filter((exam) => {
-        const matchesCenter =
-          selectedCenters.size === 0 || selectedCenters.has(exam.centers.id);
-
         const matchesChapter =
           selectedChapters.size === 0 ||
           exam.exercises.some((exercise) =>
@@ -189,7 +170,7 @@ export const useExamFilters = (allExams: ExamWithDetails[]) => {
             )
           );
 
-        return matchesCenter && matchesChapter;
+        return matchesChapter;
       });
     }
 
@@ -226,7 +207,6 @@ export const useExamFilters = (allExams: ExamWithDetails[]) => {
   }, [
     allExams,
     selectedChapters,
-    selectedCenters,
     searchTerm,
     isWordMatch,
     findMatchingExercises,
@@ -247,31 +227,15 @@ export const useExamFilters = (allExams: ExamWithDetails[]) => {
     []
   );
 
-  const handleCenterChange = useCallback(
-    (centerId: number, checked: boolean) => {
-      setSelectedCenters((prev) => {
-        const newSelected = new Set(prev);
-        if (checked) {
-          newSelected.add(centerId);
-        } else {
-          newSelected.delete(centerId);
-        }
-        return newSelected;
-      });
-    },
-    []
-  );
-
   return {
     searchTerm,
     setSearchTerm,
     chapters,
-    centers,
+
     selectedChapters,
-    selectedCenters,
+
     filteredExams,
     matchingExercises,
     handleChapterChange,
-    handleCenterChange,
   };
 };
