@@ -1,8 +1,8 @@
 import React from "react";
 import { Button } from "@/components/design-system/button";
-import { Grid, List, Table } from "lucide-react";
+import { Grid, Table } from "lucide-react";
 
-export type ViewMode = "grid" | "list" | "table";
+export type ViewMode = "grid" | "table";
 
 interface ViewModeSelectorProps {
   currentViewMode: ViewMode;
@@ -12,7 +12,6 @@ interface ViewModeSelectorProps {
 
 const viewModes: { mode: ViewMode; icon: React.ReactNode; label: string }[] = [
   { mode: "grid", icon: <Grid className="h-4 w-4" />, label: "Vue en grille" },
-  { mode: "list", icon: <List className="h-4 w-4" />, label: "Vue en liste" },
   {
     mode: "table",
     icon: <Table className="h-4 w-4" />,

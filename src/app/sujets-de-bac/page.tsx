@@ -98,53 +98,39 @@ export default function ExamPage() {
                 <table className="w-full">
                   <thead>
                     <tr className="border-b">
-                      <th className="px-4 py-2 text-left">Sujets</th>
-                      <th className="px-4 py-2 text-left">Exercices</th>
-                      <th className="px-4 py-2 text-left">Liens</th>
+                      <th className="text-left py-2">Centre</th>
+                      <th className="text-left py-2">Année</th>
+                      <th className="text-left py-2">Exercices</th>
+                      <th className="text-left py-2">Actions</th>
                     </tr>
                   </thead>
                   <tbody>
-                    {loading
-                      ? Array.from({ length: SKELETON_CARDS_COUNT }).map(
-                          (_, index) => (
-                            <tr key={index} className="border-b">
-                              <td className="px-4 py-3">
-                                <Skeleton className="h-4 w-32" />
-                              </td>
-                              <td className="px-4 py-3">
-                                <Skeleton className="h-4 w-64" />
-                              </td>
-                              <td className="px-4 py-3">
-                                <Skeleton className="h-8 w-24" />
-                              </td>
-                            </tr>
-                          )
-                        )
-                      : filteredExams.map((exam) => (
-                          <ExamCard
-                            key={exam.id}
-                            exam={exam}
-                            matchingExercises={
-                              matchingExercises.get(exam.id) || []
-                            }
-                            viewMode={viewMode}
-                          />
-                        ))}
+                    {filteredExams.map((exam) => (
+                      <tr key={exam.id} className="border-b">
+                        <td className="py-2">{exam.centers.name}</td>
+                        <td className="py-2">{exam.year}</td>
+                        <td className="py-2">
+                          {matchingExercises.get(exam.id)?.length || 0}
+                        </td>
+                        <td className="py-2">
+                          <a
+                            href={`/sujets-de-bac/${exam.id}`}
+                            className="text-blue-600 hover:underline"
+                          >
+                            Voir le sujet
+                          </a>
+                        </td>
+                      </tr>
+                    ))}
                   </tbody>
                 </table>
               </div>
             ) : (
-              <div
-                className={`grid gap-6 ${
-                  viewMode === "grid"
-                    ? "grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
-                    : "grid-cols-1"
-                }`}
-              >
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {loading
-                  ? Array.from({ length: SKELETON_CARDS_COUNT }).map(
-                      (_, index) => <SkeletonCard key={index} />
-                    )
+                  ? Array.from({ length: SKELETON_CARDS_COUNT }).map((_, index) => (
+                      <SkeletonCard key={index} />
+                    ))
                   : filteredExams.map((exam) => (
                       <ExamCard
                         key={exam.id}

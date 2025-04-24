@@ -30,7 +30,7 @@ type ExerciseMatch = {
   matchedWords: string[];
 };
 
-type ViewMode = "grid" | "list" | "table";
+type ViewMode = "grid" | "table";
 
 interface ExamCardProps {
   exam: ExamWithDetails;
@@ -106,48 +106,6 @@ const ExamCard: React.FC<ExamCardProps> = ({ exam, matchingExercises, viewMode }
     </Card>
   );
 
-  const renderListCard = () => (
-    <Card className="hover:shadow-lg transition-shadow">
-      <CardContent className="p-4">
-        <div className="flex items-start justify-between">
-          <div className="flex-1">
-            <h3 className="font-semibold text-lg">{getExamTitle(exam)}</h3>
-            <div className="mt-2 space-y-2">
-              {exam.exercises.map((exercise) => (
-                <div key={exercise.id} className="text-sm">
-                  <span className="font-medium">
-                    {exercise.title || `Exercice ${exercise.id}`}
-                  </span>
-                  <ul className="ml-4 list-disc">
-                    {exercise.exercise_chapter.map(({ chapters }) => (
-                      <li key={chapters.id}>{chapters.name}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="flex gap-2 ml-4">
-            <Button variant="outline" size="sm" asChild>
-              <a href={exam.paper} target="_blank" rel="noopener noreferrer">
-                <ExternalLink className="mr-2 h-4 w-4" />
-                Sujet
-              </a>
-            </Button>
-            {exam.correction && (
-              <Button variant="outline" size="sm" asChild>
-                <a href={exam.correction} target="_blank" rel="noopener noreferrer">
-                  <ExternalLink className="mr-2 h-4 w-4" />
-                  Corrigé
-                </a>
-              </Button>
-            )}
-          </div>
-        </div>
-      </CardContent>
-    </Card>
-  );
-
   const renderTableRow = () => (
     <tr className="border-b hover:bg-gray-50">
       <td className="px-4 py-3">{getExamTitle(exam)}</td>
@@ -188,16 +146,14 @@ const ExamCard: React.FC<ExamCardProps> = ({ exam, matchingExercises, viewMode }
     </tr>
   );
 
-  switch (viewMode) {
-    case "grid":
-      return renderGridCard();
-    case "list":
-      return renderListCard();
-    case "table":
+  const renderCard = () => {
+    if (viewMode === "table") {
       return renderTableRow();
-    default:
-      return renderGridCard();
-  }
+    }
+    return renderGridCard();
+  };
+
+  return <>{renderCard()}</>;
 };
 
 export default ExamCard;
