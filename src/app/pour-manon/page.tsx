@@ -101,15 +101,6 @@ const initialThemes: Theme[] = [
 export default function PourManonPage() {
   const [themes, setThemes] = useState<Theme[]>(initialThemes);
 
-  const handleChapterToggle = (themeIndex: number, chapterIndex: number) => {
-    setThemes(prevThemes => {
-      const newThemes = [...prevThemes];
-      newThemes[themeIndex].chapters[chapterIndex].isCompleted = 
-        !newThemes[themeIndex].chapters[chapterIndex].isCompleted;
-      return newThemes;
-    });
-  };
-
   const handleClemenceToggle = (themeIndex: number, chapterIndex: number) => {
     setThemes(prevThemes => {
       const newThemes = [...prevThemes];
@@ -159,16 +150,11 @@ export default function PourManonPage() {
                         {chapter.description}
                       </td>
                       <td className="py-3 px-4 text-center">
-                        <button
-                          onClick={() => handleChapterToggle(themeIndex, chapterIndex)}
-                          className="p-1 hover:bg-accent rounded-full transition-colors"
-                        >
-                          {chapter.isCompleted ? (
-                            <Check className="h-5 w-5 text-primary" />
-                          ) : (
-                            <X className="h-5 w-5 text-destructive" />
-                          )}
-                        </button>
+                        {chapter.isCompleted ? (
+                          <Check className="h-5 w-5 text-primary" />
+                        ) : (
+                          <X className="h-5 w-5 text-destructive" />
+                        )}
                       </td>
                       <td className="py-3 px-4 text-center">
                         <button
