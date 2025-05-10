@@ -17,6 +17,10 @@ export const menuData = {
       label: "Sujets de bac",
       url: "/sujets-de-bac",
     },
+    {
+      label: "Pour Manon",
+      url: "/pour-manon",
+    },
   ],
 };
 
