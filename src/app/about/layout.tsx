@@ -5,6 +5,7 @@ const Layout = ({ children }: PropsWithChildren) => {
   return (
     <>
       {children}
+      
       <BannerContact />
     </>
   );
