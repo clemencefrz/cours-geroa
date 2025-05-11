@@ -22,7 +22,7 @@ const initialThemes: Theme[] = [
       {
         name: "Le modèle de l'atome",
         description: "Structure de l'atome et évolution de l'Univers",
-        isCompleted: false,
+        isCompleted: true,
         isCompletedWithClemence: false
       },
       {
@@ -63,7 +63,7 @@ const initialThemes: Theme[] = [
       {
         name: "La gravitation",
         description: "Force gravitationnelle et ses applications",
-        isCompleted: false,
+        isCompleted: true,
         isCompletedWithClemence: false
       }
     ]
@@ -74,13 +74,13 @@ const initialThemes: Theme[] = [
       {
         name: "La conservation de l'énergie",
         description: "Principes de conservation et transformations d'énergie",
-        isCompleted: true,
+        isCompleted: false,
         isCompletedWithClemence: false
       },
       {
         name: "Les dangers de l'électricité",
         description: "Sécurité électrique et prévention des risques",
-        isCompleted: true,
+        isCompleted: false,
         isCompletedWithClemence: false
       }
     ]
