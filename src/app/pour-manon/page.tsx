@@ -58,7 +58,7 @@ const initialThemes: Theme[] = [
         name: "Les forces",
         description: "Différents types de forces et leurs effets",
         isCompleted: true,
-        isCompletedWithClemence: false
+        isCompletedWithClemence: true
       },
       {
         name: "La gravitation",
@@ -99,16 +99,7 @@ const initialThemes: Theme[] = [
 ];
 
 export default function PourManonPage() {
-  const [themes, setThemes] = useState<Theme[]>(initialThemes);
-
-  const handleClemenceToggle = (themeIndex: number, chapterIndex: number) => {
-    setThemes(prevThemes => {
-      const newThemes = [...prevThemes];
-      newThemes[themeIndex].chapters[chapterIndex].isCompletedWithClemence = 
-        !newThemes[themeIndex].chapters[chapterIndex].isCompletedWithClemence;
-      return newThemes;
-    });
-  };
+  const themes = initialThemes
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -157,16 +148,11 @@ export default function PourManonPage() {
                         )}
                       </td>
                       <td className="py-3 px-4 text-center">
-                        <button
-                          onClick={() => handleClemenceToggle(themeIndex, chapterIndex)}
-                          className="p-1 hover:bg-accent rounded-full transition-colors"
-                        >
                           {chapter.isCompletedWithClemence ? (
                             <Check className="h-5 w-5 text-primary" />
                           ) : (
                             <X className="h-5 w-5 text-destructive" />
                           )}
-                        </button>
                       </td>
                     </tr>
                   ))}
