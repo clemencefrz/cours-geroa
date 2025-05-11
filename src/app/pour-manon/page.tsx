@@ -23,19 +23,19 @@ const initialThemes: Theme[] = [
         name: "Le modèle de l'atome",
         description: "Structure de l'atome et évolution de l'Univers",
         isCompleted: true,
-        isCompletedWithClemence: false
+        isCompletedWithClemence: true
       },
       {
         name: "Les ions et le pH",
         description: "Formation des ions et acidité des solutions",
         isCompleted: false,
-        isCompletedWithClemence: false
+        isCompletedWithClemence: true
       },
       {
         name: "Les métaux",
         description: "Propriétés et réactions des métaux",
         isCompleted: true,
-        isCompletedWithClemence: false
+        isCompletedWithClemence: true
       },
       {
         name: "Les solutions acides et les réactions chimiques",
