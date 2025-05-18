@@ -75,13 +75,13 @@ const initialThemes: Theme[] = [
         name: "La conservation de l'énergie",
         description: "Principes de conservation et transformations d'énergie",
         isCompleted: false,
-        isCompletedWithClemence: false
+        isCompletedWithClemence: true
       },
       {
         name: "Les dangers de l'électricité",
         description: "Sécurité électrique et prévention des risques",
         isCompleted: false,
-        isCompletedWithClemence: false
+        isCompletedWithClemence: true
       }
     ]
   },
@@ -92,7 +92,7 @@ const initialThemes: Theme[] = [
         name: "Transporter de l'information avec un signal lumineux ou sonore",
         description: "Propagation des signaux lumineux et sonores",
         isCompleted: false,
-        isCompletedWithClemence: false
+        isCompletedWithClemence: true
       }
     ]
   }
