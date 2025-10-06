@@ -3,7 +3,6 @@ import { FAQ } from "../home/FAQ";
 import { Button } from "../../design-system/button";
 import { FlipWords } from "../../design-system/flip-words";
 import { MotionDiv } from "../contact/About";
-import CoursCollectifs from "../nos-cours/CoursCollectifs";
 import CoursParticuliers from "../nos-cours/CoursParticuliers";
 
 const items = [
@@ -91,7 +90,6 @@ const SoutienScolaireAnglet = () => {
           </span>
         </div>
       </MotionDiv>
-      <CoursCollectifs />
 
       <CoursParticuliers />
       <FAQ items={items} />

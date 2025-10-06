@@ -5,7 +5,6 @@ import { FileText, Smartphone, UserCheck, Lightbulb } from "lucide-react";
 
 import {
   PointsCoursParticuliers,
-  PointsCoursCollectifs,
 } from "../nos-cours/NosCours";
 import { Button } from "../../design-system/button";
 
@@ -40,11 +39,6 @@ const Services = () => {
         title="Cours particuliers"
         bulletPoints={PointsCoursParticuliers.points}
         href={PointsCoursParticuliers.href}
-      />
-      <CardService
-        title="Cours collectifs"
-        bulletPoints={PointsCoursCollectifs.points}
-        href={PointsCoursCollectifs.href}
       />
       <CardService
         title="Ressources"

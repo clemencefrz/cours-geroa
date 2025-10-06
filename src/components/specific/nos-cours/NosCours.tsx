@@ -1,28 +1,13 @@
 import {
   Calendar,
   Clock,
-  DollarSign,
   FilePenLine,
   MapPin,
   User,
   Users,
 } from "lucide-react";
 import Block from "./Block";
-import CoursCollectifs from "./CoursCollectifs";
 import CoursParticuliers from "./CoursParticuliers";
-
-export const PointsCoursCollectifs = {
-  points: [
-    { icon: MapPin, description: "À Anglet" },
-    {
-      icon: Calendar,
-      description: "Le mercredi soir ou le samedi matin",
-    },
-    { icon: Users, description: "En petit groupe de 5 élèves maximum" },
-    { icon: DollarSign, description: "Tarifs avantageux" },
-  ],
-  href: "/nos-cours#cours-collectifs",
-};
 
 export const PointsCoursParticuliers = {
   points: [
@@ -55,8 +40,6 @@ const NosCours = () => {
         !`}
         </h2>
       </div>
-
-      <CoursCollectifs />
 
       <CoursParticuliers />
 
