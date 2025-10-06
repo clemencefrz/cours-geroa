@@ -13,10 +13,6 @@ export const menuData = {
       label: "Qui sommes-nous ?",
       url: "/about",
     },
-    {
-      label: "Sujets de bac",
-      url: "/sujets-de-bac",
-    },
   ],
 };
 
