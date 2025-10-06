@@ -30,6 +30,7 @@ model exam_papers {
   center_id  Int
   session    Int
   year       BigInt
+  level      String
   centers    centers     @relation(fields: [center_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
   exercises  exercises[]
 }
