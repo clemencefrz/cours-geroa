@@ -1,0 +1,577 @@
+[
+  {
+    "id": 15,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-polynesie-2-remplacement-sujet-officiel.pdf",
+    "year": 2024,
+    "session": 2,
+    "level": "Baccalauréat",
+    "centerName": "Polynésie 2",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-polynesie-2-remplacement-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 14,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-metropole-2-remplacement-sujet-officiel.pdf",
+    "year": 2024,
+    "session": 2,
+    "level": "Baccalauréat",
+    "centerName": "Métropole France 2",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-metropole-2-remplacement-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 13,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-metropole-1-remplacement-sujet-officiel.pdf",
+    "year": 2024,
+    "session": 2,
+    "level": "Baccalauréat",
+    "centerName": "Métropole France 1",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-metropole-1-remplacement-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 5,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-centres-etranger-1-sujet-officiel.pdf",
+    "year": 2024,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Centres étrangers Afrique 1",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-centres-etranger-1-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 6,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-centres-etranger-2-sujet-officiel.pdf",
+    "year": 2024,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Centres étrangers Afrique 2",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-centres-etranger-2-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 2,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-amerique-nord-2-sujet-officiel.pdf",
+    "year": 2024,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Amérique du Nord 2",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-amerique-nord-2-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 9,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-metropole-2-sujet-officiel.pdf",
+    "year": 2024,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Métropole France 2",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-metropole-2-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 10,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-polynesie-1-sujet-officiel.pdf",
+    "year": 2024,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Polynésie 1",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-polynesie-1-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 11,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-polynesie-2-sujet-officiel.pdf",
+    "year": 2024,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Polynésie 2",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-polynesie-2-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 8,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-metropole-1-sujet-officiel.pdf",
+    "year": 2024,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Métropole France 1",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-metropole-1-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 3,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-asie-1-sujet-officiel.pdf",
+    "year": 2024,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Asie 1",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-asie-1-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 4,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-asie-2-sujet-officiel.pdf",
+    "year": 2024,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Asie 2",
+    "correction": "https://www.labolycee.org/bac-2024-asie-jour-2",
+    "hasCorrection": true
+  },
+  {
+    "id": 12,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-suede-2-sujet-officiel.pdf",
+    "year": 2024,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Suède 2",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-suede-2-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 1,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-amerique-nord-1-sujet-officiel.pdf",
+    "year": 2024,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Amérique du Nord 1",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-amerique-nord-1-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 43,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-polynesie-1-remplacement-sujet-officiel.pdf",
+    "year": 2023,
+    "session": 2,
+    "level": "Baccalauréat",
+    "centerName": "Polynésie 1",
+    "hasCorrection": false
+  },
+  {
+    "id": 41,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-metropole-1-remplacement-sujet-officiel.pdf",
+    "year": 2023,
+    "session": 2,
+    "level": "Baccalauréat",
+    "centerName": "Métropole France 1",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-metropole-1-remplacement-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 42,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-metropole-2-remplacement-sujet-officiel.pdf",
+    "year": 2023,
+    "session": 2,
+    "level": "Baccalauréat",
+    "centerName": "Métropole France 2",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-metropole-2-remplacement-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 34,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-metropole-2-sujet-officiel.pdf",
+    "year": 2023,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Métropole France 2",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-metropole-2-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 17,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-amerique-nord-1-sujet-officiel.pdf",
+    "year": 2023,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Amérique du Nord 1",
+    "correction": "https://www.labolycee.org/bac-2023-amerique-du-nord-jour-1",
+    "hasCorrection": true
+  },
+  {
+    "id": 25,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-centres-etranger-2-sujet-officiel.pdf",
+    "year": 2023,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Centres étrangers Afrique 2",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-centres-etranger-2-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 18,
+    "paper": "https://www.labolycee.org/bac-2023-amerique-du-nord-jour-2",
+    "year": 2023,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Amérique du Nord 2",
+    "correction": "https://www.labolycee.org/bac-2023-amerique-du-nord-jour-2",
+    "hasCorrection": true
+  },
+  {
+    "id": 19,
+    "paper": "https://www.labolycee.org/bac-2023-asie-jour-1",
+    "year": 2023,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Asie 1",
+    "correction": "https://www.labolycee.org/bac-2023-asie-jour-1",
+    "hasCorrection": true
+  },
+  {
+    "id": 20,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-asie-2-sujet-officiel.pdf",
+    "year": 2023,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Asie 2",
+    "correction": "https://www.labolycee.org/bac-2023-asie-jour-2",
+    "hasCorrection": true
+  },
+  {
+    "id": 24,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-centres-etranger-1-sujet-officiel.pdf",
+    "year": 2023,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Centres étrangers Afrique 1",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-centres-etranger-1-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 26,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-la-reunion-1-sujet-officiel.pdf",
+    "year": 2023,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "La Réunion 1",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-la-reunion-1-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 27,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-la-reunion-2-sujet-officiel.pdf",
+    "year": 2023,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "La Réunion 2",
+    "hasCorrection": false
+  },
+  {
+    "id": 28,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-liban-1-sujet-officiel.pdf",
+    "year": 2023,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Liban 1",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-liban-1-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 29,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-liban-2-sujet-officiel.pdf",
+    "year": 2023,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Liban 2",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-liban-2-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 32,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-metropole-1-sujet-officiel.pdf",
+    "year": 2023,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Métropole France 1",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-metropole-1-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 36,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-nouv-caledonie-1-sujet-officiel.pdf",
+    "year": 2023,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Nouvelle-Calédonie 1",
+    "correction": "https://www.labolycee.org/bac-2023-nouvelle-caledonie-jour-1",
+    "hasCorrection": true
+  },
+  {
+    "id": 37,
+    "paper": "https://www.sujetdebac.fr/annales/spe-physique-chimie-2023-nouv-caledonie-2",
+    "year": 2023,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Nouvelle-Calédonie 2",
+    "correction": "https://www.labolycee.org/bac-2023-nouvelle-caledonie-jour-2",
+    "hasCorrection": true
+  },
+  {
+    "id": 38,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-polynesie-1-sujet-officiel.pdf",
+    "year": 2023,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Polynésie 1",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-polynesie-1-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 39,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-polynesie-2-sujet-officiel.pdf",
+    "year": 2023,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Polynésie 2",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-polynesie-2-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 64,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-metropole-1-remplacement-sujet-officiel.pdf",
+    "year": 2022,
+    "session": 2,
+    "level": "Baccalauréat",
+    "centerName": "Métropole France 1",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-metropole-1-remplacement-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 66,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-metropole-2-remplacement-sujet-officiel.pdf",
+    "year": 2022,
+    "session": 2,
+    "level": "Baccalauréat",
+    "centerName": "Métropole France 2",
+    "correction": "http://sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-metropole-2-remplacement-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 44,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-amerique-nord-1-sujet-officiel.pdf",
+    "year": 2022,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Amérique du Nord 1",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-amerique-nord-1-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 47,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-amerique-sud-2-sujet-officiel.pdf",
+    "year": 2022,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Amérique du Sud 2",
+    "correction": "https://www.labolycee.org/amerique-du-sud-2022-jour-2",
+    "hasCorrection": true
+  },
+  {
+    "id": 48,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-asie-1-sujet-officiel.pdf",
+    "year": 2022,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Asie 1",
+    "correction": "https://www.labolycee.org/asie-2022-jour-1",
+    "hasCorrection": true
+  },
+  {
+    "id": 49,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-asie-2-sujet-officiel.pdf",
+    "year": 2022,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Asie 2",
+    "correction": "http://labolycee.org/asie-2022-jour-2",
+    "hasCorrection": true
+  },
+  {
+    "id": 51,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-centres-etranger-1-sujet-officiel.pdf",
+    "year": 2022,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Centres étrangers Afrique 1",
+    "correction": "https://www.labolycee.org/centres-etrangers-1-2022-jour-1",
+    "hasCorrection": true
+  },
+  {
+    "id": 54,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-centres-etranger-2-sujet-officiel.pdf",
+    "year": 2022,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Centres étrangers Afrique 2",
+    "correction": "https://www.labolycee.org/centres-etrangers-1-2022-jour-2",
+    "hasCorrection": true
+  },
+  {
+    "id": 55,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-mayotte-liban-1-sujet-officiel.pdf",
+    "year": 2022,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Mayotte-Liban 1",
+    "hasCorrection": false
+  },
+  {
+    "id": 46,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-amerique-sud-1-sujet-officiel.pdf",
+    "year": 2022,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Amérique du Sud 1",
+    "correction": "https://www.labolycee.org/amerique-du-sud-2022-jour-1",
+    "hasCorrection": true
+  },
+  {
+    "id": 57,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-metropole-1-sujet-officiel.pdf",
+    "year": 2022,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Métropole France 1",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-metropole-1-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 58,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-metropole-2-sujet-officiel.pdf",
+    "year": 2022,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Métropole France 2",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-metropole-2-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 59,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-nouv-caledonie-1-sujet-officiel.pdf",
+    "year": 2022,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Nouvelle-Calédonie 1",
+    "correction": "https://www.labolycee.org/nouvelle-caledonie-2022-jour-1",
+    "hasCorrection": true
+  },
+  {
+    "id": 60,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-nouv-caledonie-2-sujet-officiel.pdf",
+    "year": 2022,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Nouvelle-Calédonie 2",
+    "correction": "https://www.labolycee.org/nouvelle-caledonie-2022-jour-2",
+    "hasCorrection": true
+  },
+  {
+    "id": 61,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-polynesie-1-sujet-officiel.pdf",
+    "year": 2022,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Polynésie 1",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-polynesie-1-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 62,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-polynesie-2-sujet-officiel.pdf",
+    "year": 2022,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Polynésie 2",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-polynesie-2-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 56,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-mayotte-liban-2-sujet-officiel.pdf",
+    "year": 2022,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Mayotte-Liban 2",
+    "hasCorrection": false
+  },
+  {
+    "id": 45,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-amerique-nord-2-sujet-officiel.pdf",
+    "year": 2022,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Amérique du Nord 2",
+    "correction": "https://www.labolycee.org/amerique-du-nord-2022-jour-2",
+    "hasCorrection": true
+  },
+  {
+    "id": 75,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2021/spe-physique-chimie-2021-centres-etranger-2-sujet-officiel.pdf",
+    "year": 2021,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Centres étrangers Afrique 2",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2021/spe-physique-chimie-2021-centres-etranger-2-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 67,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2021/spe-physique-chimie-2021-amerique-nord-1-sujet-officiel.pdf",
+    "year": 2021,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Amérique du Nord 1",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2021/spe-physique-chimie-2021-amerique-nord-1-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 68,
+    "paper": "https://www.sujetdebac.fr/annales/spe-physique-chimie-2021-amerique-nord-2",
+    "year": 2021,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Amérique du Nord 2",
+    "hasCorrection": false
+  },
+  {
+    "id": 70,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2021/spe-physique-chimie-2021-asie-1-sujet-officiel.pdf",
+    "year": 2021,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Asie 1",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2021/spe-physique-chimie-2021-asie-1-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 71,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2021/spe-physique-chimie-2021-asie-2-sujet-officiel.pdf",
+    "year": 2021,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Asie 2",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2021/spe-physique-chimie-2021-asie-2-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 73,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2021/spe-physique-chimie-2021-centres-etranger-1-sujet-officiel.pdf",
+    "year": 2021,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Centres étrangers Afrique 1",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2021/spe-physique-chimie-2021-centres-etranger-1-corrige.pdf",
+    "hasCorrection": true
+  },
+  {
+    "id": 77,
+    "paper": "https://www.sujetdebac.fr/annales-pdf/2021/spe-physique-chimie-2021-metropole-1-sujet-officiel.pdf",
+    "year": 2021,
+    "session": 1,
+    "level": "Baccalauréat",
+    "centerName": "Métropole France 1",
+    "correction": "https://www.sujetdebac.fr/annales-pdf/2021/spe-physique-chimie-2021-metropole-1-corrige.pdf",
+    "hasCorrection": true
+  }
+]
