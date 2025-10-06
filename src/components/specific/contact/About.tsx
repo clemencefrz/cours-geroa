@@ -61,7 +61,7 @@ const About = () => {
               "La physique-chimie",
               "L'informatique (Python, Typescript, Matlab, etc.)",
             ]}
-            qualifications={`Après une classe prépa Math Sup/Math Spé, je suis entrée dans une grande école d'ingénieur toulousaine (l'ENSEEIHT). C'est là que j'ai commencé les cours particuliers, d'abord en agence (Complétude), puis avec mon école (Cours particuliers à prépas) et enfin en auto-entreprise (des élèves du lycée Villa Pia, d'ISA BTP, d'EPITA...).`}
+            qualifications={`Après une classe prépa Math Sup/Math Spé, je suis entrée dans une grande école d'ingénieur toulousaine (l'ENSEEIHT). C'est là que j'ai commencé les cours particuliers, d'abord en agence (Complétude), puis avec mon école (Cours particuliers à prépas) et enfin en auto-entreprise (des élèves du lycée Villa Pia, d'ISA BTP, d'EPITA...). J'ai également donné des cours à l'IUT de Bayonne.`}
             srcImage="/images/clemence.jpeg"
           />
           <CardTutor
@@ -82,16 +82,16 @@ Depuis mes années en prépa, je donne régulièrement des cours particuliers à
       <MotionDiv title="Notre vision">
         <div className="flex flex-col items-center gap-8 p-6 border-slate-200 rounded-lg">
           <div className="text-center">
-            <h3 className="text-2xl font-semibold text-brandTwo mb-4">{`Faciliter l'accès à une formation de qualité`}</h3>
+            <h3 className="text-2xl font-semibold text-brandTwo mb-4">{`Accompagner sans remplacer`}</h3>
             <p className="text-lg leading-relaxed max-w-3xl mx-auto">
-              {`Chez Geroa, on souhaite faciliter l'accès à une formation de qualité dans le Pays Basque, tout en favorisant l'épanouissement personnel et le développement de l'esprit critique des élèves et jeunes adultes. Nous croyons fermement que chaque étudiant mérite un accompagnement personnalisé et possède les ressources en lui et la confiance dont il a besoin pour atteindre ses objectifs.`}
+              {`Nous considérons chaque étudiant, peu importe son âge, comme responsable et autonome. Nous avons la conviction que chaque élève que nous rencontrons a les capacités de savoir ce dont il a besoin pour progresser, et peut nous le demander, le communiquer.`}
             </p>
           </div>
 
           <div className="text-center">
-            <h3 className="text-2xl font-semibold text-brandTwo mb-4">{`Adapter l'éducation aux évolutions technologiques`}</h3>
+            <h3 className="text-2xl font-semibold text-brandTwo mb-4">{`Bienveillance et dépassement`}</h3>
             <p className="text-lg leading-relaxed max-w-3xl mx-auto">
-              {`Nous avons à coeur d'adapter l'éducation aux évolutions technologiques tout en préservant les valeurs humaines et les principes fondamentaux de l'enseignement. Nous prônons l'intégration des dernières avancées en intelligence artificielle, en numérique et en réseaux sociaux, tout en maintenant un lien humain essentiel.`}
+              {`Chaque personne est différente. L'élève vient avec ses forces, ses faiblesses, ses questionnements qui peuvent varier aussi d'un jour à l'autre. Nous ne sommes pas des robots. Notre rôle est d'accompagner l'élève en nous adaptant à lui, dans la bienveillance et dans l'optique d'atteindre des objectifs ambitieux.`}
             </p>
           </div>
         </div>
