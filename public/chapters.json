@@ -1,0 +1,149 @@
+[
+  {
+    "id": 80,
+    "name": "Des méthodes chimiques d'analyse d'un système chimique",
+    "taughtInLevel": "Terminale",
+    "thematic": "Constitution et transformations de la matière",
+    "subject": "Physique-Chimie"
+  },
+  {
+    "id": 78,
+    "name": "Des méthodes physiques d'analyse d'un système chimique",
+    "taughtInLevel": "Terminale",
+    "thematic": "Constitution et transformations de la matière",
+    "subject": "Physique-Chimie"
+  },
+  {
+    "id": 99,
+    "name": "L'intensité sonore et l'effet Doppler",
+    "taughtInLevel": "Terminale",
+    "thematic": "Ondes et signaux",
+    "subject": "Physique-Chimie"
+  },
+  {
+    "id": 90,
+    "name": "L'évolution forcée d'un système chimique",
+    "taughtInLevel": "Terminale",
+    "thematic": "Constitution et transformations de la matière",
+    "subject": "Physique-Chimie"
+  },
+  {
+    "id": 86,
+    "name": "L'évolution spontanée d'un système chimique",
+    "taughtInLevel": "Terminale",
+    "thematic": "Constitution et transformations de la matière",
+    "subject": "Physique-Chimie"
+  },
+  {
+    "id": 98,
+    "name": "La description d'un système thermodynamique : le modèle du gaz parfait",
+    "taughtInLevel": "Terminale",
+    "thematic": "Mouvement et interactions",
+    "subject": "Physique-Chimie"
+  },
+  {
+    "id": 101,
+    "name": "La description de la lumière par un flux de photons",
+    "taughtInLevel": "Terminale",
+    "thematic": "Ondes et signaux",
+    "subject": "Physique-Chimie"
+  },
+  {
+    "id": 93,
+    "name": "La description du mouvement et la deuxième loi de Newton",
+    "taughtInLevel": "Terminale",
+    "thematic": "Mouvement et interactions",
+    "subject": "Physique-Chimie"
+  },
+  {
+    "id": 103,
+    "name": "La dynamique d'un système électrique capacitif",
+    "taughtInLevel": "Terminale",
+    "thematic": "Ondes et signaux",
+    "subject": "Physique-Chimie"
+  },
+  {
+    "id": 88,
+    "name": "La force des acides et des bases en solution aqueuse",
+    "taughtInLevel": "Terminale",
+    "thematic": "Constitution et transformations de la matière",
+    "subject": "Physique-Chimie"
+  },
+  {
+    "id": 96,
+    "name": "La modélisation de l écoulement d un fluide",
+    "taughtInLevel": "Terminale",
+    "thematic": "Mouvement et interactions",
+    "subject": "Physique-Chimie"
+  },
+  {
+    "id": 82,
+    "name": "La modélisation temporelle d’un système chimique",
+    "taughtInLevel": "Terminale",
+    "thematic": "Constitution et transformations de la matière",
+    "subject": "Physique-Chimie"
+  },
+  {
+    "id": 84,
+    "name": "La modélisation temporelle d’un système nucléaire",
+    "taughtInLevel": "Terminale",
+    "thematic": "Constitution et transformations de la matière",
+    "subject": "Physique-Chimie"
+  },
+  {
+    "id": 92,
+    "name": "La structure et les propriétés des molécules en synthèse organique",
+    "taughtInLevel": "Terminale",
+    "thematic": "Constitution et transformations de la matière",
+    "subject": "Physique-Chimie"
+  },
+  {
+    "id": 102,
+    "name": "Le modèle optique d’une lunette afocale",
+    "taughtInLevel": "Terminale",
+    "thematic": "Ondes et signaux",
+    "subject": "Physique-Chimie"
+  },
+  {
+    "id": 95,
+    "name": "Le mouvement d’un corps céleste dans un champ de gravitation",
+    "taughtInLevel": "Terminale",
+    "thematic": "Mouvement et interactions",
+    "subject": "Physique-Chimie"
+  },
+  {
+    "id": 94,
+    "name": "Les mouvements dans un champ uniforme",
+    "taughtInLevel": "Terminale",
+    "thematic": "Mouvement et interactions",
+    "subject": "Physique-Chimie"
+  },
+  {
+    "id": 100,
+    "name": "Les phénomènes de diffraction et d’interférence",
+    "taughtInLevel": "Terminale",
+    "thematic": "Ondes et signaux",
+    "subject": "Physique-Chimie"
+  },
+  {
+    "id": 97,
+    "name": "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+    "taughtInLevel": "Terminale",
+    "thematic": "Mouvement et interactions",
+    "subject": "Physique-Chimie"
+  },
+  {
+    "id": 76,
+    "name": "Les transformations acidobasiques en solution aqueuse",
+    "taughtInLevel": "Terminale",
+    "thematic": "Constitution et transformations de la matière",
+    "subject": "Physique-Chimie"
+  },
+  {
+    "id": 104,
+    "name": "Ondes mécaniques",
+    "taughtInLevel": "Première",
+    "thematic": "Ondes et signaux",
+    "subject": "Physique-Chimie"
+  }
+]

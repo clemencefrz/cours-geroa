@@ -7,7 +7,44 @@
     "level": "Baccalauréat",
     "centerName": "Polynésie 2",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-polynesie-2-remplacement-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La modélisation temporelle d’un système chimique",
+      "L'évolution spontanée d'un système chimique",
+      "Les phénomènes de diffraction et d’interférence",
+      "L'intensité sonore et l'effet Doppler",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La modélisation temporelle d’un système chimique",
+          "L'évolution spontanée d'un système chimique"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les phénomènes de diffraction et d’interférence",
+          "L'intensité sonore et l'effet Doppler",
+          "Des méthodes physiques d'analyse d'un système chimique"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      }
+    ]
   },
   {
     "id": 14,
@@ -17,7 +54,42 @@
     "level": "Baccalauréat",
     "centerName": "Métropole France 2",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-metropole-2-remplacement-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La modélisation temporelle d’un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "L'évolution forcée d'un système chimique",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La modélisation temporelle d’un système chimique"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La force des acides et des bases en solution aqueuse",
+          "L'évolution forcée d'un système chimique"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique"
+        ]
+      }
+    ]
   },
   {
     "id": 13,
@@ -27,7 +99,42 @@
     "level": "Baccalauréat",
     "centerName": "Métropole France 1",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-metropole-1-remplacement-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La modélisation temporelle d’un système chimique",
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+      "La description d'un système thermodynamique : le modèle du gaz parfait",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Le modèle optique d’une lunette afocale"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La modélisation temporelle d’un système chimique"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+          "La description d'un système thermodynamique : le modèle du gaz parfait"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Le modèle optique d’une lunette afocale"
+        ]
+      }
+    ]
   },
   {
     "id": 5,
@@ -37,7 +144,38 @@
     "level": "Baccalauréat",
     "centerName": "Centres étrangers Afrique 1",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-centres-etranger-1-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "Le mouvement d’un corps céleste dans un champ de gravitation",
+      "Les phénomènes de diffraction et d’interférence",
+      "La modélisation temporelle d’un système nucléaire",
+      "La dynamique d'un système électrique capacitif"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Le mouvement d’un corps céleste dans un champ de gravitation",
+          "Les phénomènes de diffraction et d’interférence"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La modélisation temporelle d’un système nucléaire",
+          "La dynamique d'un système électrique capacitif"
+        ]
+      }
+    ]
   },
   {
     "id": 6,
@@ -47,7 +185,44 @@
     "level": "Baccalauréat",
     "centerName": "Centres étrangers Afrique 2",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-centres-etranger-2-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "L'évolution spontanée d'un système chimique",
+      "L'évolution forcée d'un système chimique",
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+      "La description d'un système thermodynamique : le modèle du gaz parfait",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Le mouvement d’un corps céleste dans un champ de gravitation"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "L'évolution spontanée d'un système chimique",
+          "L'évolution forcée d'un système chimique"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+          "La description d'un système thermodynamique : le modèle du gaz parfait"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Le mouvement d’un corps céleste dans un champ de gravitation"
+        ]
+      }
+    ]
   },
   {
     "id": 2,
@@ -57,7 +232,43 @@
     "level": "Baccalauréat",
     "centerName": "Amérique du Nord 2",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-amerique-nord-2-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "L'évolution spontanée d'un système chimique",
+      "L'évolution forcée d'un système chimique",
+      "Les transformations acidobasiques en solution aqueuse",
+      "La force des acides et des bases en solution aqueuse",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "L'intensité sonore et l'effet Doppler"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "L'évolution spontanée d'un système chimique",
+          "L'évolution forcée d'un système chimique"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "L'intensité sonore et l'effet Doppler"
+        ]
+      }
+    ]
   },
   {
     "id": 9,
@@ -67,7 +278,42 @@
     "level": "Baccalauréat",
     "centerName": "Métropole France 2",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-metropole-2-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "La modélisation temporelle d’un système chimique",
+      "La modélisation temporelle d’un système nucléaire",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Le modèle optique d’une lunette afocale"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La modélisation temporelle d’un système chimique",
+          "La modélisation temporelle d’un système nucléaire"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Le modèle optique d’une lunette afocale"
+        ]
+      }
+    ]
   },
   {
     "id": 10,
@@ -77,7 +323,41 @@
     "level": "Baccalauréat",
     "centerName": "Polynésie 1",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-polynesie-1-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "La modélisation temporelle d’un système chimique",
+      "Le mouvement d’un corps céleste dans un champ de gravitation",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse",
+          "La modélisation temporelle d’un système chimique"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Le mouvement d’un corps céleste dans un champ de gravitation",
+          "La description du mouvement et la deuxième loi de Newton"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      }
+    ]
   },
   {
     "id": 11,
@@ -87,7 +367,38 @@
     "level": "Baccalauréat",
     "centerName": "Polynésie 2",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-polynesie-2-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La modélisation temporelle d’un système chimique",
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+      "La description d'un système thermodynamique : le modèle du gaz parfait",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La modélisation temporelle d’un système chimique"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+          "La description d'un système thermodynamique : le modèle du gaz parfait"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      }
+    ]
   },
   {
     "id": 8,
@@ -97,7 +408,46 @@
     "level": "Baccalauréat",
     "centerName": "Métropole France 1",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-metropole-1-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "La structure et les propriétés des molécules en synthèse organique",
+      "Le modèle optique d’une lunette afocale",
+      "Les phénomènes de diffraction et d’interférence",
+      "L'intensité sonore et l'effet Doppler",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "La modélisation de l écoulement d un fluide"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse",
+          "La structure et les propriétés des molécules en synthèse organique"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Le modèle optique d’une lunette afocale",
+          "Les phénomènes de diffraction et d’interférence",
+          "L'intensité sonore et l'effet Doppler"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "La modélisation de l écoulement d un fluide"
+        ]
+      }
+    ]
   },
   {
     "id": 3,
@@ -107,7 +457,40 @@
     "level": "Baccalauréat",
     "centerName": "Asie 1",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-asie-1-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "La force des acides et des bases en solution aqueuse",
+      "L'évolution spontanée d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "Le mouvement d’un corps céleste dans un champ de gravitation",
+      "Les phénomènes de diffraction et d’interférence",
+      "La modélisation temporelle d’un système nucléaire",
+      "La dynamique d'un système électrique capacitif"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "La force des acides et des bases en solution aqueuse",
+          "L'évolution spontanée d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Le mouvement d’un corps céleste dans un champ de gravitation",
+          "Les phénomènes de diffraction et d’interférence"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La modélisation temporelle d’un système nucléaire",
+          "La dynamique d'un système électrique capacitif"
+        ]
+      }
+    ]
   },
   {
     "id": 4,
@@ -117,7 +500,36 @@
     "level": "Baccalauréat",
     "centerName": "Asie 2",
     "correction": "https://www.labolycee.org/bac-2024-asie-jour-2",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Le mouvement d’un corps céleste dans un champ de gravitation",
+      "Les phénomènes de diffraction et d’interférence",
+      "La force des acides et des bases en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Le mouvement d’un corps céleste dans un champ de gravitation",
+          "Les phénomènes de diffraction et d’interférence"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La force des acides et des bases en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      }
+    ]
   },
   {
     "id": 12,
@@ -127,7 +539,39 @@
     "level": "Baccalauréat",
     "centerName": "Suède 2",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-suede-2-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "La structure et les propriétés des molécules en synthèse organique",
+      "L'évolution forcée d'un système chimique",
+      "La modélisation temporelle d’un système chimique",
+      "L'intensité sonore et l'effet Doppler",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Le mouvement d’un corps céleste dans un champ de gravitation"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "La structure et les propriétés des molécules en synthèse organique",
+          "L'évolution forcée d'un système chimique",
+          "La modélisation temporelle d’un système chimique"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "L'intensité sonore et l'effet Doppler",
+          "La description du mouvement et la deuxième loi de Newton"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Le mouvement d’un corps céleste dans un champ de gravitation",
+          "La description du mouvement et la deuxième loi de Newton"
+        ]
+      }
+    ]
   },
   {
     "id": 1,
@@ -137,7 +581,45 @@
     "level": "Baccalauréat",
     "centerName": "Amérique du Nord 1",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2024/spe-physique-chimie-2024-amerique-nord-1-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les phénomènes de diffraction et d’interférence",
+      "Le mouvement d’un corps céleste dans un champ de gravitation",
+      "Ondes mécaniques",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "L'évolution spontanée d'un système chimique",
+      "L'évolution forcée d'un système chimique",
+      "La dynamique d'un système électrique capacitif",
+      "La force des acides et des bases en solution aqueuse",
+      "La structure et les propriétés des molécules en synthèse organique"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les phénomènes de diffraction et d’interférence",
+          "Le mouvement d’un corps céleste dans un champ de gravitation",
+          "Ondes mécaniques"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "L'évolution spontanée d'un système chimique",
+          "L'évolution forcée d'un système chimique",
+          "La dynamique d'un système électrique capacitif"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La force des acides et des bases en solution aqueuse",
+          "La structure et les propriétés des molécules en synthèse organique",
+          "Des méthodes chimiques d'analyse d'un système chimique"
+        ]
+      }
+    ]
   },
   {
     "id": 43,
@@ -146,7 +628,46 @@
     "session": 2,
     "level": "Baccalauréat",
     "centerName": "Polynésie 1",
-    "hasCorrection": false
+    "hasCorrection": false,
+    "chapters": [
+      "L'intensité sonore et l'effet Doppler",
+      "La dynamique d'un système électrique capacitif",
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La modélisation temporelle d’un système chimique",
+      "L'évolution spontanée d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "L'intensité sonore et l'effet Doppler",
+          "La dynamique d'un système électrique capacitif"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La modélisation temporelle d’un système chimique",
+          "L'évolution spontanée d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      }
+    ]
   },
   {
     "id": 41,
@@ -156,7 +677,43 @@
     "level": "Baccalauréat",
     "centerName": "Métropole France 1",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-metropole-1-remplacement-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La structure et les propriétés des molécules en synthèse organique",
+      "L'évolution spontanée d'un système chimique",
+      "Les phénomènes de diffraction et d’interférence",
+      "Le modèle optique d’une lunette afocale",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La structure et les propriétés des molécules en synthèse organique",
+          "L'évolution spontanée d'un système chimique"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les phénomènes de diffraction et d’interférence",
+          "Le modèle optique d’une lunette afocale"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      }
+    ]
   },
   {
     "id": 42,
@@ -166,7 +723,46 @@
     "level": "Baccalauréat",
     "centerName": "Métropole France 2",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-metropole-2-remplacement-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La modélisation temporelle d’un système chimique",
+      "L'évolution spontanée d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "L'intensité sonore et l'effet Doppler",
+      "La dynamique d'un système électrique capacitif"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La modélisation temporelle d’un système chimique",
+          "L'évolution spontanée d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "L'intensité sonore et l'effet Doppler",
+          "La dynamique d'un système électrique capacitif"
+        ]
+      }
+    ]
   },
   {
     "id": 34,
@@ -176,7 +772,44 @@
     "level": "Baccalauréat",
     "centerName": "Métropole France 2",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-metropole-2-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Le mouvement d’un corps céleste dans un champ de gravitation",
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+      "La description d'un système thermodynamique : le modèle du gaz parfait",
+      "L'intensité sonore et l'effet Doppler"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Le mouvement d’un corps céleste dans un champ de gravitation"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+          "La description d'un système thermodynamique : le modèle du gaz parfait",
+          "L'intensité sonore et l'effet Doppler"
+        ]
+      }
+    ]
   },
   {
     "id": 17,
@@ -186,7 +819,43 @@
     "level": "Baccalauréat",
     "centerName": "Amérique du Nord 1",
     "correction": "https://www.labolycee.org/bac-2023-amerique-du-nord-jour-1",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "La dynamique d'un système électrique capacitif",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "Les transformations acidobasiques en solution aqueuse",
+      "L'évolution spontanée d'un système chimique",
+      "La force des acides et des bases en solution aqueuse"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "La dynamique d'un système électrique capacitif"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "L'évolution spontanée d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      }
+    ]
   },
   {
     "id": 25,
@@ -196,7 +865,46 @@
     "level": "Baccalauréat",
     "centerName": "Centres étrangers Afrique 2",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-centres-etranger-2-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "La modélisation de l écoulement d un fluide",
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "La modélisation temporelle d’un système chimique",
+      "L'évolution spontanée d'un système chimique",
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "La modélisation de l écoulement d un fluide",
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "La modélisation temporelle d’un système chimique",
+          "L'évolution spontanée d'un système chimique"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      }
+    ]
   },
   {
     "id": 18,
@@ -206,7 +914,47 @@
     "level": "Baccalauréat",
     "centerName": "Amérique du Nord 2",
     "correction": "https://www.labolycee.org/bac-2023-amerique-du-nord-jour-2",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "La structure et les propriétés des molécules en synthèse organique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "La dynamique d'un système électrique capacitif",
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "La description d'un système thermodynamique : le modèle du gaz parfait",
+      "La description de la lumière par un flux de photons"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "La structure et les propriétés des molécules en synthèse organique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "La dynamique d'un système électrique capacitif",
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "La description d'un système thermodynamique : le modèle du gaz parfait",
+          "La description de la lumière par un flux de photons",
+          "La structure et les propriétés des molécules en synthèse organique"
+        ]
+      }
+    ]
   },
   {
     "id": 19,
@@ -216,7 +964,47 @@
     "level": "Baccalauréat",
     "centerName": "Asie 1",
     "correction": "https://www.labolycee.org/bac-2023-asie-jour-1",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Le modèle optique d’une lunette afocale",
+      "Les phénomènes de diffraction et d’interférence",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Le mouvement d’un corps céleste dans un champ de gravitation",
+      "La modélisation temporelle d’un système chimique",
+      "L'évolution spontanée d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "Les transformations acidobasiques en solution aqueuse",
+      "La force des acides et des bases en solution aqueuse"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Le modèle optique d’une lunette afocale",
+          "Les phénomènes de diffraction et d’interférence",
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Le mouvement d’un corps céleste dans un champ de gravitation"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La modélisation temporelle d’un système chimique",
+          "L'évolution spontanée d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      }
+    ]
   },
   {
     "id": 20,
@@ -226,7 +1014,43 @@
     "level": "Baccalauréat",
     "centerName": "Asie 2",
     "correction": "https://www.labolycee.org/bac-2023-asie-jour-2",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "La modélisation de l écoulement d un fluide",
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+      "La dynamique d'un système électrique capacitif"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "La modélisation de l écoulement d un fluide",
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "La dynamique d'un système électrique capacitif"
+        ]
+      }
+    ]
   },
   {
     "id": 24,
@@ -236,7 +1060,46 @@
     "level": "Baccalauréat",
     "centerName": "Centres étrangers Afrique 1",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-centres-etranger-1-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "Les transformations acidobasiques en solution aqueuse",
+      "La force des acides et des bases en solution aqueuse",
+      "La modélisation temporelle d’un système chimique",
+      "Le mouvement d’un corps céleste dans un champ de gravitation",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "La description de la lumière par un flux de photons",
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "Les transformations acidobasiques en solution aqueuse",
+          "La force des acides et des bases en solution aqueuse",
+          "La modélisation temporelle d’un système chimique"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Le mouvement d’un corps céleste dans un champ de gravitation",
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "La description de la lumière par un flux de photons"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique"
+        ]
+      }
+    ]
   },
   {
     "id": 26,
@@ -246,7 +1109,40 @@
     "level": "Baccalauréat",
     "centerName": "La Réunion 1",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-la-reunion-1-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "La modélisation de l écoulement d un fluide",
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "La modélisation de l écoulement d un fluide"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique"
+        ]
+      }
+    ]
   },
   {
     "id": 27,
@@ -255,7 +1151,44 @@
     "session": 1,
     "level": "Baccalauréat",
     "centerName": "La Réunion 2",
-    "hasCorrection": false
+    "hasCorrection": false,
+    "chapters": [
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "La modélisation temporelle d’un système chimique",
+      "L'évolution spontanée d'un système chimique"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "La modélisation temporelle d’un système chimique",
+          "L'évolution spontanée d'un système chimique"
+        ]
+      }
+    ]
   },
   {
     "id": 28,
@@ -265,7 +1198,44 @@
     "level": "Baccalauréat",
     "centerName": "Liban 1",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-liban-1-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "La modélisation de l écoulement d un fluide",
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "La modélisation temporelle d’un système chimique",
+      "L'évolution spontanée d'un système chimique"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "La modélisation de l écoulement d un fluide"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "La modélisation temporelle d’un système chimique",
+          "L'évolution spontanée d'un système chimique"
+        ]
+      }
+    ]
   },
   {
     "id": 29,
@@ -275,7 +1245,43 @@
     "level": "Baccalauréat",
     "centerName": "Liban 2",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-liban-2-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Le mouvement d’un corps céleste dans un champ de gravitation",
+      "La modélisation de l écoulement d un fluide",
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Le mouvement d’un corps céleste dans un champ de gravitation",
+          "La modélisation de l écoulement d un fluide"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      }
+    ]
   },
   {
     "id": 32,
@@ -285,7 +1291,43 @@
     "level": "Baccalauréat",
     "centerName": "Métropole France 1",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-metropole-1-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Le mouvement d’un corps céleste dans un champ de gravitation",
+      "La modélisation de l écoulement d un fluide",
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Le mouvement d’un corps céleste dans un champ de gravitation",
+          "La modélisation de l écoulement d un fluide"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      }
+    ]
   },
   {
     "id": 36,
@@ -295,7 +1337,46 @@
     "level": "Baccalauréat",
     "centerName": "Nouvelle-Calédonie 1",
     "correction": "https://www.labolycee.org/bac-2023-nouvelle-caledonie-jour-1",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Le mouvement d’un corps céleste dans un champ de gravitation",
+      "La modélisation de l écoulement d un fluide",
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+      "La description d'un système thermodynamique : le modèle du gaz parfait",
+      "L'intensité sonore et l'effet Doppler"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Le mouvement d’un corps céleste dans un champ de gravitation",
+          "La modélisation de l écoulement d un fluide"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+          "La description d'un système thermodynamique : le modèle du gaz parfait",
+          "L'intensité sonore et l'effet Doppler"
+        ]
+      }
+    ]
   },
   {
     "id": 37,
@@ -305,7 +1386,42 @@
     "level": "Baccalauréat",
     "centerName": "Nouvelle-Calédonie 2",
     "correction": "https://www.labolycee.org/bac-2023-nouvelle-caledonie-jour-2",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "Les phénomènes de diffraction et d’interférence",
+      "La description de la lumière par un flux de photons",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Le mouvement d’un corps céleste dans un champ de gravitation"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les phénomènes de diffraction et d’interférence",
+          "La description de la lumière par un flux de photons"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Le mouvement d’un corps céleste dans un champ de gravitation"
+        ]
+      }
+    ]
   },
   {
     "id": 38,
@@ -315,7 +1431,44 @@
     "level": "Baccalauréat",
     "centerName": "Polynésie 1",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-polynesie-1-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Le mouvement d’un corps céleste dans un champ de gravitation",
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+      "La description d'un système thermodynamique : le modèle du gaz parfait",
+      "L'intensité sonore et l'effet Doppler"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Le mouvement d’un corps céleste dans un champ de gravitation"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+          "La description d'un système thermodynamique : le modèle du gaz parfait",
+          "L'intensité sonore et l'effet Doppler"
+        ]
+      }
+    ]
   },
   {
     "id": 39,
@@ -325,7 +1478,46 @@
     "level": "Baccalauréat",
     "centerName": "Polynésie 2",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2023/spe-physique-chimie-2023-polynesie-2-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La modélisation temporelle d’un système chimique",
+      "L'évolution spontanée d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "L'intensité sonore et l'effet Doppler",
+      "La dynamique d'un système électrique capacitif",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La modélisation temporelle d’un système chimique",
+          "L'évolution spontanée d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "L'intensité sonore et l'effet Doppler",
+          "La dynamique d'un système électrique capacitif"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      }
+    ]
   },
   {
     "id": 64,
@@ -335,7 +1527,47 @@
     "level": "Baccalauréat",
     "centerName": "Métropole France 1",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-metropole-1-remplacement-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "La dynamique d'un système électrique capacitif",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Le mouvement d’un corps céleste dans un champ de gravitation",
+      "L'intensité sonore et l'effet Doppler"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La dynamique d'un système électrique capacitif"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Le mouvement d’un corps céleste dans un champ de gravitation"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "L'intensité sonore et l'effet Doppler"
+        ]
+      }
+    ]
   },
   {
     "id": 66,
@@ -345,7 +1577,47 @@
     "level": "Baccalauréat",
     "centerName": "Métropole France 2",
     "correction": "http://sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-metropole-2-remplacement-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Le mouvement d’un corps céleste dans un champ de gravitation",
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "L'intensité sonore et l'effet Doppler",
+      "La dynamique d'un système électrique capacitif"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Le mouvement d’un corps céleste dans un champ de gravitation"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "L'intensité sonore et l'effet Doppler"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "La dynamique d'un système électrique capacitif"
+        ]
+      }
+    ]
   },
   {
     "id": 44,
@@ -355,7 +1627,55 @@
     "level": "Baccalauréat",
     "centerName": "Amérique du Nord 1",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-amerique-nord-1-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La modélisation temporelle d’un système chimique",
+      "L'évolution spontanée d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "L'intensité sonore et l'effet Doppler",
+      "La dynamique d'un système électrique capacitif",
+      "Le mouvement d’un corps céleste dans un champ de gravitation"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La modélisation temporelle d’un système chimique",
+          "L'évolution spontanée d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "L'intensité sonore et l'effet Doppler",
+          "La dynamique d'un système électrique capacitif"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "Le mouvement d’un corps céleste dans un champ de gravitation",
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      }
+    ]
   },
   {
     "id": 47,
@@ -365,7 +1685,51 @@
     "level": "Baccalauréat",
     "centerName": "Amérique du Sud 2",
     "correction": "https://www.labolycee.org/amerique-du-sud-2022-jour-2",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "L'intensité sonore et l'effet Doppler",
+      "La dynamique d'un système électrique capacitif"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "L'intensité sonore et l'effet Doppler",
+          "La dynamique d'un système électrique capacitif"
+        ]
+      }
+    ]
   },
   {
     "id": 48,
@@ -375,7 +1739,49 @@
     "level": "Baccalauréat",
     "centerName": "Asie 1",
     "correction": "https://www.labolycee.org/asie-2022-jour-1",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "L'intensité sonore et l'effet Doppler",
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+      "La description d'un système thermodynamique : le modèle du gaz parfait"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "L'intensité sonore et l'effet Doppler"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+          "La description d'un système thermodynamique : le modèle du gaz parfait"
+        ]
+      }
+    ]
   },
   {
     "id": 49,
@@ -385,7 +1791,51 @@
     "level": "Baccalauréat",
     "centerName": "Asie 2",
     "correction": "http://labolycee.org/asie-2022-jour-2",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "L'intensité sonore et l'effet Doppler",
+      "La dynamique d'un système électrique capacitif"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "L'intensité sonore et l'effet Doppler",
+          "La dynamique d'un système électrique capacitif"
+        ]
+      }
+    ]
   },
   {
     "id": 51,
@@ -395,7 +1845,49 @@
     "level": "Baccalauréat",
     "centerName": "Centres étrangers Afrique 1",
     "correction": "https://www.labolycee.org/centres-etrangers-1-2022-jour-1",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "L'intensité sonore et l'effet Doppler",
+      "La dynamique d'un système électrique capacitif",
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "L'intensité sonore et l'effet Doppler",
+          "La dynamique d'un système électrique capacitif"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "L'intensité sonore et l'effet Doppler",
+          "La dynamique d'un système électrique capacitif"
+        ]
+      }
+    ]
   },
   {
     "id": 54,
@@ -405,7 +1897,46 @@
     "level": "Baccalauréat",
     "centerName": "Centres étrangers Afrique 2",
     "correction": "https://www.labolycee.org/centres-etrangers-1-2022-jour-2",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "L'intensité sonore et l'effet Doppler",
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+      "La description d'un système thermodynamique : le modèle du gaz parfait"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "L'intensité sonore et l'effet Doppler"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "L'intensité sonore et l'effet Doppler"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+          "La description d'un système thermodynamique : le modèle du gaz parfait"
+        ]
+      }
+    ]
   },
   {
     "id": 55,
@@ -414,7 +1945,49 @@
     "session": 1,
     "level": "Baccalauréat",
     "centerName": "Mayotte-Liban 1",
-    "hasCorrection": false
+    "hasCorrection": false,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "L'intensité sonore et l'effet Doppler",
+      "La dynamique d'un système électrique capacitif"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "L'intensité sonore et l'effet Doppler",
+          "La dynamique d'un système électrique capacitif"
+        ]
+      }
+    ]
   },
   {
     "id": 46,
@@ -424,7 +1997,49 @@
     "level": "Baccalauréat",
     "centerName": "Amérique du Sud 1",
     "correction": "https://www.labolycee.org/amerique-du-sud-2022-jour-1",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "La dynamique d'un système électrique capacitif",
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+      "La description d'un système thermodynamique : le modèle du gaz parfait"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La dynamique d'un système électrique capacitif"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+          "La description d'un système thermodynamique : le modèle du gaz parfait"
+        ]
+      }
+    ]
   },
   {
     "id": 57,
@@ -434,7 +2049,45 @@
     "level": "Baccalauréat",
     "centerName": "Métropole France 1",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-metropole-1-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La modélisation temporelle d’un système chimique",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+      "La dynamique d'un système électrique capacitif"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La modélisation temporelle d’un système chimique"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "La dynamique d'un système électrique capacitif"
+        ]
+      }
+    ]
   },
   {
     "id": 58,
@@ -444,7 +2097,53 @@
     "level": "Baccalauréat",
     "centerName": "Métropole France 2",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-metropole-2-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Le mouvement d’un corps céleste dans un champ de gravitation",
+      "Le modèle optique d’une lunette afocale",
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "L'évolution spontanée d'un système chimique",
+      "La dynamique d'un système électrique capacitif"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Le mouvement d’un corps céleste dans un champ de gravitation",
+          "Le modèle optique d’une lunette afocale"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "L'évolution spontanée d'un système chimique"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "L'évolution spontanée d'un système chimique",
+          "La dynamique d'un système électrique capacitif"
+        ]
+      }
+    ]
   },
   {
     "id": 59,
@@ -454,7 +2153,51 @@
     "level": "Baccalauréat",
     "centerName": "Nouvelle-Calédonie 1",
     "correction": "https://www.labolycee.org/nouvelle-caledonie-2022-jour-1",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "La description d'un système thermodynamique : le modèle du gaz parfait",
+      "Les transformations acidobasiques en solution aqueuse",
+      "La modélisation temporelle d’un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "L'évolution spontanée d'un système chimique"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "La description d'un système thermodynamique : le modèle du gaz parfait"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "La modélisation temporelle d’un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La modélisation temporelle d’un système chimique"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "L'évolution spontanée d'un système chimique"
+        ]
+      }
+    ]
   },
   {
     "id": 60,
@@ -464,7 +2207,47 @@
     "level": "Baccalauréat",
     "centerName": "Nouvelle-Calédonie 2",
     "correction": "https://www.labolycee.org/nouvelle-caledonie-2022-jour-2",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La modélisation temporelle d’un système chimique",
+      "L'évolution spontanée d'un système chimique",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La modélisation temporelle d’un système chimique",
+          "L'évolution spontanée d'un système chimique"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "L'évolution spontanée d'un système chimique"
+        ]
+      }
+    ]
   },
   {
     "id": 61,
@@ -474,7 +2257,50 @@
     "level": "Baccalauréat",
     "centerName": "Polynésie 1",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-polynesie-1-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Le mouvement d’un corps céleste dans un champ de gravitation",
+      "Le modèle optique d’une lunette afocale"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Le mouvement d’un corps céleste dans un champ de gravitation"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Le modèle optique d’une lunette afocale"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Le modèle optique d’une lunette afocale"
+        ]
+      }
+    ]
   },
   {
     "id": 62,
@@ -484,7 +2310,47 @@
     "level": "Baccalauréat",
     "centerName": "Polynésie 2",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2022/spe-physique-chimie-2022-polynesie-2-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "La dynamique d'un système électrique capacitif",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Le mouvement d’un corps céleste dans un champ de gravitation",
+      "L'intensité sonore et l'effet Doppler"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La dynamique d'un système électrique capacitif"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Le mouvement d’un corps céleste dans un champ de gravitation"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "L'intensité sonore et l'effet Doppler"
+        ]
+      }
+    ]
   },
   {
     "id": 56,
@@ -493,7 +2359,45 @@
     "session": 1,
     "level": "Baccalauréat",
     "centerName": "Mayotte-Liban 2",
-    "hasCorrection": false
+    "hasCorrection": false,
+    "chapters": [
+      "La dynamique d'un système électrique capacitif",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La structure et les propriétés des molécules en synthèse organique"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "La dynamique d'un système électrique capacitif",
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La structure et les propriétés des molécules en synthèse organique"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La dynamique d'un système électrique capacitif"
+        ]
+      }
+    ]
   },
   {
     "id": 45,
@@ -503,7 +2407,49 @@
     "level": "Baccalauréat",
     "centerName": "Amérique du Nord 2",
     "correction": "https://www.labolycee.org/amerique-du-nord-2022-jour-2",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "La dynamique d'un système électrique capacitif",
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+      "La description d'un système thermodynamique : le modèle du gaz parfait"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La dynamique d'un système électrique capacitif"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+          "La description d'un système thermodynamique : le modèle du gaz parfait"
+        ]
+      }
+    ]
   },
   {
     "id": 75,
@@ -513,7 +2459,37 @@
     "level": "Baccalauréat",
     "centerName": "Centres étrangers Afrique 2",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2021/spe-physique-chimie-2021-centres-etranger-2-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+      "L'intensité sonore et l'effet Doppler",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La modélisation temporelle d’un système chimique",
+      "L'évolution spontanée d'un système chimique"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+          "L'intensité sonore et l'effet Doppler"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La modélisation temporelle d’un système chimique"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "L'évolution spontanée d'un système chimique"
+        ]
+      }
+    ]
   },
   {
     "id": 67,
@@ -523,7 +2499,49 @@
     "level": "Baccalauréat",
     "centerName": "Amérique du Nord 1",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2021/spe-physique-chimie-2021-amerique-nord-1-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "L'intensité sonore et l'effet Doppler",
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "L'évolution spontanée d'un système chimique"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "L'intensité sonore et l'effet Doppler"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "L'évolution spontanée d'un système chimique"
+        ]
+      }
+    ]
   },
   {
     "id": 68,
@@ -532,7 +2550,45 @@
     "session": 1,
     "level": "Baccalauréat",
     "centerName": "Amérique du Nord 2",
-    "hasCorrection": false
+    "hasCorrection": false,
+    "chapters": [
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Le mouvement d’un corps céleste dans un champ de gravitation",
+      "La modélisation de l écoulement d un fluide",
+      "Des méthodes chimiques d'analyse d'un système chimique"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Le mouvement d’un corps céleste dans un champ de gravitation"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La modélisation de l écoulement d un fluide"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Des méthodes chimiques d'analyse d'un système chimique"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique"
+        ]
+      }
+    ]
   },
   {
     "id": 70,
@@ -542,7 +2598,49 @@
     "level": "Baccalauréat",
     "centerName": "Asie 1",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2021/spe-physique-chimie-2021-asie-1-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Le mouvement d’un corps céleste dans un champ de gravitation",
+      "Les transformations acidobasiques en solution aqueuse",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "Des méthodes physiques d'analyse d'un système chimique",
+      "L'évolution spontanée d'un système chimique"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Le mouvement d’un corps céleste dans un champ de gravitation"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les transformations acidobasiques en solution aqueuse",
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "Des méthodes physiques d'analyse d'un système chimique",
+          "Des méthodes chimiques d'analyse d'un système chimique"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "L'évolution spontanée d'un système chimique"
+        ]
+      }
+    ]
   },
   {
     "id": 71,
@@ -552,7 +2650,51 @@
     "level": "Baccalauréat",
     "centerName": "Asie 2",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2021/spe-physique-chimie-2021-asie-2-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La modélisation temporelle d’un système chimique",
+      "L'évolution spontanée d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+      "L'intensité sonore et l'effet Doppler",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Le modèle optique d’une lunette afocale",
+      "Les phénomènes de diffraction et d’interférence"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La modélisation temporelle d’un système chimique",
+          "L'évolution spontanée d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+          "L'intensité sonore et l'effet Doppler"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "Le modèle optique d’une lunette afocale",
+          "Les phénomènes de diffraction et d’interférence"
+        ]
+      }
+    ]
   },
   {
     "id": 73,
@@ -562,7 +2704,49 @@
     "level": "Baccalauréat",
     "centerName": "Centres étrangers Afrique 1",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2021/spe-physique-chimie-2021-centres-etranger-1-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La modélisation temporelle d’un système chimique",
+      "L'évolution spontanée d'un système chimique",
+      "La force des acides et des bases en solution aqueuse",
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+      "L'intensité sonore et l'effet Doppler"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La modélisation temporelle d’un système chimique",
+          "L'évolution spontanée d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+          "L'intensité sonore et l'effet Doppler"
+        ]
+      }
+    ]
   },
   {
     "id": 77,
@@ -572,6 +2756,48 @@
     "level": "Baccalauréat",
     "centerName": "Métropole France 1",
     "correction": "https://www.sujetdebac.fr/annales-pdf/2021/spe-physique-chimie-2021-metropole-1-corrige.pdf",
-    "hasCorrection": true
+    "hasCorrection": true,
+    "chapters": [
+      "La description du mouvement et la deuxième loi de Newton",
+      "Les mouvements dans un champ uniforme",
+      "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+      "L'intensité sonore et l'effet Doppler",
+      "Des méthodes chimiques d'analyse d'un système chimique",
+      "La modélisation temporelle d’un système chimique",
+      "L'évolution spontanée d'un système chimique",
+      "La force des acides et des bases en solution aqueuse"
+    ],
+    "exercises": [
+      {
+        "index": 1,
+        "chapters": [
+          "La description du mouvement et la deuxième loi de Newton",
+          "Les mouvements dans un champ uniforme",
+          "Les transferts thermiques et bilans d'énergie d'un système thermodynamique",
+          "L'intensité sonore et l'effet Doppler"
+        ]
+      },
+      {
+        "index": 2,
+        "chapters": [
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La modélisation temporelle d’un système chimique"
+        ]
+      },
+      {
+        "index": 3,
+        "chapters": [
+          "L'évolution spontanée d'un système chimique",
+          "La force des acides et des bases en solution aqueuse"
+        ]
+      },
+      {
+        "index": 4,
+        "chapters": [
+          "Des méthodes chimiques d'analyse d'un système chimique",
+          "La modélisation temporelle d’un système chimique"
+        ]
+      }
+    ]
   }
 ]
