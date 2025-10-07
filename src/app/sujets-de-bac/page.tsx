@@ -36,7 +36,7 @@ export default async function Page() {
 
   return (
     <div className="px-6 py-10 max-w-6xl mx-auto">
-      <h1 className="text-3xl font-semibold mb-6">Sujets de Bac</h1>
+      <h1 className="text-3xl font-semibold mb-6">Sujets de Bac (Physique-Chimie)</h1>
       {sujets.length === 0 ? (
         <p>Aucun sujet disponible.</p>
       ) : (
