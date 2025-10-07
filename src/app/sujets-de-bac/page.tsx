@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
-import CardSujetDeBac from "@/components/specific/sujets-de-bac/CardSujetDeBac";
+import SujetsGridWithFilter from "@/components/specific/sujets-de-bac/SujetsGridWithFilter";
 
 export const metadata: Metadata = {
   title: "Sujets de Bac - Cours Geroa",
@@ -18,6 +18,7 @@ type SujetItem = {
   hasCorrection: boolean;
 };
 
+
 async function getSujets(): Promise<SujetItem[]> {
   try {
     const filePath = resolve(process.cwd(), "public", "sujets.json");
@@ -31,21 +32,25 @@ async function getSujets(): Promise<SujetItem[]> {
   }
 }
 
-export default async function Page() {
-  const sujets = await getSujets();
+async function getChapitres() {
+  try {
+    const chaptersRaw = await readFile(resolve(process.cwd(), "public", "chapters.json"), { encoding: "utf-8" }).catch(() => "[]");
+    const chapters = JSON.parse(chaptersRaw) as { id: number; name: string; taughtInLevel?: string; thematic?: string; subject?: string }[];
 
+    return chapters
+  } catch (e) {
+    throw new Error(
+      `Une erreur est survenue lors de la récupération des chapitres : ${e}`
+    );
+  }
+}
+
+export default async function Page() {
+  const [sujets, chapters] = await Promise.all([getSujets(), getChapitres()]);
   return (
     <div className="px-6 py-10 max-w-6xl mx-auto">
       <h1 className="text-3xl font-semibold mb-6">Sujets de Bac (Physique-Chimie)</h1>
-      {sujets.length === 0 ? (
-        <p>Aucun sujet disponible.</p>
-      ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {sujets.map((s) => (
-            <CardSujetDeBac key={s.id} sujet={s} />
-          ))}
-        </div>
-      )}
+      <SujetsGridWithFilter sujets={sujets} chapters={chapters} />
     </div>
   );
 }
