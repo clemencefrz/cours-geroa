@@ -23,15 +23,9 @@ const Header = () => {
           {/* nav */}
           <Nav />
         </div>
-        {/* Boutons d'actions */}
-        <div className="flex gap-2">
           <Button asChild>
             <Link href="/contact">Contactez-nous</Link>
           </Button>
-          <Button asChild variant="outline">
-            <Link href="/login">Se connecter</Link>
-          </Button>
-        </div>
       </div>
     </header>
   );

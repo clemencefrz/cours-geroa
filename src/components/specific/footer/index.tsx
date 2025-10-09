@@ -1,7 +1,7 @@
 import Logo from "../../generic/Logo";
 import FooterHeader from "./FooterHeader";
 import FooterLink from "./FooterLink";
-import { MapPin, Phone, Clock } from "lucide-react";
+import { MapPin, Mail, Clock } from "lucide-react";
 
 export const menuData = {
   menuItems: [
@@ -28,9 +28,9 @@ const navigation = {
       icon: <MapPin className="h-4 w-4 text-gray-500" />,
     },
     {
-      label: "06 65 45 22 14",
+      label: "cours.geroa@gmail.com",
       href: "/contact",
-      icon: <Phone className="h-4 w-4 text-gray-500" />,
+      icon: <Mail className="h-4 w-4 text-gray-500" />,
     },
     {
       label: "Lun. à Sam 12-14h",

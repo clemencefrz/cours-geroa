@@ -1,4 +1,4 @@
-import { Mail, Phone } from "lucide-react";
+import { Mail } from "lucide-react";
 import FormContact from "./FormContact";
 import Image from "next/image";
 import Link from "next/link";
@@ -30,14 +30,6 @@ const Contact = () => {
             <div className="flex flex-col">
               <p>Clémence Fernandez</p>
               <div className="flex flex-col">
-                <Button variant={"link"} asChild>
-                  <Link
-                    className="flex flex-row gap-1"
-                    href={"https://wa.me/0665452214"}
-                  >
-                    <Phone size={20} /> 06.65.45.22.14
-                  </Link>
-                </Button>
                 <Button variant={"link"} asChild>
                   <Link
                     className="flex flex-row gap-1"

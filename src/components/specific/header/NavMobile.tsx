@@ -21,7 +21,7 @@ const NavMobile = () => {
           <Menu size={24} />
         </Button>
       </SheetTrigger>
-      <SheetContent side={"left"}>
+      <SheetContent side={"left"} aria-description="Menu">
         <SheetHeader>
           <SheetTitle>Menu</SheetTitle>
         </SheetHeader>

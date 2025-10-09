@@ -31,14 +31,14 @@ const About = () => {
     <div className="w-full flex flex-col items-center justify-center md:px-24 gap-24">
       <Title />
 
-      {/* Clémence et Damien, Notre missions, nos valeurs */}
+
       <MotionDiv title={`Hey ! Bienvenue aux cours Geroa`}>
         <span>
           Nous sommes Clémence et Damien, deux ingénieurs Angloys. Notre mission
           ? Aider les lycéens et les étudiants à réussir dans leurs études et à
           trouver leur voie.
           <br />
-          {`Nous croyons aux valeurs de la discipline et de la responsabilité pour aider chacun à se réaliser et à s'éduquer, toujours dans la bonne humeur.`}
+          {`Nous croyons que chacun a la capacité de se réaliser et à s'éduquer, toujours dans la bonne humeur.`}
         </span>
       </MotionDiv>
 
