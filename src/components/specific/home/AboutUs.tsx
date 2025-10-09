@@ -26,8 +26,6 @@ const AboutUs = () => {
         <p>{`Maîtriser les concepts scientifiques est essentiel, mais savoir les communiquer l'est tout autant. Nous t'accompagnons dans le développement de tes qualités personnelles : comment bien te préparer pour le grand oral, rédiger avec clarté, savoir te poser les bonnes questions face à un problème, et développer un esprit critique.`}</p>
         <h3>{`Renforce ta confiance en toi.`}</h3>
         <p>{`Nous t'aidons à dépasser tes croyances limitantes, à sortir de ta zone de confort et à te responsabiliser pour atteindre tes objectifs. Ici, tu développes la confiance en toi nécessaire pour réussir.`}</p>
-        <h3>{`Un lieu pour explorer et se découvrir.`}</h3>
-        <p>{`Nous te conseillons sur les parcours professionnels et les études possibles. Tu auras l'opportunité de rencontrer des professionnels, de découvrir des métiers à travers des interviews, et de mieux te projeter dans ton avenir.`}</p>
         <h3>{`Éveille ta curiosité, développe ton esprit critique et découvre le Pays Basque.`}</h3>
         <p>{`Nous avons pour objectif de publier des articles, d'organiser des ateliers et des conférences sur des sujets d'actualité, locaux et globaux, pour stimuler ta curiosité et ton esprit critique.`}</p>
 
