@@ -14,8 +14,12 @@ export const menuData = {
       url: "/about",
     },
     {
-      label: "Sujets de Bac",
-      url: "/sujets-de-bac",
+      label: "Sujets de Bac - Physique-Chimie",
+      url: "/sujets-de-bac/physique-chimie",
+    },
+    {
+      label: "Sujets de Bac - Maths",
+      url: "/sujets-de-bac/mathematiques",
     },
   ],
 };
