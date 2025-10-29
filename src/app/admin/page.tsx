@@ -1,4 +1,4 @@
-import { DataTable } from "@/components/ui/data-table"
+import { DataTable } from "@/components/specific/data-table"
 import { columns } from "@/components/specific/admin/columns"
 import sujetsData from "@/../public/sujets.json"
 
