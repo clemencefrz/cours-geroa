@@ -48,7 +48,7 @@ async function main() {
     };
   });
 
-  const outPath = resolve(process.cwd(), "public", "sujets.json");
+  const outPath = resolve(process.cwd(), "public", "sujets-physique-chimie.json");
   mkdirSync(dirname(outPath), { recursive: true });
   writeFileSync(outPath, JSON.stringify(items, null, 2), { encoding: "utf-8" });
   // eslint-disable-next-line no-console

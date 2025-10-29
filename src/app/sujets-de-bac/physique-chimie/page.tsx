@@ -4,8 +4,8 @@ import { resolve } from "node:path";
 import SujetsGridWithFilter from "@/components/specific/sujets-de-bac/SujetsGridWithFilter";
 
 export const metadata: Metadata = {
-  title: "Sujets de Bac - Cours Geroa",
-  description: "Retrouvez ici les sujets de Bac.",
+  title: "Sujets de Bac - Physique-Chimie - Cours Geroa",
+  description: "Retrouvez ici les sujets de Bac de Physique-Chimie.",
 };
 
 type SujetItem = {
@@ -21,7 +21,7 @@ type SujetItem = {
 
 async function getSujets(): Promise<SujetItem[]> {
   try {
-    const filePath = resolve(process.cwd(), "public", "sujets.json");
+    const filePath = resolve(process.cwd(), "public", "sujets-physique-chimie.json");
     const raw = await readFile(filePath, { encoding: "utf-8" });
     const data = JSON.parse(raw) as SujetItem[];
     return data;
