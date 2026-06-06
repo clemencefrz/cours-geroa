@@ -34,39 +34,17 @@ const About = () => {
 
       <MotionDiv title={`Hey ! Bienvenue aux cours Geroa`}>
         <span>
-          Nous sommes Clémence et Damien, deux ingénieurs Angloys. Notre mission
-          ? Aider les lycéens et les étudiants à réussir dans leurs études et à
-          trouver leur voie.
+          {`Basés à Anglet, nous accompagnons les lycéens et les étudiants dans leur réussite scolaire et leur orientation, afin qu’ils construisent sereinement leur avenir.`}
           <br />
           {`Nous croyons que chacun a la capacité de se réaliser et à s'éduquer, toujours dans la bonne humeur.`}
         </span>
       </MotionDiv>
 
-      {/* Qualifications, expériences et spécialisation */}
       <MotionDiv title={`À propos de nous...`}>
         <div className="lg:grid lg:grid-cols-2 gap-9">
           <CardTutor
-            firstName="Clémence"
-            job="Ingénieure informatique"
-            formation="Math sup/Math spé puis Ecole d'ingénieur ENSEEIHT"
-            cibles={[
-              "Elèves lycéens niveau seconde, première et terminale",
-              "Licence",
-              "Master",
-              "Ecole d'ingénieur",
-              "Classes préparatoires",
-            ]}
-            subjects={[
-              "Les mathématiques",
-              "La physique-chimie",
-              "L'informatique (Python, Typescript, Matlab, etc.)",
-            ]}
-            qualifications={`Après une classe prépa Math Sup/Math Spé, je suis entrée dans une grande école d'ingénieur toulousaine (l'ENSEEIHT). C'est là que j'ai commencé les cours particuliers, d'abord en agence (Complétude), puis avec mon école (Cours particuliers à prépas) et enfin en auto-entreprise (des élèves du lycée Villa Pia, d'ISA BTP, d'EPITA...). J'ai également donné des cours à l'IUT de Bayonne.`}
-            srcImage="/images/clemence.jpeg"
-          />
-          <CardTutor
             firstName="Damien"
-            job="Ingénieur dans l'énergie du bâtiment"
+            job="Ingénieur dans l'énergie du bâtiment (ETCHART)"
             formation="Math sup/Math spé puis Master en Génie Civil"
             subjects={["Les mathématiques"]}
             qualifications={`Après mes années lycée à Villa Pia (Bayonne), je suis parti en classe prépa Math Sup/ Math Spé à Louis Barthou (Pau).
@@ -75,6 +53,22 @@ Je travaille aujourd'hui à Anglet en tant qu'ingénieur en performance énergé
 Depuis mes années en prépa, je donne régulièrement des cours particuliers à des lycéens. J'ai également animé des sessions de cours de soutien collectifs en étant tuteur pour le CNAM (10-18 élèves par cours)`}
             cibles={["Elèves lycéens niveau seconde, première et terminale"]}
             srcImage="/images/damien.jpeg"
+          />
+          <CardTutor
+            firstName="Clémence"
+            job="Ingénieure informatique"
+            formation="Math sup/Math spé puis École d'ingénieur ENSEEIHT"
+            cibles={[
+              "Elèves lycéens première et terminale souhaitant un cours ponctuel révision du bac",
+              "Classes préparatoires, écoles d'ingénieur, études supérieures",
+            ]}
+            subjects={[
+              "Les mathématiques",
+              "La physique-chimie",
+              "L'informatique (Python, Typescript, Matlab, Javascript etc.)",
+            ]}
+            qualifications={`Après une classe prépa Math Sup/Math Spé, je suis entrée dans une grande école d'ingénieur toulousaine (l'ENSEEIHT). C'est là que j'ai commencé les cours particuliers, d'abord en agence (Complétude), puis avec mon école (Cours particuliers à prépas) et enfin en auto-entreprise (des élèves du lycée Villa Pia, d'ISA BTP, d'EPITA...). J'ai également donné des cours à l'IUT de Bayonne.`}
+            srcImage="/images/clemence.jpeg"
           />
         </div>
       </MotionDiv>

@@ -31,11 +31,12 @@ const items: ItemTypeFAQ[] = [
       "L'élève prépare ses questions et le chapitre qu'il souhaite étudier à l'avance. Le professeur de Cours Geroa adapte le contenu du cours en fonction des besoins spécifiques de l'élève, et le cours se déroule en présentiel.",
   },
   {
-    value: "item-3",
+    value: "item-2 ",
     question:
       "Quelles sont les qualifications des professeurs de Cours Geroa ?",
     answer:
-      "Nous sommes deux ingénieurs passionés d'enseignements et nous avons beaucoup d'expériences dans le domaine des cours particuliers. Nous apprenons en autonomie les rouages de la pédagogie et nous nous efforçons de nous améliorer dans ce domaine. Pour en savoir plus, rendez-vous sur la page Qui sommes-nous :).",
+      `Nous exerçons chacun une activité professionnelle en dehors du monde de l’éducation et proposons des cours particuliers par passion pour la transmission des savoirs. Cette double expérience nous permet d’apporter aux élèves une vision concrète des notions étudiées, en les reliant à des situations réelles et à notre pratique quotidienne. Nous pouvons ainsi compléter l’approche théorique par des exemples pratiques et un regard différent sur les apprentissages.
+Pour en savoir plus sur notre parcours et notre démarche, rendez-vous sur la page Qui sommes-nous ?.`,
   }
 ];
 
@@ -178,24 +179,24 @@ const Home: React.FC = () => {
             title="Des solutions pour tous les profils"
             subtitle="Choisis la ou les matières scientifiques sur lesquelles tu souhaiterais progresser."
           />
-           <motion.div
-      className="flex flex-col h-full rounded-md border border-slate-400 shadow-[4px_4px_0px_0px_rgba(0,0,0)] px-4 py-9 gap-4"
-      whileHover={{ y: -10 }} // Lift the card by 10px on hover
-      transition={{ type: "spring", stiffness: 200, damping: 20 }}
-    >
-      <h3 className="self-center">{`Cours particuliers`}</h3>
-      <ul>
-        {PointsCoursParticuliers.points.map(({ description, icon: Icon }, key) => (
-          <li className="font-medium text-md flex items-start" key={key}>
-            <Icon className="mr-2 w-5 h-5 mt-0.5" />
-            {description}
-          </li>
-        ))}
-      </ul>
-      <Button asChild className="self-center mt-auto">
-        <Link href={"nos-cours#cours-particuliers"}>En savoir +</Link>
-      </Button>
-    </motion.div>
+          <motion.div
+            className="flex flex-col h-full rounded-md border border-slate-400 shadow-[4px_4px_0px_0px_rgba(0,0,0)] px-4 py-9 gap-4"
+            whileHover={{ y: -10 }} // Lift the card by 10px on hover
+            transition={{ type: "spring", stiffness: 200, damping: 20 }}
+          >
+            <h3 className="self-center">{`Cours particuliers`}</h3>
+            <ul>
+              {PointsCoursParticuliers.points.map(({ description, icon: Icon }, key) => (
+                <li className="font-medium text-md flex items-start" key={key}>
+                  <Icon className="mr-2 w-5 h-5 mt-0.5" />
+                  {description}
+                </li>
+              ))}
+            </ul>
+            <Button asChild className="self-center mt-auto">
+              <Link href={"nos-cours#cours-particuliers"}>En savoir +</Link>
+            </Button>
+          </motion.div>
         </MotionSection>
 
         <MotionSection
