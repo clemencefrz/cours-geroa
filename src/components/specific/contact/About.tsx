@@ -43,6 +43,19 @@ const About = () => {
       <MotionDiv title={`À propos de nous...`}>
         <div className="lg:grid lg:grid-cols-2 gap-9">
           <CardTutor
+            firstName="Benjamin"
+            job="Maître d'œuvre dans le secteur de la construction"
+            formation="Classe préparatoire PCSI, BTS Études et Économie de la Construction, Licence Économie, Management, Reprise et Création d'Entreprise"
+            subjects={["Les mathématiques"]}
+            qualifications={`Après mes années au lycée Villa Pia à Bayonne, j'ai poursuivi mes études en classe préparatoire PCSI, une formation exigeante qui m'a permis de développer de solides compétences en mathématiques et en sciences.
+J'ai ensuite obtenu un BTS Études et Économie de la Construction ainsi qu'une Licence en Économie, Management, Reprise et Création d'Entreprise. J'exerce aujourd'hui le métier de maître d'œuvre dans le secteur de la construction depuis plus de 6 ans.
+Parallèlement à mon activité professionnelle, je donne des cours particuliers de mathématiques depuis bientôt 4 ans. Cette expérience m'a permis d'accompagner de nombreux élèves aux profils variés, aussi bien pour combler des lacunes que pour gagner en confiance ou préparer des examens.`}
+            cibles={[
+              "Élèves de collège",
+              "Élèves de lycée (seconde, première et terminale)",
+            ]}
+          />
+          <CardTutor
             firstName="Damien"
             job="Ingénieur dans l'énergie du bâtiment (ETCHART)"
             formation="Math sup/Math spé puis Master en Génie Civil"

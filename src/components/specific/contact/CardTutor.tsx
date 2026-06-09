@@ -7,7 +7,7 @@ type Props = {
   subjects: string[];
   qualifications: string;
   cibles: [string, ...string[]];
-  srcImage: string;
+  srcImage?: string;
 };
 
 const CardTutor = ({
@@ -24,14 +24,20 @@ const CardTutor = ({
       {/* Header */}
       <div className="flex flex-col gap-1 items-center">
         {/* Photo */}
-        <div className="rounded-full w-44 h-44 shadow-[6px_6px_0px] shadow-brandFour overflow-hidden">
-          <Image
-            width={300}
-            height={300}
-            src={srcImage}
-            alt={`Photo de ${firstName}`}
-            className="w-full h-full object-cover"
-          />
+        <div className="rounded-full w-44 h-44 shadow-[6px_6px_0px] shadow-brandFour overflow-hidden bg-muted flex items-center justify-center">
+          {srcImage ? (
+            <Image
+              width={300}
+              height={300}
+              src={srcImage}
+              alt={`Photo de ${firstName}`}
+              className="w-full h-full object-cover"
+            />
+          ) : (
+            <span className="text-5xl font-semibold text-muted-foreground">
+              {firstName[0]}
+            </span>
+          )}
         </div>
 
         <span className="font-bold text-3xl">{firstName}</span>

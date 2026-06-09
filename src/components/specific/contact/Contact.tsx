@@ -14,6 +14,11 @@ const CONTACTS = [
     email: "damien.frdz@gmail.com",
     photo: null,
   },
+  {
+    name: "Benjamin",
+    email: "benjamin.frdz@gmail.com",
+    photo: null,
+  },
 ];
 
 const Contact = () => {
